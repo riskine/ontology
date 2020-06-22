@@ -1,0 +1,2 @@
+# ontology
+Global Insurance Ontology
