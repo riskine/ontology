@@ -1,0 +1,39 @@
+{
+  "$id": "https://ontology.riskine.com/structure.json",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "object.json"
+    }
+  ],
+  "properties": {
+    "size": {
+      "description": "size of structure or property in qm",
+      "$ref": "definitions.json#/nonnegative"
+    },
+    "days-occupied": {
+      "description": "number of days a structure is occupied",
+      "$ref": "definitions.json#/days-occupied"
+    },
+    "number-of-floors": {
+      "description": "number of floors of structure",
+      "$ref": "definitions.json#/nonnegative-integer"
+    },
+    "address": {
+      "description": "address of person, structure or property",
+      "$ref": "address.json"
+    },
+    "is-shell": {
+      "type": "boolean",
+      "description": "construction phase of structure is shell construction"
+    },
+    "construction-type": {
+      "description": "way of construction of structure",
+      "$ref": "definitions.json#/construction-type"
+    },
+    "year-of-construction": {
+      "description": "year of construction of the object",
+      "$ref": "definitions.json#/year"
+    }
+  }
+}

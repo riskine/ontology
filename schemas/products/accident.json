@@ -1,0 +1,797 @@
+{
+  "type": "object",
+  "properties": {
+    "person.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.children.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.children.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.children.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.children.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.children.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.children.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.children.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.children.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.children.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.children.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.children.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.children.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.children.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.children.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.children.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.children.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.children.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.children.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.children.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.children.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.partner.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.partner.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.partner.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.partner.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.partner.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.partner.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.partner.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.partner.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.partner.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.partner.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.partner.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.partner.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.partner.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.partner.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.partner.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.partner.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.partner.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.accident.cancellation-period": {
+      "description": "cancellation-period of product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.contributor.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.accident.contributor.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.accident.contributor.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.accident.contributor.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.accident.contributor.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.accident.contributor.bank-account.bank-city": {
+      "type": "string",
+      "description": "city of issuing bank"
+    },
+    "product.accident.contributor.bank-account.bank-name": {
+      "type": "string",
+      "description": "name of issuing bank"
+    },
+    "product.accident.contributor.bank-account.bic": {
+      "type": "string",
+      "description": "Bank Identifier Code"
+    },
+    "product.accident.contributor.bank-account.iban": {
+      "type": "string",
+      "description": "International Banking Account Number"
+    },
+    "product.accident.contributor.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.accident.contributor.credit-card.card-number": {
+      "type": "string",
+      "description": "credit card number"
+    },
+    "product.accident.contributor.credit-card.card-type": {
+      "description": "credit card type",
+      "$ref": "#/definitions/credit-card-type"
+    },
+    "product.accident.contributor.credit-card.cvc": {
+      "type": "string",
+      "description": "credit card verification code"
+    },
+    "product.accident.contributor.credit-card.expiration-month": {
+      "type": "integer",
+      "description": "expiration month of credit card (1-12)"
+    },
+    "product.accident.contributor.credit-card.expiration-year": {
+      "description": "expiration year of credit card",
+      "$ref": "#/definitions/year"
+    },
+    "product.accident.contributor.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.accident.contributor.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.accident.contributor.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.accident.contributor.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.contributor.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.accident.contributor.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.accident.contributor.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.accident.contributor.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.contributor.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.accident.contributor.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.accident.contributor.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.accident.contributor.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.accident.contributor.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.accident.contributor.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.accident.coverage.accident-annuity.amount-per-interval": {
+      "description": "amount of an annuity/allowance per payment-interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.accident-annuity.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.accident-annuity.payment-interval": {
+      "description": "payment interval of annuity/allowance",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.accident.coverage.accident-annuity.payment-period": {
+      "description": "overall payment period for annuity/allowance in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.coverage.accident-costs-and-medical-expenses.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.accident-costs-and-medical-expenses.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.accident-costs-and-medical-expenses.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.accident-costs-and-medical-expenses.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.coverage.assistance.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.assistance.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.assistance.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.bone-fracture-compensation.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.bone-fracture-compensation.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.bone-fracture-compensation.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.bone-fracture-compensation.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.coverage.cosmetical-op-after-accident.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.cosmetical-op-after-accident.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.cosmetical-op-after-accident.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.cosmetical-op-after-accident.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.coverage.dailybenefits-hospitalization-accident.amount-per-interval": {
+      "description": "amount of an annuity/allowance per payment-interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.dailybenefits-hospitalization-accident.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.dailybenefits-hospitalization-accident.payment-interval": {
+      "description": "payment interval of annuity/allowance",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.accident.coverage.dailybenefits-hospitalization-accident.payment-period": {
+      "description": "overall payment period for annuity/allowance in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.coverage.death-by-accident.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.death-by-accident.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.death-by-accident.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.death-by-accident.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.coverage.denture-after-accident.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.denture-after-accident.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.denture-after-accident.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.denture-after-accident.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.coverage.leisure-accident.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.leisure-accident.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.leisure-accident.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.leisure-accident.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.coverage.rehab-after-accident.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.rehab-after-accident.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.rehab-after-accident.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.rehab-after-accident.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.coverage.rescue-and-transportation-costs.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.rescue-and-transportation-costs.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.rescue-and-transportation-costs.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.rescue-and-transportation-costs.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.coverage.sport-accident.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.sport-accident.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.sport-accident.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.sport-accident.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.coverage.work-accident.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.work-accident.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.accident.coverage.work-accident.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.coverage.work-accident.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.accident.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.package": {
+      "type": "string",
+      "description": "specific tariff name"
+    },
+    "product.accident.policyholder.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.accident.policyholder.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.accident.policyholder.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.accident.policyholder.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.accident.policyholder.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.accident.policyholder.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.accident.policyholder.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.accident.policyholder.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.accident.policyholder.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.accident.policyholder.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.policyholder.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.accident.policyholder.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.accident.policyholder.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.accident.policyholder.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.policyholder.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.accident.policyholder.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.accident.policyholder.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.accident.policyholder.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.accident.policyholder.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.accident.policyholder.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.accident.premium-amount": {
+      "description": "premium amount per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.accident.premium-payment-interval": {
+      "description": "payment interval for product-premium",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.accident.premium-payment-method": {
+      "description": "payment method for product-premium",
+      "$ref": "#/definitions/payment-method"
+    },
+    "product.accident.start-date": {
+      "description": "start date of validity period of the product",
+      "$ref": "#/definitions/date"
+    },
+    "product.accident.term-time": {
+      "description": "term-time for product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    }
+  },
+  "definitions": {
+    "money": {
+      "type": "number",
+      "format": "money"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "nonnegative-integer": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "m",
+        "f"
+      ],
+      "enum-description": [
+        "male",
+        "female"
+      ]
+    },
+    "temporal-interval": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "enum-description": [
+        "not specified",
+        "one-off",
+        "daily",
+        "weekly",
+        "monthly",
+        "quaterly",
+        "bi-annually",
+        "annually",
+        "every 2 years",
+        "every 3 years"
+      ]
+    },
+    "salutation": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "Ms.",
+        "Mrs.",
+        "Mr."
+      ]
+    },
+    "marital-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "enum-description": [
+        "single",
+        "married",
+        "divorced",
+        "widowed",
+        "partnership",
+        "separated"
+      ]
+    },
+    "payment-method": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "direct debit",
+        "payment slip",
+        "standing order",
+        "credit card"
+      ]
+    },
+    "credit-card-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "visa",
+        "master-card",
+        "american express",
+        "diners club",
+        "other"
+      ]
+    },
+    "year": {
+        "type": "integer",
+        "minimum": 1900
+    }
+  }
+}

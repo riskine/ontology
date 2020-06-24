@@ -1,0 +1,2021 @@
+{
+  "type": "object",
+  "properties": {
+    "person.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.birth-city": {
+      "type": "string",
+      "description": "birth city of person"
+    },
+    "person.birth-country": {
+      "type": "string",
+      "description": "birth country of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.birth-name": {
+      "type": "string",
+      "description": "birth name of person"
+    },
+    "person.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.children.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.children.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.children.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.children.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.children.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.children.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.children.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.children.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.children.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.children.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.children.height": {
+      "description": "height of person in cm",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.children.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.children.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.children.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.children.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.children.past-smoking-habits": {
+      "description": "smoking habits of person in the past",
+      "$ref": "#/definitions/past-smoking-habits"
+    },
+    "person.children.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.children.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.children.risk-sport-habits": {
+      "description": "risk sport habits of person",
+      "$ref": "#/definitions/risk-sport-habits"
+    },
+    "person.children.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.children.smoking-habits": {
+      "description": "smoking habits of person",
+      "$ref": "#/definitions/smoking-habits"
+    },
+    "person.children.sport-habits": {
+      "description": "sport habits of person",
+      "$ref": "#/definitions/sport-habits"
+    },
+    "person.children.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.children.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.children.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.children.weight": {
+      "description": "weight of person in kg",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.citizenship": {
+      "type": "string",
+      "description": "citizenship (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.education.academic-degree": {
+      "description": "academic degree of person",
+      "$ref": "#/definitions/academic-degree"
+    },
+    "person.education.educational-level": {
+      "description": "highest educational level",
+      "$ref": "#/definitions/educational-level"
+    },
+    "person.education.professional-training": {
+      "description": "level of professional training",
+      "$ref": "#/definitions/professional-training"
+    },
+    "person.education.professional-training-type": {
+      "description": "definition of professional training",
+      "$ref": "#/definitions/professional-training-type"
+    },
+    "person.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.eu-citizen": {
+      "type": "boolean",
+      "description": "person is EU-citizen"
+    },
+    "person.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.height": {
+      "description": "height of person in cm",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.identification.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "person.identification.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "person.identification.id-type": {
+      "description": "type of a person's identification document",
+      "$ref": "#/definitions/id-type"
+    },
+    "person.identification.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "person.identification.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.identification.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "person.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.nationality": {
+      "type": "string",
+      "description": "nationality of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.partner.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.partner.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.partner.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.partner.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.partner.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.partner.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.partner.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.partner.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.partner.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.height": {
+      "description": "height of person in cm",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.partner.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.partner.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.partner.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.partner.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.past-smoking-habits": {
+      "description": "smoking habits of person in the past",
+      "$ref": "#/definitions/past-smoking-habits"
+    },
+    "person.partner.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.partner.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.partner.risk-sport-habits": {
+      "description": "risk sport habits of person",
+      "$ref": "#/definitions/risk-sport-habits"
+    },
+    "person.partner.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.partner.smoking-habits": {
+      "description": "smoking habits of person",
+      "$ref": "#/definitions/smoking-habits"
+    },
+    "person.partner.sport-habits": {
+      "description": "sport habits of person",
+      "$ref": "#/definitions/sport-habits"
+    },
+    "person.partner.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.partner.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.partner.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.partner.weight": {
+      "description": "weight of person in kg",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.past-smoking-habits": {
+      "description": "smoking habits of person in the past",
+      "$ref": "#/definitions/past-smoking-habits"
+    },
+    "person.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.profession.amount-physical-work": {
+      "description": "amount of physical work a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "person.profession.amount-travel-activity": {
+      "description": "amount of travel activity a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "person.profession.civil-servant-status": {
+      "description": "employment-status of civil servants",
+      "$ref": "#/definitions/civil-servant-status"
+    },
+    "person.profession.designation": {
+      "type": "string",
+      "description": "specific job description of person"
+    },
+    "person.profession.employment-category": {
+      "description": "employment category of person",
+      "$ref": "#/definitions/employment-category"
+    },
+    "person.profession.employment-mode": {
+      "description": "mode of the employment relationship (e.g., full, part-time)",
+      "$ref": "#/definitions/employment-mode"
+    },
+    "person.profession.self-employment-start-date": {
+      "description": "start date of self employment",
+      "$ref": "#/definitions/date"
+    },
+    "person.profession.staff-responsibility-number": {
+      "description": "number of people the person is responsible for (as part of their job)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.risk-sport-habits": {
+      "description": "risk sport habits of person",
+      "$ref": "#/definitions/risk-sport-habits"
+    },
+    "person.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.smoking-habits": {
+      "description": "smoking habits of person",
+      "$ref": "#/definitions/smoking-habits"
+    },
+    "person.sport-habits": {
+      "description": "sport habits of person",
+      "$ref": "#/definitions/sport-habits"
+    },
+    "person.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.weight": {
+      "description": "weight of person in kg",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.cancellation-period": {
+      "description": "cancellation-period of product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.contributor.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.health.contributor.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.health.contributor.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.health.contributor.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.health.contributor.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.health.contributor.bank-account.bank-city": {
+      "type": "string",
+      "description": "city of issuing bank"
+    },
+    "product.health.contributor.bank-account.bank-name": {
+      "type": "string",
+      "description": "name of issuing bank"
+    },
+    "product.health.contributor.bank-account.bic": {
+      "type": "string",
+      "description": "Bank Identifier Code"
+    },
+    "product.health.contributor.bank-account.iban": {
+      "type": "string",
+      "description": "International Banking Account Number"
+    },
+    "product.health.contributor.birth-city": {
+      "type": "string",
+      "description": "birth city of person"
+    },
+    "product.health.contributor.birth-country": {
+      "type": "string",
+      "description": "birth country of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.health.contributor.birth-name": {
+      "type": "string",
+      "description": "birth name of person"
+    },
+    "product.health.contributor.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.health.contributor.citizenship": {
+      "type": "string",
+      "description": "citizenship (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.health.contributor.credit-card.card-number": {
+      "type": "string",
+      "description": "credit card number"
+    },
+    "product.health.contributor.credit-card.card-type": {
+      "description": "credit card type",
+      "$ref": "#/definitions/credit-card-type"
+    },
+    "product.health.contributor.credit-card.cvc": {
+      "type": "string",
+      "description": "credit card verification code"
+    },
+    "product.health.contributor.credit-card.expiration-month": {
+      "type": "integer",
+      "description": "expiration month of credit card (1-12)"
+    },
+    "product.health.contributor.credit-card.expiration-year": {
+      "description": "expiration year of credit card",
+      "$ref": "#/definitions/year"
+    },
+    "product.health.contributor.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.health.contributor.eu-citizen": {
+      "type": "boolean",
+      "description": "person is EU-citizen"
+    },
+    "product.health.contributor.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.health.contributor.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.health.contributor.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.contributor.identification.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "product.health.contributor.identification.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "product.health.contributor.identification.id-type": {
+      "description": "type of a person's identification document",
+      "$ref": "#/definitions/id-type"
+    },
+    "product.health.contributor.identification.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "product.health.contributor.identification.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.health.contributor.identification.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "product.health.contributor.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.health.contributor.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.health.contributor.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.health.contributor.nationality": {
+      "type": "string",
+      "description": "nationality of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.health.contributor.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.contributor.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.health.contributor.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.health.contributor.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.health.contributor.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.health.contributor.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.health.contributor.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.health.coverage-period-non-european-countries": {
+      "description": "how long is medical treatment covered in non-european countries (in months)",
+      "$ref": "#/definitions/coverage-period"
+    },
+    "product.health.coverage.dailybenefits.alcohol-clause.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dailybenefits.amount-per-interval": {
+      "description": "amount of an annuity/allowance per payment-interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dailybenefits.dailybenefits-for-hospitalization.amount-per-interval": {
+      "description": "amount of an annuity/allowance per payment-interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dailybenefits.dailybenefits-for-hospitalization.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dailybenefits.dailybenefits-for-hospitalization.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dailybenefits.dailybenefits-for-hospitalization.payment-interval": {
+      "description": "payment interval of annuity/allowance",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dailybenefits.dailybenefits-for-hospitalization.payment-period": {
+      "description": "overall payment period for annuity/allowance in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.dailybenefits.dailybenefits-for-hospitalization.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.dailybenefits.dailybenefits-for-rehab.amount-per-interval": {
+      "description": "amount of an annuity/allowance per payment-interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dailybenefits.dailybenefits-for-rehab.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dailybenefits.dailybenefits-for-rehab.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dailybenefits.dailybenefits-for-rehab.payment-interval": {
+      "description": "payment interval of annuity/allowance",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dailybenefits.dailybenefits-for-rehab.payment-period": {
+      "description": "overall payment period for annuity/allowance in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.dailybenefits.dailybenefits-for-rehab.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.dailybenefits.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dailybenefits.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dailybenefits.partial-work-disability.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dailybenefits.payment-interval": {
+      "description": "payment interval of annuity/allowance",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dailybenefits.payment-period": {
+      "description": "overall payment period for annuity/allowance in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.dailybenefits.recognition-of-earlier-sickness-days.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dailybenefits.sick-allowance.amount-per-interval": {
+      "description": "amount of an annuity/allowance per payment-interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dailybenefits.sick-allowance.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dailybenefits.sick-allowance.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dailybenefits.sick-allowance.payment-interval": {
+      "description": "payment interval of annuity/allowance",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dailybenefits.sick-allowance.payment-period": {
+      "description": "overall payment period for annuity/allowance in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.dailybenefits.sick-allowance.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.dailybenefits.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.dental.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.dental-treatment.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.dental-treatment.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dental.dental-treatment.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.dental.dental-treatment.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dental.dental-treatment.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.dental-treatment.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.dental.dental-treatment.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.dental-treatment.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.dental.dentures.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.dentures.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dental.dentures.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.dental.dentures.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dental.dentures.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.dentures.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.dental.dentures.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.dentures.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.dental.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dental.implants.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.implants.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dental.implants.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dental.implants.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.implants.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.dental.implants.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.implants.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.dental.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dental.no-tooth-scale.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dental.orthodontic-treatment.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.orthodontic-treatment.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dental.orthodontic-treatment.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dental.orthodontic-treatment.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.orthodontic-treatment.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.dental.orthodontic-treatment.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.orthodontic-treatment.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.dental.professional-tooth-cleaning.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.dental.professional-tooth-cleaning.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.dental.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.dental.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.dental.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.inpatient.abroad-treatment.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.abroad-treatment.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.inpatient.abroad-treatment.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.inpatient.abroad-treatment.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.abroad-treatment.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.inpatient.costs-for-accompanying-children.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.costs-for-accompanying-children.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.inpatient.costs-for-accompanying-children.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.inpatient.costs-for-accompanying-children.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.costs-for-accompanying-children.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.inpatient.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.inpatient.free-choice-of-doctor.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.inpatient.free-choice-of-hospital.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.inpatient.hospitalization-accident.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.hospitalization-accident.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.inpatient.hospitalization-accident.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.inpatient.hospitalization-accident.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.hospitalization-accident.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.inpatient.hospitalization-acute-disease.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.hospitalization-acute-disease.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.inpatient.hospitalization-acute-disease.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.inpatient.hospitalization-acute-disease.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.hospitalization-acute-disease.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.inpatient.hospitalization-pregnancy-childbirth.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.hospitalization-pregnancy-childbirth.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.inpatient.hospitalization-pregnancy-childbirth.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.inpatient.hospitalization-pregnancy-childbirth.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.hospitalization-pregnancy-childbirth.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.inpatient.hospitalization-severe-illness.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.hospitalization-severe-illness.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.inpatient.hospitalization-severe-illness.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.inpatient.hospitalization-severe-illness.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.hospitalization-severe-illness.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.inpatient.inpatient-accomodation.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.inpatient.inpatient-accomodation.room-type": {
+      "description": "room-type for inpatient",
+      "$ref": "#/definitions/room-type"
+    },
+    "product.health.coverage.inpatient.inpatient-surgery.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.inpatient-surgery.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.inpatient.inpatient-surgery.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.inpatient.inpatient-surgery.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.inpatient-surgery.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.inpatient.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.inpatient.patient-transport-costs.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.patient-transport-costs.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.inpatient.patient-transport-costs.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.inpatient.patient-transport-costs.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.patient-transport-costs.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.inpatient.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.inpatient.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.outpatient.alternative-practitioners.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.alternative-practitioners.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.outpatient.alternative-practitioners.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.outpatient.alternative-practitioners.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.outpatient.alternative-practitioners.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.alternative-practitioners.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.outpatient.alternative-practitioners.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.alternative-practitioners.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.outpatient.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.drugs-and-healing-aids.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.drugs-and-healing-aids.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.outpatient.drugs-and-healing-aids.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.outpatient.drugs-and-healing-aids.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.outpatient.drugs-and-healing-aids.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.drugs-and-healing-aids.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.outpatient.drugs-and-healing-aids.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.drugs-and-healing-aids.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.outpatient.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.outpatient.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.outpatient.free-choice-of-doctor.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.outpatient.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.outpatient.natural-medicine.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.natural-medicine.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.outpatient.natural-medicine.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.outpatient.natural-medicine.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.outpatient.natural-medicine.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.natural-medicine.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.outpatient.natural-medicine.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.natural-medicine.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.outpatient.outpatient-surgery.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.outpatient-surgery.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.outpatient.outpatient-surgery.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.outpatient.outpatient-surgery.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.outpatient.outpatient-surgery.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.outpatient-surgery.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.outpatient.outpatient-surgery.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.outpatient-surgery.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.outpatient.outpatient-treatment.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.outpatient-treatment.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.outpatient.outpatient-treatment.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.outpatient.outpatient-treatment.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.outpatient.outpatient-treatment.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.outpatient-treatment.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.outpatient.outpatient-treatment.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.outpatient-treatment.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.outpatient.physiotherapy.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.physiotherapy.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.outpatient.physiotherapy.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.outpatient.physiotherapy.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.outpatient.physiotherapy.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.physiotherapy.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.outpatient.physiotherapy.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.physiotherapy.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.outpatient.preventive-medical-examination.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.preventive-medical-examination.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.outpatient.preventive-medical-examination.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.outpatient.preventive-medical-examination.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.outpatient.preventive-medical-examination.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.preventive-medical-examination.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.outpatient.preventive-medical-examination.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.preventive-medical-examination.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.outpatient.psychotherapy.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.psychotherapy.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.outpatient.psychotherapy.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.outpatient.psychotherapy.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.outpatient.psychotherapy.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.psychotherapy.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.outpatient.psychotherapy.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.psychotherapy.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.outpatient.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.outpatient.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.visual-aids.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.visual-aids.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.coverage.outpatient.visual-aids.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.health.coverage.outpatient.visual-aids.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.outpatient.visual-aids.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.visual-aids.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.coverage.outpatient.visual-aids.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.outpatient.visual-aids.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.outpatient.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.coverage.private-compulsory-care-insurance.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.reduced-contribution.allow-adjusted-age": {
+      "type": "boolean",
+      "description": "allow adjusted age for reduced contribution"
+    },
+    "product.health.coverage.reduced-contribution.amount-reduced": {
+      "description": "amount by which the monthly contributions are diminished",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.coverage.reduced-contribution.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.health.coverage.reduced-contribution.start-age": {
+      "description": "start age for reduced contribution-payment",
+      "$ref": "#/definitions/start-age"
+    },
+    "product.health.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.package": {
+      "type": "string",
+      "description": "specific tariff name"
+    },
+    "product.health.policyholder.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.health.policyholder.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.health.policyholder.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.health.policyholder.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.health.policyholder.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.health.policyholder.birth-city": {
+      "type": "string",
+      "description": "birth city of person"
+    },
+    "product.health.policyholder.birth-country": {
+      "type": "string",
+      "description": "birth country of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.health.policyholder.birth-name": {
+      "type": "string",
+      "description": "birth name of person"
+    },
+    "product.health.policyholder.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.health.policyholder.citizenship": {
+      "type": "string",
+      "description": "citizenship (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.health.policyholder.education.academic-degree": {
+      "description": "academic degree of person",
+      "$ref": "#/definitions/academic-degree"
+    },
+    "product.health.policyholder.education.educational-level": {
+      "description": "highest educational level",
+      "$ref": "#/definitions/educational-level"
+    },
+    "product.health.policyholder.education.professional-training": {
+      "description": "level of professional training",
+      "$ref": "#/definitions/professional-training"
+    },
+    "product.health.policyholder.education.professional-training-type": {
+      "description": "definition of professional training",
+      "$ref": "#/definitions/professional-training-type"
+    },
+    "product.health.policyholder.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.health.policyholder.eu-citizen": {
+      "type": "boolean",
+      "description": "person is EU-citizen"
+    },
+    "product.health.policyholder.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.health.policyholder.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.health.policyholder.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.policyholder.height": {
+      "description": "height of person in cm",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.policyholder.identification.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "product.health.policyholder.identification.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "product.health.policyholder.identification.id-type": {
+      "description": "type of a person's identification document",
+      "$ref": "#/definitions/id-type"
+    },
+    "product.health.policyholder.identification.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "product.health.policyholder.identification.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.health.policyholder.identification.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "product.health.policyholder.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.health.policyholder.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.health.policyholder.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.health.policyholder.nationality": {
+      "type": "string",
+      "description": "nationality of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.health.policyholder.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.policyholder.past-smoking-habits": {
+      "description": "smoking habits of person in the past",
+      "$ref": "#/definitions/past-smoking-habits"
+    },
+    "product.health.policyholder.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.health.policyholder.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.health.policyholder.profession.amount-physical-work": {
+      "description": "amount of physical work a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.policyholder.profession.amount-travel-activity": {
+      "description": "amount of travel activity a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.health.policyholder.profession.civil-servant-status": {
+      "description": "employment-status of civil servants",
+      "$ref": "#/definitions/civil-servant-status"
+    },
+    "product.health.policyholder.profession.designation": {
+      "type": "string",
+      "description": "specific job description of person"
+    },
+    "product.health.policyholder.profession.employment-category": {
+      "description": "employment category of person",
+      "$ref": "#/definitions/employment-category"
+    },
+    "product.health.policyholder.profession.employment-mode": {
+      "description": "mode of the employment relationship (e.g., full, part-time)",
+      "$ref": "#/definitions/employment-mode"
+    },
+    "product.health.policyholder.profession.self-employment-start-date": {
+      "description": "start date of self employment",
+      "$ref": "#/definitions/date"
+    },
+    "product.health.policyholder.profession.staff-responsibility-number": {
+      "description": "number of people the person is responsible for (as part of their job)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.policyholder.risk-sport-habits": {
+      "description": "risk sport habits of person",
+      "$ref": "#/definitions/risk-sport-habits"
+    },
+    "product.health.policyholder.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.health.policyholder.smoking-habits": {
+      "description": "smoking habits of person",
+      "$ref": "#/definitions/smoking-habits"
+    },
+    "product.health.policyholder.sport-habits": {
+      "description": "sport habits of person",
+      "$ref": "#/definitions/sport-habits"
+    },
+    "product.health.policyholder.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.health.policyholder.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.health.policyholder.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.health.policyholder.weight": {
+      "description": "weight of person in kg",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.health.premium-amount": {
+      "description": "premium amount per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.health.premium-payment-interval": {
+      "description": "payment interval for product-premium",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.health.premium-payment-method": {
+      "description": "payment method for product-premium",
+      "$ref": "#/definitions/payment-method"
+    },
+    "product.health.start-date": {
+      "description": "start date of validity period of the product",
+      "$ref": "#/definitions/date"
+    },
+    "product.health.term-time": {
+      "description": "term-time for product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    }
+  },
+  "definitions": {
+    "money": {
+      "type": "number",
+      "format": "money"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "nonnegative-integer": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "m",
+        "f"
+      ],
+      "enum-description": [
+        "male",
+        "female"
+      ]
+    },
+    "sport-habits": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "yes, regularly",
+        "yes, rarely",
+        "no"
+      ]
+    },
+    "risk-sport-habits": {
+      "type": "integer",
+      "enum": [
+        1,
+        2
+      ],
+      "enum-description": [
+        "yes",
+        "no"
+      ]
+    },
+    "past-smoking-habits": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "never",
+        ">1 year",
+        "<=1 year"
+      ]
+    },
+    "smoking-habits": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "yes, regularly",
+        "yes, rarely",
+        "no"
+      ]
+    },
+    "room-type": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "not specified",
+        "single",
+        "double",
+        "standard"
+      ]
+    },
+    "percentage": {
+      "type": "number",
+      "minimum": 0
+    },
+    "temporal-interval": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "enum-description": [
+        "not specified",
+        "one-off",
+        "daily",
+        "weekly",
+        "monthly",
+        "quaterly",
+        "bi-annually",
+        "annually",
+        "every 2 years",
+        "every 3 years"
+      ]
+    },
+    "salutation": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "Ms.",
+        "Mrs.",
+        "Mr."
+      ]
+    },
+    "id-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "not specified",
+        "passport",
+        "id-card",
+        "other"
+      ]
+    },
+    "employment-mode": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "full-time",
+        "part-time",
+        "marginally",
+        "seasonal"
+      ]
+    },
+    "employment-category": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        25,
+        26,
+        28,
+        29,
+        31,
+        33,
+        34,
+        36,
+        38,
+        39
+      ],
+      "enum-description": [
+        "no income",
+        "labourer",
+        "self-employed",
+        "farmer",
+        "public sector employee",
+        "student",
+        "housewife - homemaker",
+        "unemployed",
+        "retired",
+        "(maternity) leave",
+        "apprentice",
+        "employee",
+        "civil servant",
+        "miner",
+        "self-employed artisans",
+        "manager",
+        "director",
+        "freelancer",
+        "public sector labourer",
+        "professional soldier",
+        "regular soldier",
+        "pupil",
+        "director with pension commitment",
+        "executive"
+      ]
+    },
+    "fee-schedule": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2
+      ],
+      "enum-description": [
+        "not specified",
+        "standard coverage",
+        "superior coverage"
+      ]
+    },
+    "coverage-period": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        6,
+        12
+      ],
+      "enum-description": [
+        "not specified",
+        "at least 1 month",
+        "at least 6 months",
+        "at least 12 months"
+      ]
+    },
+    "start-age": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2
+      ],
+      "enum-description": [
+        "none",
+        "65 years",
+        "67 years"
+      ]
+    },
+    "marital-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "enum-description": [
+        "single",
+        "married",
+        "divorced",
+        "widowed",
+        "partnership",
+        "separated"
+      ]
+    },
+    "educational-level": {
+      "type": "integer",
+      "enum": [
+        0,
+        3,
+        5,
+        1,
+        2,
+        4
+      ],
+      "enum-description": [
+        "no graduation",
+        "high school diploma (academic)",
+        "university degree",
+        "(qualified) comprehensive school certificate",
+        "secondary school certificate",
+        "high school diploma (professional)"
+      ]
+    },
+    "academic-degree": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "bachelor",
+        "master",
+        "diploma",
+        "state examination",
+        "doctor - phd"
+      ]
+    },
+    "professional-training": {
+      "type": "integer",
+      "enum": [
+        1,
+        5,
+        3,
+        4,
+        2,
+        0
+      ],
+      "enum-description": [
+        "completed professional training",
+        "university degree",
+        "Meister",
+        "Techniker",
+        "Betriebswirt - Fachwirt",
+        "none - not finished"
+      ]
+    },
+    "professional-training-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "commercial training",
+        "craft training",
+        "industrial training",
+        "short training",
+        "other"
+      ]
+    },
+    "civil-servant-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "civil servant for life",
+        "civil servant on probation",
+        "civil servant on revocation"
+      ]
+    },
+    "payment-method": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "direct debit",
+        "payment slip",
+        "standing order",
+        "credit card"
+      ]
+    },
+    "credit-card-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "visa",
+        "master-card",
+        "american express",
+        "diners club",
+        "other"
+      ]
+    },
+    "year": {
+        "type": "integer",
+        "minimum": 1900
+    }
+  }
+}

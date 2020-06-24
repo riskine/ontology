@@ -1,0 +1,2223 @@
+{
+  "type": "object",
+  "properties": {
+    "object.special-equipment-vehicle.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.special-equipment-vehicle.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.brand": {
+      "type": "string",
+      "description": "brand of vehicle"
+    },
+    "object.vehicle.catalysator": {
+      "type": "boolean",
+      "description": "does vehicle have a catalysator"
+    },
+    "object.vehicle.co2-emission": {
+      "description": "co2-emission (g CO2/km)",
+      "$ref": "#/definitions/nonnegative"
+    },
+    "object.vehicle.commercial-use": {
+      "type": "boolean",
+      "description": "vehicle is used for commercial purposes"
+    },
+    "object.vehicle.current-mileage": {
+      "description": "current mileage of vehicle",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.driver.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "object.vehicle.driver.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.driver.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "object.vehicle.driver.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "object.vehicle.driver.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "object.vehicle.driver.birth-city": {
+      "type": "string",
+      "description": "birth city of person"
+    },
+    "object.vehicle.driver.birth-country": {
+      "type": "string",
+      "description": "birth country of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.driver.birth-name": {
+      "type": "string",
+      "description": "birth name of person"
+    },
+    "object.vehicle.driver.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.driver.citizenship": {
+      "type": "string",
+      "description": "citizenship (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.driver.driver-club-membership": {
+      "description": "driver club person is member of",
+      "$ref": "#/definitions/driver-club"
+    },
+    "object.vehicle.driver.driving-license.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.driver.driving-license.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "object.vehicle.driver.driving-license.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "object.vehicle.driver.driving-license.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.driver.driving-license.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.driver.driving-license.license-category": {
+      "description": "license categories wrt 3. EU driver's license directive",
+      "$ref": "#/definitions/license-category"
+    },
+    "object.vehicle.driver.driving-license.license-type": {
+      "description": "does person have an (eu-)driving-license",
+      "$ref": "#/definitions/license-type"
+    },
+    "object.vehicle.driver.driving-license.on-probation": {
+      "type": "boolean",
+      "description": "driving-license on probation"
+    },
+    "object.vehicle.driver.education.academic-degree": {
+      "description": "academic degree of person",
+      "$ref": "#/definitions/academic-degree"
+    },
+    "object.vehicle.driver.education.educational-level": {
+      "description": "highest educational level",
+      "$ref": "#/definitions/educational-level"
+    },
+    "object.vehicle.driver.education.professional-training": {
+      "description": "level of professional training",
+      "$ref": "#/definitions/professional-training"
+    },
+    "object.vehicle.driver.education.professional-training-type": {
+      "description": "definition of professional training",
+      "$ref": "#/definitions/professional-training-type"
+    },
+    "object.vehicle.driver.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "object.vehicle.driver.engine-related-tax-relief": {
+      "type": "boolean",
+      "description": "person is relieved from engine-related insurance tax"
+    },
+    "object.vehicle.driver.eu-citizen": {
+      "type": "boolean",
+      "description": "person is EU-citizen"
+    },
+    "object.vehicle.driver.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "object.vehicle.driver.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "object.vehicle.driver.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.driver.has-role": {
+      "description": "role a person fullfills additionally",
+      "$ref": "#/definitions/role"
+    },
+    "object.vehicle.driver.identification.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.driver.identification.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "object.vehicle.driver.identification.id-type": {
+      "description": "type of a person's identification document",
+      "$ref": "#/definitions/id-type"
+    },
+    "object.vehicle.driver.identification.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "object.vehicle.driver.identification.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.driver.identification.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.driver.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "object.vehicle.driver.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "object.vehicle.driver.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "object.vehicle.driver.nationality": {
+      "type": "string",
+      "description": "nationality of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.driver.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.driver.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "object.vehicle.driver.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "object.vehicle.driver.profession.amount-physical-work": {
+      "description": "amount of physical work a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "object.vehicle.driver.profession.amount-travel-activity": {
+      "description": "amount of travel activity a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "object.vehicle.driver.profession.civil-servant-status": {
+      "description": "employment-status of civil servants",
+      "$ref": "#/definitions/civil-servant-status"
+    },
+    "object.vehicle.driver.profession.designation": {
+      "type": "string",
+      "description": "specific job description of person"
+    },
+    "object.vehicle.driver.profession.employment-category": {
+      "description": "employment category of person",
+      "$ref": "#/definitions/employment-category"
+    },
+    "object.vehicle.driver.profession.employment-mode": {
+      "description": "mode of the employment relationship (e.g., full, part-time)",
+      "$ref": "#/definitions/employment-mode"
+    },
+    "object.vehicle.driver.profession.self-employment-start-date": {
+      "description": "start date of self employment",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.driver.profession.staff-responsibility-number": {
+      "description": "number of people the person is responsible for (as part of their job)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.driver.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "object.vehicle.driver.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "object.vehicle.driver.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "object.vehicle.driver.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "object.vehicle.engine": {
+      "description": "engine type of vehicle",
+      "$ref": "#/definitions/engine"
+    },
+    "object.vehicle.engine-displacement": {
+      "description": "engine-displacement of the vehicle (ccm)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.engine-power": {
+      "description": "engine power of vehicle (kW)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.first-registration": {
+      "description": "date of first registration of vehicle",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.first-registration-by-policyholder": {
+      "description": "date of first registration of vehicle by policyholder",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.garage": {
+      "type": "boolean",
+      "description": "vehicle is parked in a garage"
+    },
+    "object.vehicle.horse-power": {
+      "description": "engine power of the vehicle (PS)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.hsn": {
+      "type": "string",
+      "description": "manufacturer key number (4-digit numerical code)"
+    },
+    "object.vehicle.id": {
+      "type": "string",
+      "description": "unique ID of a vehicle (17 digits)"
+    },
+    "object.vehicle.is-leased": {
+      "type": "boolean",
+      "description": "vehicle is leased"
+    },
+    "object.vehicle.model": {
+      "type": "string",
+      "description": "model of vehicle"
+    },
+    "object.vehicle.mostly-commute-use": {
+      "type": "boolean",
+      "description": "vehicle is mostly used for commuting to work"
+    },
+    "object.vehicle.new-registration": {
+      "type": "boolean",
+      "description": "vehicle is newly registered"
+    },
+    "object.vehicle.number-plate": {
+      "type": "string",
+      "description": "number plate of vehicle"
+    },
+    "object.vehicle.owner.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "object.vehicle.owner.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.owner.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "object.vehicle.owner.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "object.vehicle.owner.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "object.vehicle.owner.birth-city": {
+      "type": "string",
+      "description": "birth city of person"
+    },
+    "object.vehicle.owner.birth-country": {
+      "type": "string",
+      "description": "birth country of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.owner.birth-name": {
+      "type": "string",
+      "description": "birth name of person"
+    },
+    "object.vehicle.owner.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.owner.citizenship": {
+      "type": "string",
+      "description": "citizenship (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.owner.driver-club-membership": {
+      "description": "driver club person is member of",
+      "$ref": "#/definitions/driver-club"
+    },
+    "object.vehicle.owner.driving-license.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.owner.driving-license.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "object.vehicle.owner.driving-license.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "object.vehicle.owner.driving-license.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.owner.driving-license.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.owner.driving-license.license-category": {
+      "description": "license categories wrt 3. EU driver's license directive",
+      "$ref": "#/definitions/license-category"
+    },
+    "object.vehicle.owner.driving-license.license-type": {
+      "description": "does person have an (eu-)driving-license",
+      "$ref": "#/definitions/license-type"
+    },
+    "object.vehicle.owner.driving-license.on-probation": {
+      "type": "boolean",
+      "description": "driving-license on probation"
+    },
+    "object.vehicle.owner.education.academic-degree": {
+      "description": "academic degree of person",
+      "$ref": "#/definitions/academic-degree"
+    },
+    "object.vehicle.owner.education.educational-level": {
+      "description": "highest educational level",
+      "$ref": "#/definitions/educational-level"
+    },
+    "object.vehicle.owner.education.professional-training": {
+      "description": "level of professional training",
+      "$ref": "#/definitions/professional-training"
+    },
+    "object.vehicle.owner.education.professional-training-type": {
+      "description": "definition of professional training",
+      "$ref": "#/definitions/professional-training-type"
+    },
+    "object.vehicle.owner.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "object.vehicle.owner.engine-related-tax-relief": {
+      "type": "boolean",
+      "description": "person is relieved from engine-related insurance tax"
+    },
+    "object.vehicle.owner.eu-citizen": {
+      "type": "boolean",
+      "description": "person is EU-citizen"
+    },
+    "object.vehicle.owner.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "object.vehicle.owner.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "object.vehicle.owner.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.owner.has-role": {
+      "description": "role a person fullfills additionally",
+      "$ref": "#/definitions/role"
+    },
+    "object.vehicle.owner.identification.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.owner.identification.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "object.vehicle.owner.identification.id-type": {
+      "description": "type of a person's identification document",
+      "$ref": "#/definitions/id-type"
+    },
+    "object.vehicle.owner.identification.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "object.vehicle.owner.identification.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.owner.identification.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.owner.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "object.vehicle.owner.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "object.vehicle.owner.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "object.vehicle.owner.nationality": {
+      "type": "string",
+      "description": "nationality of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.owner.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.owner.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "object.vehicle.owner.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "object.vehicle.owner.profession.amount-physical-work": {
+      "description": "amount of physical work a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "object.vehicle.owner.profession.amount-travel-activity": {
+      "description": "amount of travel activity a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "object.vehicle.owner.profession.civil-servant-status": {
+      "description": "employment-status of civil servants",
+      "$ref": "#/definitions/civil-servant-status"
+    },
+    "object.vehicle.owner.profession.designation": {
+      "type": "string",
+      "description": "specific job description of person"
+    },
+    "object.vehicle.owner.profession.employment-category": {
+      "description": "employment category of person",
+      "$ref": "#/definitions/employment-category"
+    },
+    "object.vehicle.owner.profession.employment-mode": {
+      "description": "mode of the employment relationship (e.g., full, part-time)",
+      "$ref": "#/definitions/employment-mode"
+    },
+    "object.vehicle.owner.profession.self-employment-start-date": {
+      "description": "start date of self employment",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.owner.profession.staff-responsibility-number": {
+      "description": "number of people the person is responsible for (as part of their job)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.owner.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "object.vehicle.owner.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "object.vehicle.owner.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "object.vehicle.owner.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "object.vehicle.payload": {
+      "description": "payload of vehicle (kg)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.registration-area": {
+      "type": "string",
+      "description": "registration area of vehicle (1-3 letters)"
+    },
+    "object.vehicle.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.seats": {
+      "description": "number of seats (incl. driver)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.tare-weight": {
+      "description": "tare-weight of vehicle (kg)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.tsn": {
+      "type": "string",
+      "description": "type ID of vehicle"
+    },
+    "object.vehicle.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.vehicle-type": {
+      "description": "vehicle type",
+      "$ref": "#/definitions/vehicle-type"
+    },
+    "object.vehicle.year-of-construction": {
+      "description": "year of construction of object",
+      "$ref": "#/definitions/year"
+    },
+    "object.vehicle.yearly-mileage": {
+      "description": "average kilometers per year",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.birth-city": {
+      "type": "string",
+      "description": "birth city of person"
+    },
+    "person.birth-country": {
+      "type": "string",
+      "description": "birth country of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.birth-name": {
+      "type": "string",
+      "description": "birth name of person"
+    },
+    "person.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.citizenship": {
+      "type": "string",
+      "description": "citizenship (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.driver-club-membership": {
+      "description": "driver club person is member of",
+      "$ref": "#/definitions/driver-club"
+    },
+    "person.driving-license.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "person.driving-license.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "person.driving-license.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "person.driving-license.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.driving-license.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "person.driving-license.license-category": {
+      "description": "license categories wrt 3. EU driver's license directive",
+      "$ref": "#/definitions/license-category"
+    },
+    "person.driving-license.license-type": {
+      "description": "does person have an (eu-)driving-license",
+      "$ref": "#/definitions/license-type"
+    },
+    "person.driving-license.on-probation": {
+      "type": "boolean",
+      "description": "driving-license on probation"
+    },
+    "person.education.academic-degree": {
+      "description": "academic degree of person",
+      "$ref": "#/definitions/academic-degree"
+    },
+    "person.education.educational-level": {
+      "description": "highest educational level",
+      "$ref": "#/definitions/educational-level"
+    },
+    "person.education.professional-training": {
+      "description": "level of professional training",
+      "$ref": "#/definitions/professional-training"
+    },
+    "person.education.professional-training-type": {
+      "description": "definition of professional training",
+      "$ref": "#/definitions/professional-training-type"
+    },
+    "person.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.engine-related-tax-relief": {
+      "type": "boolean",
+      "description": "person is relieved from engine-related insurance tax"
+    },
+    "person.eu-citizen": {
+      "type": "boolean",
+      "description": "person is EU-citizen"
+    },
+    "person.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.has-role": {
+      "description": "role a person fullfills additionally",
+      "$ref": "#/definitions/role"
+    },
+    "person.identification.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "person.identification.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "person.identification.id-type": {
+      "description": "type of a person's identification document",
+      "$ref": "#/definitions/id-type"
+    },
+    "person.identification.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "person.identification.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.identification.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "person.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.nationality": {
+      "type": "string",
+      "description": "nationality of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.profession.amount-physical-work": {
+      "description": "amount of physical work a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "person.profession.amount-travel-activity": {
+      "description": "amount of travel activity a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "person.profession.civil-servant-status": {
+      "description": "employment-status of civil servants",
+      "$ref": "#/definitions/civil-servant-status"
+    },
+    "person.profession.designation": {
+      "type": "string",
+      "description": "specific job description of person"
+    },
+    "person.profession.employment-category": {
+      "description": "employment category of person",
+      "$ref": "#/definitions/employment-category"
+    },
+    "person.profession.employment-mode": {
+      "description": "mode of the employment relationship (e.g., full, part-time)",
+      "$ref": "#/definitions/employment-mode"
+    },
+    "person.profession.self-employment-start-date": {
+      "description": "start date of self employment",
+      "$ref": "#/definitions/date"
+    },
+    "person.profession.staff-responsibility-number": {
+      "description": "number of people the person is responsible for (as part of their job)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.motor.cancellation-period": {
+      "description": "cancellation-period of product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.contributor.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.motor.contributor.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.motor.contributor.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.motor.contributor.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.motor.contributor.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.motor.contributor.bank-account.bank-city": {
+      "type": "string",
+      "description": "city of issuing bank"
+    },
+    "product.motor.contributor.bank-account.bank-name": {
+      "type": "string",
+      "description": "name of issuing bank"
+    },
+    "product.motor.contributor.bank-account.bic": {
+      "type": "string",
+      "description": "Bank Identifier Code"
+    },
+    "product.motor.contributor.bank-account.iban": {
+      "type": "string",
+      "description": "International Banking Account Number"
+    },
+    "product.motor.contributor.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.motor.contributor.credit-card.card-number": {
+      "type": "string",
+      "description": "credit card number"
+    },
+    "product.motor.contributor.credit-card.card-type": {
+      "description": "credit card type",
+      "$ref": "#/definitions/credit-card-type"
+    },
+    "product.motor.contributor.credit-card.cvc": {
+      "type": "string",
+      "description": "credit card verification code"
+    },
+    "product.motor.contributor.credit-card.expiration-month": {
+      "type": "integer",
+      "description": "expiration month of credit card (1-12)"
+    },
+    "product.motor.contributor.credit-card.expiration-year": {
+      "description": "expiration year of credit card",
+      "$ref": "#/definitions/year"
+    },
+    "product.motor.contributor.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.motor.contributor.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.motor.contributor.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.motor.contributor.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.contributor.identification.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "product.motor.contributor.identification.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "product.motor.contributor.identification.id-type": {
+      "description": "type of a person's identification document",
+      "$ref": "#/definitions/id-type"
+    },
+    "product.motor.contributor.identification.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "product.motor.contributor.identification.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.motor.contributor.identification.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "product.motor.contributor.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.motor.contributor.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.motor.contributor.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.motor.contributor.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.contributor.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.motor.contributor.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.motor.contributor.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.motor.contributor.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.motor.contributor.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.motor.contributor.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.motor.coverage.comprehensive.advance-bonus.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.extended-contract-term.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.fully.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.fully.gap-coverage.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.fully.gap-coverage.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.fully.gap-coverage.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.fully.gap-coverage.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.fully.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.fully.parking-damage.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.fully.parking-damage.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.fully.parking-damage.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.fully.parking-damage.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.fully.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.fully.vandalism.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.fully.vandalism.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.fully.vandalism.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.fully.vandalism.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.fully.vehicle-damage-accident.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.fully.vehicle-damage-accident.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.fully.vehicle-damage-accident.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.fully.vehicle-damage-accident.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.fully.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.garage-binding.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.new-for-old-without-deduction.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.compensation-new-value.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.compensation-new-value.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.compensation-new-value.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.compensation-new-value.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.partial.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.fire-and-explosion.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.fire-and-explosion.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.fire-and-explosion.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.fire-and-explosion.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.partial.glass-damage-without-deduction.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.glass-damage.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.glass-damage.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.glass-damage.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.glass-damage.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.partial.gross-negligence.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.gross-negligence.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.gross-negligence.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.gross-negligence.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.partial.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.natcat-extended.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.natcat-extended.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.natcat-extended.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.natcat-extended.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.partial.natcat.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.natcat.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.natcat.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.natcat.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.partial.refund-purchase-price.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.refund-purchase-price.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.refund-purchase-price.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.refund-purchase-price.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.partial.registration-and-transfer-costs.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.short-circuit.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.short-circuit.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.short-circuit.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.short-circuit.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.partial.special-equipment.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.special-equipment.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.special-equipment.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.special-equipment.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.partial.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.theft-and-robbery.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.theft-and-robbery.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.theft-and-robbery.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.theft-and-robbery.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.partial.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.partial.wild-animal-bites.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.wild-animal-bites.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.wild-animal-bites.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.wild-animal-bites.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.partial.wild-animal-damage.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.wild-animal-damage.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.partial.wild-animal-damage.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.partial.wild-animal-damage.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.recycling-costs.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.recycling-costs.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.recycling-costs.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.recycling-costs.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.replacement-of-operating-materials.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.replacement-of-operating-materials.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.comprehensive.replacement-of-operating-materials.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.replacement-of-operating-materials.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.comprehensive.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.comprehensive.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.discount-protection.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.liability.abroad-protection.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.abroad-protection.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.liability.abroad-protection.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.abroad-protection.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.liability.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.extended-vehicle-rental-protection-personal-injury.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.extended-vehicle-rental-protection-personal-injury.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.liability.extended-vehicle-rental-protection-personal-injury.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.extended-vehicle-rental-protection-personal-injury.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.liability.extended-vehicle-rental-protection-property-damage.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.extended-vehicle-rental-protection-property-damage.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.liability.extended-vehicle-rental-protection-property-damage.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.extended-vehicle-rental-protection-property-damage.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.liability.firstparty-damage.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.firstparty-damage.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.liability.firstparty-damage.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.firstparty-damage.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.liability.followup-costs-unusable-car.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.followup-costs-unusable-car.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.liability.followup-costs-unusable-car.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.followup-costs-unusable-car.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.liability.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.liability.personal-injury.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.personal-injury.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.liability.personal-injury.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.personal-injury.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.liability.property-damage.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.property-damage.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.liability.property-damage.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.property-damage.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.liability.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.liability.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.passenger-cover.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.passenger-cover.driver-protection.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.passenger-cover.driver-protection.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.passenger-cover.driver-protection.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.passenger-cover.driver-protection.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.passenger-cover.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.passenger-cover.passenger-protection.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.passenger-cover.passenger-protection.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.passenger-cover.passenger-protection.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.passenger-cover.passenger-protection.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.passenger-cover.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.coverage.passenger-cover.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.coverage.vat-reimbursement-waiver.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.coverage.vehicle-assistance.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.no-claims-discount-comprehensive.claim-free-years": {
+      "description": "number of claim-free years",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.no-claims-discount-comprehensive.level": {
+      "type": "string",
+      "description": "no claims discount level (1-4 digits alpha-numeric referring to the general ncd-level of the country)"
+    },
+    "product.motor.no-claims-discount-comprehensive.level-other-vehicle": {
+      "type": "string",
+      "description": "no-claims-discount level of a possible other vehicle owned/insured by person (1-4 digits alpha-numeric referring to the general ncd-level of the country)"
+    },
+    "product.motor.no-claims-discount-comprehensive.level-self-earned": {
+      "type": "boolean",
+      "description": "no-claims-discount-level self-earned by person"
+    },
+    "product.motor.no-claims-discount-comprehensive.special-level": {
+      "type": "string",
+      "description": "insurer-specific no-claims-discount-level"
+    },
+    "product.motor.no-claims-discount-comprehensive.special-level-at-organization": {
+      "type": "string",
+      "description": "name of insurer providing the special no-claims-discount level"
+    },
+    "product.motor.no-claims-discount-liability.claim-free-years": {
+      "description": "number of claim-free years",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.no-claims-discount-liability.level": {
+      "type": "string",
+      "description": "no claims discount level (1-4 digits alpha-numeric referring to the general ncd-level of the country)"
+    },
+    "product.motor.no-claims-discount-liability.level-other-vehicle": {
+      "type": "string",
+      "description": "no-claims-discount level of a possible other vehicle owned/insured by person (1-4 digits alpha-numeric referring to the general ncd-level of the country)"
+    },
+    "product.motor.no-claims-discount-liability.level-self-earned": {
+      "type": "boolean",
+      "description": "no-claims-discount-level self-earned by person"
+    },
+    "product.motor.no-claims-discount-liability.special-level": {
+      "type": "string",
+      "description": "insurer-specific no-claims-discount-level"
+    },
+    "product.motor.no-claims-discount-liability.special-level-at-organization": {
+      "type": "string",
+      "description": "name of insurer providing the special no-claims-discount level"
+    },
+    "product.motor.other-vehicle-discount.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.motor.other-vehicle-discount.other-vehicle-at-organization": {
+      "type": "string",
+      "description": "name of insurer the other vehicle is insured at"
+    },
+    "product.motor.other-vehicle-discount.other-vehicle-engine-power": {
+      "description": "engine power of other vehicle (kW)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.other-vehicle-discount.other-vehicle-owner": {
+      "description": "who is the owner of other vehicle",
+      "$ref": "#/definitions/role"
+    },
+    "product.motor.other-vehicle-discount.other-vehicle-policyholder": {
+      "description": "who is the policyholder of other vehicle",
+      "$ref": "#/definitions/role"
+    },
+    "product.motor.package": {
+      "type": "string",
+      "description": "specific tariff name"
+    },
+    "product.motor.policyholder.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.motor.policyholder.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.motor.policyholder.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.motor.policyholder.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.motor.policyholder.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.motor.policyholder.birth-city": {
+      "type": "string",
+      "description": "birth city of person"
+    },
+    "product.motor.policyholder.birth-country": {
+      "type": "string",
+      "description": "birth country of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.motor.policyholder.birth-name": {
+      "type": "string",
+      "description": "birth name of person"
+    },
+    "product.motor.policyholder.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.motor.policyholder.citizenship": {
+      "type": "string",
+      "description": "citizenship (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.motor.policyholder.driver-club-membership": {
+      "description": "driver club person is member of",
+      "$ref": "#/definitions/driver-club"
+    },
+    "product.motor.policyholder.driving-license.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "product.motor.policyholder.driving-license.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "product.motor.policyholder.driving-license.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "product.motor.policyholder.driving-license.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.motor.policyholder.driving-license.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "product.motor.policyholder.driving-license.license-category": {
+      "description": "license categories wrt 3. EU driver's license directive",
+      "$ref": "#/definitions/license-category"
+    },
+    "product.motor.policyholder.driving-license.license-type": {
+      "description": "does person have an (eu-)driving-license",
+      "$ref": "#/definitions/license-type"
+    },
+    "product.motor.policyholder.driving-license.on-probation": {
+      "type": "boolean",
+      "description": "driving-license on probation"
+    },
+    "product.motor.policyholder.education.academic-degree": {
+      "description": "academic degree of person",
+      "$ref": "#/definitions/academic-degree"
+    },
+    "product.motor.policyholder.education.educational-level": {
+      "description": "highest educational level",
+      "$ref": "#/definitions/educational-level"
+    },
+    "product.motor.policyholder.education.professional-training": {
+      "description": "level of professional training",
+      "$ref": "#/definitions/professional-training"
+    },
+    "product.motor.policyholder.education.professional-training-type": {
+      "description": "definition of professional training",
+      "$ref": "#/definitions/professional-training-type"
+    },
+    "product.motor.policyholder.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.motor.policyholder.engine-related-tax-relief": {
+      "type": "boolean",
+      "description": "person is relieved from engine-related insurance tax"
+    },
+    "product.motor.policyholder.eu-citizen": {
+      "type": "boolean",
+      "description": "person is EU-citizen"
+    },
+    "product.motor.policyholder.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.motor.policyholder.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.motor.policyholder.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.policyholder.has-role": {
+      "description": "role a person fullfills additionally",
+      "$ref": "#/definitions/role"
+    },
+    "product.motor.policyholder.identification.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "product.motor.policyholder.identification.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "product.motor.policyholder.identification.id-type": {
+      "description": "type of a person's identification document",
+      "$ref": "#/definitions/id-type"
+    },
+    "product.motor.policyholder.identification.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "product.motor.policyholder.identification.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.motor.policyholder.identification.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "product.motor.policyholder.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.motor.policyholder.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.motor.policyholder.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.motor.policyholder.nationality": {
+      "type": "string",
+      "description": "nationality of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.motor.policyholder.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.policyholder.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.motor.policyholder.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.motor.policyholder.profession.amount-physical-work": {
+      "description": "amount of physical work a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.motor.policyholder.profession.amount-travel-activity": {
+      "description": "amount of travel activity a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.motor.policyholder.profession.civil-servant-status": {
+      "description": "employment-status of civil servants",
+      "$ref": "#/definitions/civil-servant-status"
+    },
+    "product.motor.policyholder.profession.designation": {
+      "type": "string",
+      "description": "specific job description of person"
+    },
+    "product.motor.policyholder.profession.employment-category": {
+      "description": "employment category of person",
+      "$ref": "#/definitions/employment-category"
+    },
+    "product.motor.policyholder.profession.employment-mode": {
+      "description": "mode of the employment relationship (e.g., full, part-time)",
+      "$ref": "#/definitions/employment-mode"
+    },
+    "product.motor.policyholder.profession.self-employment-start-date": {
+      "description": "start date of self employment",
+      "$ref": "#/definitions/date"
+    },
+    "product.motor.policyholder.profession.staff-responsibility-number": {
+      "description": "number of people the person is responsible for (as part of their job)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.motor.policyholder.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.motor.policyholder.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.motor.policyholder.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.motor.policyholder.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.motor.premium-amount": {
+      "description": "premium amount per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.motor.premium-payment-interval": {
+      "description": "payment interval for product-premium",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.motor.premium-payment-method": {
+      "description": "payment method for product-premium",
+      "$ref": "#/definitions/payment-method"
+    },
+    "product.motor.start-date": {
+      "description": "start date of validity period of the product",
+      "$ref": "#/definitions/date"
+    },
+    "product.motor.term-time": {
+      "description": "term-time for product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    }
+  },
+  "definitions": {
+    "money": {
+      "type": "number",
+      "format": "money"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "nonnegative-integer": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "m",
+        "f"
+      ],
+      "enum-description": [
+        "male",
+        "female"
+      ]
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900
+    },
+    "nonnegative": {
+      "type": "number",
+      "minimum": 0
+    },
+    "percentage": {
+      "type": "number",
+      "minimum": 0
+    },
+    "temporal-interval": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "enum-description": [
+        "not specified",
+        "one-off",
+        "daily",
+        "weekly",
+        "monthly",
+        "quaterly",
+        "bi-annually",
+        "annually",
+        "every 2 years",
+        "every 3 years"
+      ]
+    },
+    "salutation": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "Ms.",
+        "Mrs.",
+        "Mr."
+      ]
+    },
+    "id-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "not specified",
+        "passport",
+        "id-card",
+        "other"
+      ]
+    },
+    "employment-mode": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "full-time",
+        "part-time",
+        "marginally",
+        "seasonal"
+      ]
+    },
+    "employment-category": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        25,
+        26,
+        28,
+        29,
+        31,
+        33,
+        34,
+        36,
+        38,
+        39
+      ],
+      "enum-description": [
+        "no income",
+        "labourer",
+        "self-employed",
+        "farmer",
+        "public sector employee",
+        "student",
+        "housewife - homemaker",
+        "unemployed",
+        "retired",
+        "(maternity) leave",
+        "apprentice",
+        "employee",
+        "civil servant",
+        "miner",
+        "self-employed artisans",
+        "manager",
+        "director",
+        "freelancer",
+        "public sector labourer",
+        "professional soldier",
+        "regular soldier",
+        "pupil",
+        "director with pension commitment",
+        "executive"
+      ]
+    },
+    "marital-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "enum-description": [
+        "single",
+        "married",
+        "divorced",
+        "widowed",
+        "partnership",
+        "separated"
+      ]
+    },
+    "educational-level": {
+      "type": "integer",
+      "enum": [
+        0,
+        3,
+        5,
+        1,
+        2,
+        4
+      ],
+      "enum-description": [
+        "no graduation",
+        "high school diploma (academic)",
+        "university degree",
+        "(qualified) comprehensive school certificate",
+        "secondary school certificate",
+        "high school diploma (professional)"
+      ]
+    },
+    "academic-degree": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "bachelor",
+        "master",
+        "diploma",
+        "state examination",
+        "doctor - phd"
+      ]
+    },
+    "professional-training": {
+      "type": "integer",
+      "enum": [
+        1,
+        5,
+        3,
+        4,
+        2,
+        0
+      ],
+      "enum-description": [
+        "completed professional training",
+        "university degree",
+        "Meister",
+        "Techniker",
+        "Betriebswirt - Fachwirt",
+        "none - not finished"
+      ]
+    },
+    "professional-training-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "commercial training",
+        "craft training",
+        "industrial training",
+        "short training",
+        "other"
+      ]
+    },
+    "civil-servant-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "civil servant for life",
+        "civil servant on probation",
+        "civil servant on revocation"
+      ]
+    },
+    "payment-method": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "direct debit",
+        "payment slip",
+        "standing order",
+        "credit card"
+      ]
+    },
+    "credit-card-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "visa",
+        "master-card",
+        "american express",
+        "diners club",
+        "other"
+      ]
+    },
+    "driver-club": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "none",
+        "ARBÖ",
+        "ÖAMTC",
+        "ADAC",
+        "ACE",
+        "AvD"
+      ]
+    },
+    "engine": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "enum-description": [
+        "other",
+        "gasoline",
+        "diesel",
+        "compressed natural gas (CNG)",
+        "liquefied petroleum gas (LPG)",
+        "electric",
+        "hybrid"
+      ]
+    },
+    "vehicle-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "enum-description": [
+        "motor-assisted bicycle",
+        "moped (max. 50ccm)",
+        "(sidecar) motorcycle",
+        "trike",
+        "car",
+        "truck (max. 3500kg)",
+        "truck (> 3500kg)"
+      ]
+    },
+    "license-category": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string",
+          "enum": [
+            "AM",
+            "A1",
+            "A2",
+            "A",
+            "B1",
+            "B",
+            "BE",
+            "C1",
+            "C1E",
+            "C",
+            "CE",
+            "D1",
+            "D1E",
+            "D",
+            "DE",
+            "F"
+          ]
+        }
+      ]
+    },
+    "license-type": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2
+      ],
+      "enum-description": [
+        "none",
+        "eu-license",
+        "non-eu license"
+      ]
+    },
+    "role": {
+      "type": "array",
+      "items": [
+        {
+          "type": "integer",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "enum-description": [
+            "policyholder",
+            "partner",
+            "spouse",
+            "child",
+            "parent",
+            "other person"
+          ]
+        }
+      ]
+    }
+  }
+}

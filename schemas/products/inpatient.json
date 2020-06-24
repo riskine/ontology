@@ -1,0 +1,1247 @@
+{
+  "type": "object",
+  "properties": {
+    "person.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.birth-city": {
+      "type": "string",
+      "description": "birth city of person"
+    },
+    "person.birth-country": {
+      "type": "string",
+      "description": "birth country of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.birth-name": {
+      "type": "string",
+      "description": "birth name of person"
+    },
+    "person.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.children.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.children.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.children.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.children.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.children.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.children.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.children.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.children.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.children.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.children.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.children.height": {
+      "description": "height of person in cm",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.children.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.children.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.children.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.children.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.children.past-smoking-habits": {
+      "description": "smoking habits of person in the past",
+      "$ref": "#/definitions/past-smoking-habits"
+    },
+    "person.children.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.children.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.children.risk-sport-habits": {
+      "description": "risk sport habits of person",
+      "$ref": "#/definitions/risk-sport-habits"
+    },
+    "person.children.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.children.smoking-habits": {
+      "description": "smoking habits of person",
+      "$ref": "#/definitions/smoking-habits"
+    },
+    "person.children.sport-habits": {
+      "description": "sport habits of person",
+      "$ref": "#/definitions/sport-habits"
+    },
+    "person.children.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.children.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.children.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.children.weight": {
+      "description": "weight of person in kg",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.citizenship": {
+      "type": "string",
+      "description": "citizenship (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.education.academic-degree": {
+      "description": "academic degree of person",
+      "$ref": "#/definitions/academic-degree"
+    },
+    "person.education.educational-level": {
+      "description": "highest educational level",
+      "$ref": "#/definitions/educational-level"
+    },
+    "person.education.professional-training": {
+      "description": "level of professional training",
+      "$ref": "#/definitions/professional-training"
+    },
+    "person.education.professional-training-type": {
+      "description": "definition of professional training",
+      "$ref": "#/definitions/professional-training-type"
+    },
+    "person.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.eu-citizen": {
+      "type": "boolean",
+      "description": "person is EU-citizen"
+    },
+    "person.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.height": {
+      "description": "height of person in cm",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.identification.expiration-date": {
+      "description": "expiration date of the document",
+      "$ref": "#/definitions/date"
+    },
+    "person.identification.id-number": {
+      "type": "string",
+      "description": "number of the document"
+    },
+    "person.identification.id-type": {
+      "description": "type of a person's identification document",
+      "$ref": "#/definitions/id-type"
+    },
+    "person.identification.issue-authority": {
+      "type": "string",
+      "description": "issuing authority of the document"
+    },
+    "person.identification.issue-country": {
+      "type": "string",
+      "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.identification.issue-date": {
+      "description": "date of issue of the document",
+      "$ref": "#/definitions/date"
+    },
+    "person.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.nationality": {
+      "type": "string",
+      "description": "nationality of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.partner.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.partner.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.partner.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.partner.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.partner.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.partner.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.partner.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.partner.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.partner.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.height": {
+      "description": "height of person in cm",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.partner.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.partner.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.partner.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.partner.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.past-smoking-habits": {
+      "description": "smoking habits of person in the past",
+      "$ref": "#/definitions/past-smoking-habits"
+    },
+    "person.partner.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.partner.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.partner.risk-sport-habits": {
+      "description": "risk sport habits of person",
+      "$ref": "#/definitions/risk-sport-habits"
+    },
+    "person.partner.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.partner.smoking-habits": {
+      "description": "smoking habits of person",
+      "$ref": "#/definitions/smoking-habits"
+    },
+    "person.partner.sport-habits": {
+      "description": "sport habits of person",
+      "$ref": "#/definitions/sport-habits"
+    },
+    "person.partner.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.partner.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.partner.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.partner.weight": {
+      "description": "weight of person in kg",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.past-smoking-habits": {
+      "description": "smoking habits of person in the past",
+      "$ref": "#/definitions/past-smoking-habits"
+    },
+    "person.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.profession.amount-physical-work": {
+      "description": "amount of physical work a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "person.profession.amount-travel-activity": {
+      "description": "amount of travel activity a person has to do as part of their job (in percent)",
+      "$ref": "#/definitions/percentage"
+    },
+    "person.profession.civil-servant-status": {
+      "description": "employment-status of civil servants",
+      "$ref": "#/definitions/civil-servant-status"
+    },
+    "person.profession.designation": {
+      "type": "string",
+      "description": "specific job description of person"
+    },
+    "person.profession.employment-category": {
+      "description": "employment category of person",
+      "$ref": "#/definitions/employment-category"
+    },
+    "person.profession.employment-mode": {
+      "description": "mode of the employment relationship (e.g., full, part-time)",
+      "$ref": "#/definitions/employment-mode"
+    },
+    "person.profession.self-employment-start-date": {
+      "description": "start date of self employment",
+      "$ref": "#/definitions/date"
+    },
+    "person.profession.staff-responsibility-number": {
+      "description": "number of people the person is responsible for (as part of their job)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.risk-sport-habits": {
+      "description": "risk sport habits of person",
+      "$ref": "#/definitions/risk-sport-habits"
+    },
+    "person.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.smoking-habits": {
+      "description": "smoking habits of person",
+      "$ref": "#/definitions/smoking-habits"
+    },
+    "person.sport-habits": {
+      "description": "sport habits of person",
+      "$ref": "#/definitions/sport-habits"
+    },
+    "person.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.weight": {
+      "description": "weight of person in kg",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.inpatient.area-of-validity": {
+      "description": "area of validity for product",
+      "$ref": "#/definitions/area-of-validity"
+    },
+    "product.inpatient.cancellation-period": {
+      "description": "cancellation-period of product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.inpatient.contributor.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.inpatient.contributor.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.inpatient.contributor.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.inpatient.contributor.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.inpatient.contributor.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.inpatient.contributor.bank-account.bank-city": {
+      "type": "string",
+      "description": "city of issuing bank"
+    },
+    "product.inpatient.contributor.bank-account.bank-name": {
+      "type": "string",
+      "description": "name of issuing bank"
+    },
+    "product.inpatient.contributor.bank-account.bic": {
+      "type": "string",
+      "description": "Bank Identifier Code"
+    },
+    "product.inpatient.contributor.bank-account.iban": {
+      "type": "string",
+      "description": "International Banking Account Number"
+    },
+    "product.inpatient.contributor.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.inpatient.contributor.credit-card.card-number": {
+      "type": "string",
+      "description": "credit card number"
+    },
+    "product.inpatient.contributor.credit-card.card-type": {
+      "description": "credit card type",
+      "$ref": "#/definitions/credit-card-type"
+    },
+    "product.inpatient.contributor.credit-card.cvc": {
+      "type": "string",
+      "description": "credit card verification code"
+    },
+    "product.inpatient.contributor.credit-card.expiration-month": {
+      "type": "integer",
+      "description": "expiration month of credit card (1-12)"
+    },
+    "product.inpatient.contributor.credit-card.expiration-year": {
+      "description": "expiration year of credit card",
+      "$ref": "#/definitions/year"
+    },
+    "product.inpatient.contributor.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.inpatient.contributor.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.inpatient.contributor.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.inpatient.contributor.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.contributor.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.inpatient.contributor.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.inpatient.contributor.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.inpatient.contributor.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.contributor.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.inpatient.contributor.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.inpatient.contributor.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.inpatient.contributor.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.inpatient.contributor.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.inpatient.contributor.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.inpatient.coverage-period-non-european-countries": {
+      "description": "how long is medical treatment covered in non-european countries (in months)",
+      "$ref": "#/definitions/coverage-period"
+    },
+    "product.inpatient.coverage.inpatient.abroad-treatment.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.abroad-treatment.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.inpatient.coverage.inpatient.abroad-treatment.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.inpatient.coverage.inpatient.abroad-treatment.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.abroad-treatment.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.inpatient.coverage.inpatient.costs-for-accompanying-children.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.costs-for-accompanying-children.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.inpatient.coverage.inpatient.costs-for-accompanying-children.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.inpatient.coverage.inpatient.costs-for-accompanying-children.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.costs-for-accompanying-children.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.inpatient.coverage.inpatient.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.inpatient.coverage.inpatient.free-choice-of-doctor.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.inpatient.coverage.inpatient.free-choice-of-hospital.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-accident.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-accident.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-accident.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-accident.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-accident.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-acute-disease.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-acute-disease.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-acute-disease.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-acute-disease.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-acute-disease.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-pregnancy-childbirth.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-pregnancy-childbirth.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-pregnancy-childbirth.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-pregnancy-childbirth.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-pregnancy-childbirth.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-severe-illness.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-severe-illness.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-severe-illness.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-severe-illness.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.hospitalization-severe-illness.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.inpatient.coverage.inpatient.inpatient-accomodation.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.inpatient.coverage.inpatient.inpatient-accomodation.room-type": {
+      "description": "room-type for inpatient",
+      "$ref": "#/definitions/room-type"
+    },
+    "product.inpatient.coverage.inpatient.inpatient-surgery.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.inpatient-surgery.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.inpatient.coverage.inpatient.inpatient-surgery.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.inpatient.coverage.inpatient.inpatient-surgery.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.inpatient-surgery.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.inpatient.coverage.inpatient.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.inpatient.coverage.inpatient.patient-transport-costs.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.patient-transport-costs.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.inpatient.coverage.inpatient.patient-transport-costs.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.inpatient.coverage.inpatient.patient-transport-costs.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.patient-transport-costs.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.inpatient.coverage.inpatient.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.coverage.inpatient.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.inpatient.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.package": {
+      "type": "string",
+      "description": "specific tariff name"
+    },
+    "product.inpatient.policyholder.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.inpatient.policyholder.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.inpatient.policyholder.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.inpatient.policyholder.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.inpatient.policyholder.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.inpatient.policyholder.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.inpatient.policyholder.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.inpatient.policyholder.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.inpatient.policyholder.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.inpatient.policyholder.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.policyholder.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.inpatient.policyholder.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.inpatient.policyholder.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.inpatient.policyholder.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.policyholder.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.inpatient.policyholder.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.inpatient.policyholder.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.inpatient.policyholder.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.inpatient.policyholder.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.inpatient.policyholder.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.inpatient.premium-amount": {
+      "description": "premium amount per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.inpatient.premium-payment-interval": {
+      "description": "payment interval for product-premium",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.inpatient.premium-payment-method": {
+      "description": "payment method for product-premium",
+      "$ref": "#/definitions/payment-method"
+    },
+    "product.inpatient.start-date": {
+      "description": "start date of validity period of the product",
+      "$ref": "#/definitions/date"
+    },
+    "product.inpatient.term-time": {
+      "description": "term-time for product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    }
+  },
+  "definitions": {
+    "money": {
+      "type": "number",
+      "format": "money"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "nonnegative-integer": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "m",
+        "f"
+      ],
+      "enum-description": [
+        "male",
+        "female"
+      ]
+    },
+    "sport-habits": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "yes, regularly",
+        "yes, rarely",
+        "no"
+      ]
+    },
+    "risk-sport-habits": {
+      "type": "integer",
+      "enum": [
+        1,
+        2
+      ],
+      "enum-description": [
+        "yes",
+        "no"
+      ]
+    },
+    "past-smoking-habits": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "never",
+        ">1 year",
+        "<=1 year"
+      ]
+    },
+    "smoking-habits": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "yes, regularly",
+        "yes, rarely",
+        "no"
+      ]
+    },
+    "area-of-validity": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "region",
+        "country",
+        "EU",
+        "worldwide"
+      ]
+    },
+    "room-type": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "not specified",
+        "single",
+        "double",
+        "standard"
+      ]
+    },
+    "percentage": {
+      "type": "number",
+      "minimum": 0
+    },
+    "temporal-interval": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "enum-description": [
+        "not specified",
+        "one-off",
+        "daily",
+        "weekly",
+        "monthly",
+        "quaterly",
+        "bi-annually",
+        "annually",
+        "every 2 years",
+        "every 3 years"
+      ]
+    },
+    "salutation": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "Ms.",
+        "Mrs.",
+        "Mr."
+      ]
+    },
+    "id-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "not specified",
+        "passport",
+        "id-card",
+        "other"
+      ]
+    },
+    "employment-mode": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "full-time",
+        "part-time",
+        "marginally",
+        "seasonal"
+      ]
+    },
+    "employment-category": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        25,
+        26,
+        28,
+        29,
+        31,
+        33,
+        34,
+        36,
+        38,
+        39
+      ],
+      "enum-description": [
+        "no income",
+        "labourer",
+        "self-employed",
+        "farmer",
+        "public sector employee",
+        "student",
+        "housewife - homemaker",
+        "unemployed",
+        "retired",
+        "(maternity) leave",
+        "apprentice",
+        "employee",
+        "civil servant",
+        "miner",
+        "self-employed artisans",
+        "manager",
+        "director",
+        "freelancer",
+        "public sector labourer",
+        "professional soldier",
+        "regular soldier",
+        "pupil",
+        "director with pension commitment",
+        "executive"
+      ]
+    },
+    "fee-schedule": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2
+      ],
+      "enum-description": [
+        "not specified",
+        "standard coverage",
+        "superior coverage"
+      ]
+    },
+    "coverage-period": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        6,
+        12
+      ],
+      "enum-description": [
+        "not specified",
+        "at least 1 month",
+        "at least 6 months",
+        "at least 12 months"
+      ]
+    },
+    "marital-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "enum-description": [
+        "single",
+        "married",
+        "divorced",
+        "widowed",
+        "partnership",
+        "separated"
+      ]
+    },
+    "educational-level": {
+      "type": "integer",
+      "enum": [
+        0,
+        3,
+        5,
+        1,
+        2,
+        4
+      ],
+      "enum-description": [
+        "no graduation",
+        "high school diploma (academic)",
+        "university degree",
+        "(qualified) comprehensive school certificate",
+        "secondary school certificate",
+        "high school diploma (professional)"
+      ]
+    },
+    "academic-degree": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "bachelor",
+        "master",
+        "diploma",
+        "state examination",
+        "doctor - phd"
+      ]
+    },
+    "professional-training": {
+      "type": "integer",
+      "enum": [
+        1,
+        5,
+        3,
+        4,
+        2,
+        0
+      ],
+      "enum-description": [
+        "completed professional training",
+        "university degree",
+        "Meister",
+        "Techniker",
+        "Betriebswirt - Fachwirt",
+        "none - not finished"
+      ]
+    },
+    "professional-training-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "commercial training",
+        "craft training",
+        "industrial training",
+        "short training",
+        "other"
+      ]
+    },
+    "civil-servant-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "civil servant for life",
+        "civil servant on probation",
+        "civil servant on revocation"
+      ]
+    },
+    "payment-method": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "direct debit",
+        "payment slip",
+        "standing order",
+        "credit card"
+      ]
+    },
+    "credit-card-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "visa",
+        "master-card",
+        "american express",
+        "diners club",
+        "other"
+      ]
+    },
+    "year": {
+        "type": "integer",
+        "minimum": 1900
+    }
+  }
+}

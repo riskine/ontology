@@ -1,0 +1,130 @@
+{
+  "$id": "https://ontology.riskine.com/vehicle.json",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "object.json"
+    }
+  ],
+  "properties": {
+    "driver": {
+      "type": "array",
+      "description": "driver of vehicle",
+      "items": {
+        "$ref": "person.json"
+      }
+    },
+    "reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "definitions.json#/money"
+    },
+    "brand": {
+      "type": "string",
+      "description": "brand of vehicle"
+    },
+    "model": {
+      "type": "string",
+      "description": "model of vehicle"
+    },
+    "hsn": {
+      "type": "string",
+      "description": "manufacturer key number (4-digit numerical code)"
+    },
+    "tsn": {
+      "type": "string",
+      "description": "type ID of vehicle"
+    },
+    "id": {
+      "type": "string",
+      "description": "unique ID of vehicle (17 digits)"
+    },
+    "yearly-mileage": {
+      "description": "average kilometers per year",
+      "$ref": "definitions.json#/nonnegative-integer"
+    },
+    "current-mileage": {
+      "description": "current mileage of vehicle",
+      "$ref": "definitions.json#/nonnegative-integer"
+    },
+    "engine": {
+      "description": "engine type of vehicle",
+      "$ref": "definitions.json#/engine"
+    },
+    "engine-displacement": {
+      "$ref": "definitions.json#/nonnegative-integer",
+      "description": "engine-displacement of vehicle (ccm)"
+    },
+    "catalysator": {
+      "type": "boolean",
+      "description": "does vehicle have a catalysator"
+    },
+    "engine-power": {
+      "$ref": "definitions.json#/nonnegative-integer",
+      "description": "engine power of vehicle (kW)"
+    },
+    "horse-power": {
+      "$ref": "definitions.json#/nonnegative-integer",
+      "description": "engine power of vehicle (PS)"
+    },
+    "vehicle-type": {
+      "description": "vehicle type",
+      "$ref": "definitions.json#/vehicle-type"
+    },
+    "year-of-construction": {
+      "description": "year of construction of object",
+      "$ref": "definitions.json#/year"
+    },
+    "new-registration": {
+      "type": "boolean",
+      "description": "vehicle is newly registered"
+    },
+    "first-registration": {
+      "description": "date of first registration of vehicle",
+      "$ref": "definitions.json#/date"
+    },
+    "first-registration-by-policyholder": {
+      "description": "date of first registration of vehicle by policyholder",
+      "$ref": "definitions.json#/date"
+    },
+    "registration-area": {
+      "type": "string",
+      "description": "registration area of vehicle (1-3 letters)"
+    },
+    "number-plate": {
+      "type": "string",
+      "description": "number plate of vehicle"
+    },
+    "co2-emission": {
+      "$ref": "definitions.json#/nonnegative",
+      "description": "co2-emission (g CO2/km)"
+    },
+    "payload": {
+      "$ref": "definitions.json#/nonnegative-integer",
+      "description": "payload of vehicle (kg)"
+    },
+    "tare-weight": {
+      "$ref": "definitions.json#/nonnegative-integer",
+      "description": "tare-weight of vehicle (kg)"
+    },
+    "seats": {
+      "$ref": "definitions.json#/nonnegative-integer",
+      "description": "number of seats (incl. driver)"
+    },
+    "garage": {
+      "type": "boolean",
+      "description": "vehicle is parked in a garage"
+    },
+    "is-leased": {
+      "type": "boolean",
+      "description": "vehicle is leased"
+    },
+    "commercial-use": {
+      "type": "boolean",
+      "description": "vehicle is used for commercial purposes"
+    },
+    "mostly-commute-use": {
+      "type": "boolean",
+      "description": "vehicle is mostly used for commuting to work"
+    }
+  }
+}

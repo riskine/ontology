@@ -1,0 +1,23 @@
+{
+  "$id": "https://ontology.riskine.com/property.json",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "object.json"
+    }
+  ],
+  "properties": {
+    "size": {
+      "description": "size of structure or property in qm",
+      "$ref": "definitions.json#/nonnegative"
+    },
+    "is-developed": {
+      "type": "boolean",
+      "description": "property is developed"
+    },
+    "address": {
+      "description": "address of person, structure or property",
+      "$ref": "address.json"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "$id": "https://ontology.riskine.com/address.json",
+    "type": "object",
+    "properties": {
+        "city": {
+            "type": "string",
+            "description": "city (as part of an address)"
+        },
+        "country": {
+            "type": "string",
+            "description": "country  (ISO 3166-1 alpha-2 country code)"
+        },
+        "house-number": {
+            "type": "string",
+            "description": "house number (as part of an address)"
+        },
+        "postcode": {
+            "type": "string",
+            "description": "postal code (as part of an address)"
+        },
+        "street": {
+            "type": "string",
+            "description": "street (as part of an address)"
+        }
+    }
+}

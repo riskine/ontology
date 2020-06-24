@@ -1,0 +1,10 @@
+{
+    "$id": "https://ontology.riskine.com/definitions.json",
+    "gender": {
+        "type": "integer",
+        "enum": [
+            1,
+            2
+        ]
+    }
+}

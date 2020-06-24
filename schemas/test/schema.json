@@ -1,0 +1,14 @@
+{
+    "$id": "https://ontology.riskine.com/schema.json",
+    "allOf": [
+        {
+            "$ref": "otherschema.json"
+        }
+    ],
+    "type": "object",
+    "properties": {
+        "gender": {
+            "$ref": "definitions.json#/gender"
+        }
+    }
+}

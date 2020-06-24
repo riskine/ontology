@@ -1,0 +1,33 @@
+{
+    "first-name": "Johannes",
+    "gender": "m",
+    "birthdate": "1980-01-01",
+    "partner": {
+        "first-name": "nonexistent",
+        "gender": "f"
+    },
+    "children": [
+        {
+            "birthdate": "1990-01-01"
+        },
+        {
+            "birthdate": "1992-01-01",
+            "parents": [
+                {
+                    "birthdate": "1980-01-01"
+                }
+            ]
+        }
+    ],
+    "credit-card": [
+        {
+            "": ""
+        }
+    ],
+    "profession": {
+        "employment-category": 12
+    },
+    "education": {
+        "educational-level": 1
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "$id": "https://ontology.riskine.com/risk.json",
+  "type": "object",
+  "properties": {
+    "probability": {
+      "description": "yearly probability that the risk event occurs",
+      "$ref": "definitions.json#/percentage"
+    },
+    "leads-to": {
+      "type": "array",
+      "description": "damages occurring because of risk event",
+      "items": {
+        "$ref": "damage.json"
+      }
+    },
+    "involves": {
+      "type": "array",
+      "description": "objects involved in risk event",
+      "items": {
+        "$ref": "object.json"
+      }
+    },
+    "causer": {
+      "type": "array",
+      "description": "person causing risk event",
+      "items": {
+        "$ref": "person.json"
+      }
+    }
+  }
+}

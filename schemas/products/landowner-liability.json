@@ -1,0 +1,617 @@
+{
+  "type": "object",
+  "properties": {
+    "object.property.developed-property.owner.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "object.property.developed-property.owner.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.property.developed-property.owner.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "object.property.developed-property.owner.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "object.property.developed-property.owner.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "object.property.developed-property.owner.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "object.property.developed-property.owner.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "object.property.developed-property.owner.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "object.property.developed-property.owner.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "object.property.developed-property.owner.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.property.developed-property.owner.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "object.property.developed-property.owner.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "object.property.developed-property.owner.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "object.property.developed-property.owner.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.property.developed-property.owner.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "object.property.developed-property.owner.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "object.property.developed-property.owner.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "object.property.developed-property.owner.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "object.property.developed-property.owner.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "object.property.developed-property.owner.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "object.property.developed-property.size": {
+      "description": "size of structure or property in qm",
+      "$ref": "#/definitions/nonnegative"
+    },
+    "object.property.developed-property.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.property.undeveloped-property.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "object.property.undeveloped-property.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.property.undeveloped-property.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "object.property.undeveloped-property.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "object.property.undeveloped-property.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "object.property.undeveloped-property.owner.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "object.property.undeveloped-property.owner.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.property.undeveloped-property.owner.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "object.property.undeveloped-property.owner.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "object.property.undeveloped-property.owner.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "object.property.undeveloped-property.owner.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "object.property.undeveloped-property.owner.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "object.property.undeveloped-property.owner.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "object.property.undeveloped-property.owner.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "object.property.undeveloped-property.owner.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.property.undeveloped-property.owner.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "object.property.undeveloped-property.owner.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "object.property.undeveloped-property.owner.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "object.property.undeveloped-property.owner.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.property.undeveloped-property.owner.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "object.property.undeveloped-property.owner.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "object.property.undeveloped-property.owner.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "object.property.undeveloped-property.owner.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "object.property.undeveloped-property.owner.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "object.property.undeveloped-property.owner.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "object.property.undeveloped-property.size": {
+      "description": "size of structure or property in qm",
+      "$ref": "#/definitions/nonnegative"
+    },
+    "object.property.undeveloped-property.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "person.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.landowner-liability.cancellation-period": {
+      "description": "cancellation-period of product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.landowner-liability.contributor.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.landowner-liability.contributor.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.landowner-liability.contributor.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.landowner-liability.contributor.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.landowner-liability.contributor.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.landowner-liability.contributor.bank-account.bank-city": {
+      "type": "string",
+      "description": "city of issuing bank"
+    },
+    "product.landowner-liability.contributor.bank-account.bank-name": {
+      "type": "string",
+      "description": "name of issuing bank"
+    },
+    "product.landowner-liability.contributor.bank-account.bic": {
+      "type": "string",
+      "description": "Bank Identifier Code"
+    },
+    "product.landowner-liability.contributor.bank-account.iban": {
+      "type": "string",
+      "description": "International Banking Account Number"
+    },
+    "product.landowner-liability.contributor.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.landowner-liability.contributor.credit-card.card-number": {
+      "type": "string",
+      "description": "credit card number"
+    },
+    "product.landowner-liability.contributor.credit-card.card-type": {
+      "description": "credit card type",
+      "$ref": "#/definitions/credit-card-type"
+    },
+    "product.landowner-liability.contributor.credit-card.cvc": {
+      "type": "string",
+      "description": "credit card verification code"
+    },
+    "product.landowner-liability.contributor.credit-card.expiration-month": {
+      "type": "integer",
+      "description": "expiration month of credit card (1-12)"
+    },
+    "product.landowner-liability.contributor.credit-card.expiration-year": {
+      "description": "expiration year of credit card",
+      "$ref": "#/definitions/year"
+    },
+    "product.landowner-liability.contributor.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.landowner-liability.contributor.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.landowner-liability.contributor.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.landowner-liability.contributor.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.landowner-liability.contributor.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.landowner-liability.contributor.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.landowner-liability.contributor.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.landowner-liability.contributor.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.landowner-liability.contributor.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.landowner-liability.contributor.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.landowner-liability.contributor.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.landowner-liability.contributor.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.landowner-liability.contributor.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.landowner-liability.contributor.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.landowner-liability.coverage.personal-injury-on-developed-property.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.landowner-liability.coverage.personal-injury-on-developed-property.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.landowner-liability.coverage.personal-injury-on-developed-property.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.landowner-liability.coverage.personal-injury-on-developed-property.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.landowner-liability.coverage.personal-injury-on-undeveloped-property.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.landowner-liability.coverage.personal-injury-on-undeveloped-property.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.landowner-liability.coverage.personal-injury-on-undeveloped-property.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.landowner-liability.coverage.personal-injury-on-undeveloped-property.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.landowner-liability.coverage.property-damage-on-developed-property.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.landowner-liability.coverage.property-damage-on-developed-property.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.landowner-liability.coverage.property-damage-on-developed-property.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.landowner-liability.coverage.property-damage-on-developed-property.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.landowner-liability.coverage.property-damage-on-undeveloped-property.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.landowner-liability.coverage.property-damage-on-undeveloped-property.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.landowner-liability.coverage.property-damage-on-undeveloped-property.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.landowner-liability.coverage.property-damage-on-undeveloped-property.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.landowner-liability.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.landowner-liability.package": {
+      "type": "string",
+      "description": "specific tariff name"
+    },
+    "product.landowner-liability.premium-amount": {
+      "description": "premium amount per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.landowner-liability.premium-payment-interval": {
+      "description": "payment interval for product-premium",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.landowner-liability.premium-payment-method": {
+      "description": "payment method for product-premium",
+      "$ref": "#/definitions/payment-method"
+    },
+    "product.landowner-liability.start-date": {
+      "description": "start date of validity period of the product",
+      "$ref": "#/definitions/date"
+    },
+    "product.landowner-liability.term-time": {
+      "description": "term-time for product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    }
+  },
+  "definitions": {
+    "money": {
+      "type": "number",
+      "format": "money"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "nonnegative-integer": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "m",
+        "f"
+      ],
+      "enum-description": [
+        "male",
+        "female"
+      ]
+    },
+    "nonnegative": {
+      "type": "number",
+      "minimum": 0
+    },
+    "temporal-interval": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "enum-description": [
+        "not specified",
+        "one-off",
+        "daily",
+        "weekly",
+        "monthly",
+        "quaterly",
+        "bi-annually",
+        "annually",
+        "every 2 years",
+        "every 3 years"
+      ]
+    },
+    "salutation": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "Ms.",
+        "Mrs.",
+        "Mr."
+      ]
+    },
+    "marital-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "enum-description": [
+        "single",
+        "married",
+        "divorced",
+        "widowed",
+        "partnership",
+        "separated"
+      ]
+    },
+    "payment-method": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "direct debit",
+        "payment slip",
+        "standing order",
+        "credit card"
+      ]
+    },
+    "credit-card-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "visa",
+        "master-card",
+        "american express",
+        "diners club",
+        "other"
+      ]
+    },
+    "year": {
+        "type": "integer",
+        "minimum": 1900
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "$id": "https://ontology.riskine.com/profession.json",
+    "type": "object",
+    "properties": {
+        "amount-physical-work": {
+            "description": "amount of physical work a person has to do as part of their job (in percent)",
+            "$ref": "definitions.json#/percentage"
+        },
+        "amount-travel-activity": {
+            "description": "amount of travel activity a person has to do as part of their job (in percent)",
+            "$ref": "definitions.json#/percentage"
+        },
+        "civil-servant-status": {
+            "description": "employment-status of civil servants",
+            "$ref": "definitions.json#/civil-servant-status"
+        },
+        "designation": {
+            "type": "string",
+            "description": "specific job description of person"
+        },
+        "employment-category": {
+            "description": "employment category of person",
+            "$ref": "definitions.json#/employment-category"
+        },
+        "employment-mode": {
+            "description": "mode of the employment relationship (e.g., full, part-time)",
+            "$ref": "definitions.json#/employment-mode"
+        },
+        "self-employment-start-date": {
+            "description": "start date of self employment",
+            "$ref": "definitions.json#/date"
+        },
+        "staff-responsibility-number": {
+            "$ref": "definitions.json#/nonnegative-integer",
+            "description": "number of people person is responsible for (as part of their job)"
+        }
+    }
+}

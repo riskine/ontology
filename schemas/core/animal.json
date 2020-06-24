@@ -1,0 +1,15 @@
+{
+  "$id": "https://ontology.riskine.com/animal.json",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "object.json"
+    }
+  ],
+  "properties": {
+    "birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "definitions.json#/date"
+    }
+  }
+}

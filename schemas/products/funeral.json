@@ -1,0 +1,619 @@
+{
+  "type": "object",
+  "properties": {
+    "person.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.height": {
+      "description": "height of person in cm",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.past-smoking-habits": {
+      "description": "smoking habits of person in the past",
+      "$ref": "#/definitions/past-smoking-habits"
+    },
+    "person.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.risk-sport-habits": {
+      "description": "risk sport habits of person",
+      "$ref": "#/definitions/risk-sport-habits"
+    },
+    "person.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.smoking-habits": {
+      "description": "smoking habits of person",
+      "$ref": "#/definitions/smoking-habits"
+    },
+    "person.sport-habits": {
+      "description": "sport habits of person",
+      "$ref": "#/definitions/sport-habits"
+    },
+    "person.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.weight": {
+      "description": "weight of person in kg",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.funeral.cancellation-period": {
+      "description": "cancellation-period of product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.funeral.contributor.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.funeral.contributor.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.funeral.contributor.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.funeral.contributor.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.funeral.contributor.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.funeral.contributor.bank-account.bank-city": {
+      "type": "string",
+      "description": "city of issuing bank"
+    },
+    "product.funeral.contributor.bank-account.bank-name": {
+      "type": "string",
+      "description": "name of issuing bank"
+    },
+    "product.funeral.contributor.bank-account.bic": {
+      "type": "string",
+      "description": "Bank Identifier Code"
+    },
+    "product.funeral.contributor.bank-account.iban": {
+      "type": "string",
+      "description": "International Banking Account Number"
+    },
+    "product.funeral.contributor.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.funeral.contributor.credit-card.card-number": {
+      "type": "string",
+      "description": "credit card number"
+    },
+    "product.funeral.contributor.credit-card.card-type": {
+      "description": "credit card type",
+      "$ref": "#/definitions/credit-card-type"
+    },
+    "product.funeral.contributor.credit-card.cvc": {
+      "type": "string",
+      "description": "credit card verification code"
+    },
+    "product.funeral.contributor.credit-card.expiration-month": {
+      "type": "integer",
+      "description": "expiration month of credit card (1-12)"
+    },
+    "product.funeral.contributor.credit-card.expiration-year": {
+      "description": "expiration year of credit card",
+      "$ref": "#/definitions/year"
+    },
+    "product.funeral.contributor.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.funeral.contributor.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.funeral.contributor.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.funeral.contributor.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.funeral.contributor.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.funeral.contributor.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.funeral.contributor.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.funeral.contributor.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.funeral.contributor.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.funeral.contributor.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.funeral.contributor.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.funeral.contributor.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.funeral.contributor.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.funeral.contributor.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.funeral.coverage.funeral-costs.beneficiary.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.funeral.coverage.funeral-costs.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.funeral.coverage.funeral-costs.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.funeral.coverage.funeral-costs.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.funeral.coverage.funeral-costs.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.funeral.coverage.transport-costs-death.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.funeral.coverage.transport-costs-death.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.funeral.coverage.transport-costs-death.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.funeral.coverage.transport-costs-death.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.funeral.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.funeral.package": {
+      "type": "string",
+      "description": "specific tariff name"
+    },
+    "product.funeral.policyholder.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.funeral.policyholder.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.funeral.policyholder.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.funeral.policyholder.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.funeral.policyholder.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.funeral.policyholder.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.funeral.policyholder.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.funeral.policyholder.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.funeral.policyholder.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.funeral.policyholder.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.funeral.policyholder.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.funeral.policyholder.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.funeral.policyholder.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.funeral.policyholder.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.funeral.policyholder.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.funeral.policyholder.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.funeral.policyholder.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.funeral.policyholder.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.funeral.policyholder.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.funeral.policyholder.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.funeral.premium-amount": {
+      "description": "premium amount per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.funeral.premium-payment-interval": {
+      "description": "payment interval for product-premium",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.funeral.premium-payment-method": {
+      "description": "payment method for product-premium",
+      "$ref": "#/definitions/payment-method"
+    },
+    "product.funeral.start-date": {
+      "description": "start date of validity period of the product",
+      "$ref": "#/definitions/date"
+    },
+    "product.funeral.term-time": {
+      "description": "term-time for product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    }
+  },
+  "definitions": {
+    "money": {
+      "type": "number",
+      "format": "money"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "nonnegative-integer": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "m",
+        "f"
+      ],
+      "enum-description": [
+        "male",
+        "female"
+      ]
+    },
+    "sport-habits": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "yes, regularly",
+        "yes, rarely",
+        "no"
+      ]
+    },
+    "risk-sport-habits": {
+      "type": "integer",
+      "enum": [
+        1,
+        2
+      ],
+      "enum-description": [
+        "yes",
+        "no"
+      ]
+    },
+    "past-smoking-habits": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "never",
+        ">1 year",
+        "<=1 year"
+      ]
+    },
+    "smoking-habits": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "yes, regularly",
+        "yes, rarely",
+        "no"
+      ]
+    },
+    "temporal-interval": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "enum-description": [
+        "not specified",
+        "one-off",
+        "daily",
+        "weekly",
+        "monthly",
+        "quaterly",
+        "bi-annually",
+        "annually",
+        "every 2 years",
+        "every 3 years"
+      ]
+    },
+    "salutation": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "Ms.",
+        "Mrs.",
+        "Mr."
+      ]
+    },
+    "marital-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "enum-description": [
+        "single",
+        "married",
+        "divorced",
+        "widowed",
+        "partnership",
+        "separated"
+      ]
+    },
+    "payment-method": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "direct debit",
+        "payment slip",
+        "standing order",
+        "credit card"
+      ]
+    },
+    "credit-card-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "visa",
+        "master-card",
+        "american express",
+        "diners club",
+        "other"
+      ]
+    },
+    "year": {
+        "type": "integer",
+        "minimum": 1900
+    }
+  }
+}

@@ -1,0 +1,1113 @@
+{
+  "type": "object",
+  "properties": {
+    "person.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.children.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.children.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.children.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.children.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.children.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.children.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.children.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.children.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.children.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.children.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.children.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.children.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.children.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.children.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.children.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.children.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.children.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.children.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.children.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.children.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.partner.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.partner.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.partner.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.partner.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.partner.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.partner.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.partner.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.partner.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.partner.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.partner.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.partner.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.partner.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.partner.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.partner.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.partner.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.partner.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.partner.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.outpatient.cancellation-period": {
+      "description": "cancellation-period of product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.contributor.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.outpatient.contributor.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.outpatient.contributor.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.outpatient.contributor.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.outpatient.contributor.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.outpatient.contributor.bank-account.bank-city": {
+      "type": "string",
+      "description": "city of issuing bank"
+    },
+    "product.outpatient.contributor.bank-account.bank-name": {
+      "type": "string",
+      "description": "name of issuing bank"
+    },
+    "product.outpatient.contributor.bank-account.bic": {
+      "type": "string",
+      "description": "Bank Identifier Code"
+    },
+    "product.outpatient.contributor.bank-account.iban": {
+      "type": "string",
+      "description": "International Banking Account Number"
+    },
+    "product.outpatient.contributor.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.outpatient.contributor.credit-card.card-number": {
+      "type": "string",
+      "description": "credit card number"
+    },
+    "product.outpatient.contributor.credit-card.card-type": {
+      "description": "credit card type",
+      "$ref": "#/definitions/credit-card-type"
+    },
+    "product.outpatient.contributor.credit-card.cvc": {
+      "type": "string",
+      "description": "credit card verification code"
+    },
+    "product.outpatient.contributor.credit-card.expiration-month": {
+      "type": "integer",
+      "description": "expiration month of credit card (1-12)"
+    },
+    "product.outpatient.contributor.credit-card.expiration-year": {
+      "description": "expiration year of credit card",
+      "$ref": "#/definitions/year"
+    },
+    "product.outpatient.contributor.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.outpatient.contributor.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.outpatient.contributor.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.outpatient.contributor.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.contributor.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.outpatient.contributor.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.outpatient.contributor.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.outpatient.contributor.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.contributor.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.outpatient.contributor.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.outpatient.contributor.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.outpatient.contributor.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.outpatient.contributor.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.outpatient.contributor.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.outpatient.coverage-period-non-european-countries": {
+      "description": "how long is medical treatment covered in non-european countries (in months)",
+      "$ref": "#/definitions/coverage-period"
+    },
+    "product.outpatient.coverage.dental.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.dental-treatment.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.dental-treatment.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.dental.dental-treatment.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.outpatient.coverage.dental.dental-treatment.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.dental.dental-treatment.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.dental-treatment.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.dental.dental-treatment.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.dental-treatment.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.dental.dentures.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.dentures.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.dental.dentures.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.outpatient.coverage.dental.dentures.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.dental.dentures.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.dentures.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.dental.dentures.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.dentures.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.dental.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.dental.implants.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.implants.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.dental.implants.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.dental.implants.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.implants.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.dental.implants.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.implants.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.dental.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.dental.no-tooth-scale.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.dental.orthodontic-treatment.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.orthodontic-treatment.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.dental.orthodontic-treatment.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.dental.orthodontic-treatment.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.orthodontic-treatment.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.dental.orthodontic-treatment.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.orthodontic-treatment.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.dental.professional-tooth-cleaning.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.dental.professional-tooth-cleaning.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.dental.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.dental.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.dental.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.outpatient.alternative-practitioners.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.alternative-practitioners.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.outpatient.alternative-practitioners.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.outpatient.coverage.outpatient.alternative-practitioners.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.outpatient.alternative-practitioners.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.alternative-practitioners.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.outpatient.alternative-practitioners.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.alternative-practitioners.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.outpatient.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.drugs-and-healing-aids.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.drugs-and-healing-aids.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.outpatient.drugs-and-healing-aids.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.outpatient.coverage.outpatient.drugs-and-healing-aids.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.outpatient.drugs-and-healing-aids.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.drugs-and-healing-aids.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.outpatient.drugs-and-healing-aids.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.drugs-and-healing-aids.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.outpatient.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.outpatient.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.outpatient.coverage.outpatient.free-choice-of-doctor.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.outpatient.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.outpatient.natural-medicine.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.natural-medicine.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.outpatient.natural-medicine.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.outpatient.coverage.outpatient.natural-medicine.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.outpatient.natural-medicine.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.natural-medicine.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.outpatient.natural-medicine.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.natural-medicine.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-surgery.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-surgery.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-surgery.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-surgery.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-surgery.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-surgery.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-surgery.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-surgery.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-treatment.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-treatment.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-treatment.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-treatment.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-treatment.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-treatment.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-treatment.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.outpatient-treatment.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.outpatient.physiotherapy.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.physiotherapy.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.outpatient.physiotherapy.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.outpatient.coverage.outpatient.physiotherapy.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.outpatient.physiotherapy.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.physiotherapy.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.outpatient.physiotherapy.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.physiotherapy.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.outpatient.preventive-medical-examination.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.preventive-medical-examination.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.outpatient.preventive-medical-examination.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.outpatient.coverage.outpatient.preventive-medical-examination.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.outpatient.preventive-medical-examination.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.preventive-medical-examination.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.outpatient.preventive-medical-examination.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.preventive-medical-examination.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.outpatient.psychotherapy.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.psychotherapy.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.outpatient.psychotherapy.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.outpatient.coverage.outpatient.psychotherapy.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.outpatient.psychotherapy.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.psychotherapy.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.outpatient.psychotherapy.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.psychotherapy.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.outpatient.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.outpatient.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.visual-aids.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.visual-aids.eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.coverage.outpatient.visual-aids.fee-schedule": {
+      "description": "fee-schedule covered for medical treatment",
+      "$ref": "#/definitions/fee-schedule"
+    },
+    "product.outpatient.coverage.outpatient.visual-aids.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.outpatient.coverage.outpatient.visual-aids.reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.visual-aids.reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "#/definitions/percentage"
+    },
+    "product.outpatient.coverage.outpatient.visual-aids.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.coverage.outpatient.visual-aids.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.coverage.outpatient.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.outpatient.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.package": {
+      "type": "string",
+      "description": "specific tariff name"
+    },
+    "product.outpatient.policyholder.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.outpatient.policyholder.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.outpatient.policyholder.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.outpatient.policyholder.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.outpatient.policyholder.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.outpatient.policyholder.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.outpatient.policyholder.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.outpatient.policyholder.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.outpatient.policyholder.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.outpatient.policyholder.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.policyholder.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.outpatient.policyholder.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.outpatient.policyholder.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.outpatient.policyholder.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.policyholder.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.outpatient.policyholder.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.outpatient.policyholder.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.outpatient.policyholder.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.outpatient.policyholder.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.outpatient.policyholder.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.outpatient.premium-amount": {
+      "description": "premium amount per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.outpatient.premium-payment-interval": {
+      "description": "payment interval for product-premium",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.outpatient.premium-payment-method": {
+      "description": "payment method for product-premium",
+      "$ref": "#/definitions/payment-method"
+    },
+    "product.outpatient.start-date": {
+      "description": "start date of validity period of the product",
+      "$ref": "#/definitions/date"
+    },
+    "product.outpatient.term-time": {
+      "description": "term-time for product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    }
+  },
+  "definitions": {
+    "money": {
+      "type": "number",
+      "format": "money"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "nonnegative-integer": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "m",
+        "f"
+      ],
+      "enum-description": [
+        "male",
+        "female"
+      ]
+    },
+    "percentage": {
+      "type": "number",
+      "minimum": 0
+    },
+    "temporal-interval": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "enum-description": [
+        "not specified",
+        "one-off",
+        "daily",
+        "weekly",
+        "monthly",
+        "quaterly",
+        "bi-annually",
+        "annually",
+        "every 2 years",
+        "every 3 years"
+      ]
+    },
+    "salutation": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "Ms.",
+        "Mrs.",
+        "Mr."
+      ]
+    },
+    "fee-schedule": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2
+      ],
+      "enum-description": [
+        "not specified",
+        "standard coverage",
+        "superior coverage"
+      ]
+    },
+    "coverage-period": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        6,
+        12
+      ],
+      "enum-description": [
+        "not specified",
+        "at least 1 month",
+        "at least 6 months",
+        "at least 12 months"
+      ]
+    },
+    "marital-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "enum-description": [
+        "single",
+        "married",
+        "divorced",
+        "widowed",
+        "partnership",
+        "separated"
+      ]
+    },
+    "payment-method": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "direct debit",
+        "payment slip",
+        "standing order",
+        "credit card"
+      ]
+    },
+    "credit-card-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "visa",
+        "master-card",
+        "american express",
+        "diners club",
+        "other"
+      ]
+    },
+    "year": {
+        "type": "integer",
+        "minimum": 1900
+    }
+  }
+}

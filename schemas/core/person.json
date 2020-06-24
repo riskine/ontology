@@ -1,0 +1,219 @@
+{
+  "$id": "https://ontology.riskine.com/person.json",
+  "type": "object",
+  "properties": {
+    "first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "definitions.json#/date"
+    },
+    "gender": {
+      "description": "gender (binary)",
+      "$ref": "definitions.json#/gender"
+    },
+    "address": {
+      "description": "address of person, structure or property",
+      "$ref": "address.json"
+    },
+    "children": {
+      "type": "array",
+      "description": "children of person",
+      "items": {
+        "$ref": "person.json"
+      }
+    },
+    "parents": {
+      "type": "array",
+      "description": "parents of person",
+      "items": {
+        "$ref": "person.json"
+      }
+    },
+    "partner": {
+      "description": "partner of person",
+      "$ref": "person.json"
+    },
+    "owns": {
+      "type": "array",
+      "description": "objects (vehicles, structures, ...) owned by person",
+      "items": {
+        "$ref": "object.json"
+      }
+    },
+    "drives": {
+      "type": "array",
+      "description": "vehicles driven by person",
+      "items": {
+        "$ref": "vehicle.json"
+      }
+    },
+    "uses": {
+      "type": "array",
+      "description": "objects used by person",
+      "items": {
+        "$ref": "object.json"
+      }
+    },
+    "causes": {
+      "type": "array",
+      "description": "risk events caused by person",
+      "items": {
+        "$ref": "risk.json"
+      }
+    },
+    "holds-policy-for": {
+      "type": "array",
+      "description": "products person is policyholder of",
+      "items": {
+        "$ref": "product.json"
+      }
+    },
+    "education": {
+      "description": "education of person",
+      "$ref": "education.json"
+    },
+    "profession": {
+      "description": "profession of person",
+      "$ref": "profession.json"
+    },
+    "net-income": {
+      "description": "annual net income of person",
+      "$ref": "definitions.json#/money"
+    },
+    "gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "definitions.json#/money"
+    },
+    "bank-account": {
+      "type": "array",
+      "description": "bank account of person",
+      "items": {
+        "$ref": "bank-account.json"
+      }
+    },
+    "credit-card": {
+      "type": "array",
+      "description": "credit card of person",
+      "items": {
+        "$ref": "credit-card.json"
+      }
+    },
+    "height": {
+      "$ref": "definitions.json#/nonnegative-integer",
+      "description": "height of person in cm"
+    },
+    "weight": {
+      "$ref": "definitions.json#/nonnegative-integer",
+      "description": "weight of person in kg"
+    },
+    "past-smoking-habits": {
+      "description": "smoking habits of person in the past",
+      "$ref": "definitions.json#/past-smoking-habits"
+    },
+    "smoking-habits": {
+      "description": "smoking habits of person",
+      "$ref": "definitions.json#/smoking-habits"
+    },
+    "sport-habits": {
+      "description": "sport habits of person",
+      "$ref": "definitions.json#/sport-habits"
+    },
+    "risk-sport-habits": {
+      "description": "risk sport habits of person",
+      "$ref": "definitions.json#/risk-sport-habits"
+    },
+    "driving-license": {
+      "description": "driving-license of person",
+      "$ref": "driving-license.json"
+    },
+    "identification": {
+      "type": "array",
+      "description": "identification document of person",
+      "items": {
+        "$ref": "identification.json"
+      }
+    },
+    "marital-status": {
+      "description": "marital status of person",
+      "$ref": "definitions.json#/marital-status"
+    },
+    "mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "salutation": {
+      "description": "salutation of person",
+      "$ref": "definitions.json#/salutation"
+    },
+    "title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "birth-name": {
+      "type": "string",
+      "description": "birth name of person"
+    },
+    "birth-city": {
+      "type": "string",
+      "description": "birth city of person"
+    },
+    "birth-country": {
+      "type": "string",
+      "description": "birth country of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "eu-citizen": {
+      "type": "boolean",
+      "description": "person is EU-citizen"
+    },
+    "citizenship": {
+      "type": "string",
+      "description": "citizenship of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "nationality": {
+      "type": "string",
+      "description": "nationality of person (ISO 3166-1 alpha-2 country code)"
+    },
+    "driver-club-membership": {
+      "description": "driver club person is member of",
+      "$ref": "definitions.json#/driver-club"
+    },
+    "engine-related-tax-relief": {
+      "type": "boolean",
+      "description": "person is relieved from engine-related insurance tax"
+    },
+    "affected-by": {
+      "type": "array",
+      "items": {
+        "description": "damages that affect the person",
+        "$ref": "damage.json"
+      }
+    }
+  }
+}

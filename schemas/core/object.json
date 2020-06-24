@@ -1,0 +1,38 @@
+{
+  "$id": "https://ontology.riskine.com/object.json",
+  "type": "object",
+  "properties": {
+    "value": {
+      "description": "fair value of object",
+      "$ref": "definitions.json#/money"
+    },
+    "owners": {
+      "type": "array",
+      "description": "owners of object",
+      "items": {
+        "$ref": "person.json"
+      }
+    },
+    "users": {
+      "type": "array",
+      "description": "users of object",
+      "items": {
+        "$ref": "person.json"
+      }
+    },
+    "affected-by": {
+      "type": "array",
+      "items": {
+        "description": "damages that affect the object",
+        "$ref": "damage.json"
+      }
+    },
+    "involved-in": {
+      "type": "array",
+      "items": {
+        "description": "risk events the object is involved in",
+        "$ref": "risk.json"
+      }
+    }
+  }
+}

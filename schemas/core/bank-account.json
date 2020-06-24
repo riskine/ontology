@@ -1,0 +1,29 @@
+{
+    "$id": "https://ontology.riskine.com/bank-account.json",
+    "type": "object",
+    "properties": {
+        "bank-city": {
+            "type": "string",
+            "description": "city of issuing bank"
+        },
+        "bank-name": {
+            "type": "string",
+            "description": "name of issuing bank"
+        },
+        "bic": {
+            "type": "string",
+            "description": "Bank Identifier Code"
+        },
+        "iban": {
+            "type": "string",
+            "description": "International Banking Account Number"
+        },
+        "account-holders": {
+            "type": "array",
+            "description": "holders of bank account",
+            "items": {
+                "$ref": "person.json"
+            }
+        }
+    }
+}

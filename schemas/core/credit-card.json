@@ -1,0 +1,30 @@
+{
+    "$id": "https://ontology.riskine.com/credit-card.json",
+    "type": "object",
+    "properties": {
+        "card-number": {
+            "type": "string",
+            "description": "credit card number"
+        },
+        "card-type": {
+            "description": "credit card type",
+            "$ref": "definitions.json#/credit-card-type"
+        },
+        "cvc": {
+            "type": "string",
+            "description": "credit card verification code"
+        },
+        "expiration-month": {
+            "type": "integer",
+            "description": "expiration month of credit card (1-12)"
+        },
+        "expiration-year": {
+            "description": "expiration year of credit card",
+            "$ref": "definitions.json#/year"
+        },
+        "card-holder": {
+            "description": "credit card holder",
+            "$ref": "person.json"
+        }
+    }
+}

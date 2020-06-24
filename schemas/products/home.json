@@ -1,0 +1,834 @@
+{
+  "type": "object",
+  "properties": {
+    "object.airconditioning.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.airconditioning.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.building-services.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.building-services.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.heating.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.heating.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.photovoltaic-installation.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.photovoltaic-installation.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.property.developed-property.size": {
+      "description": "size of structure or property in qm",
+      "$ref": "#/definitions/nonnegative"
+    },
+    "object.property.developed-property.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.sauna.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.sauna.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.solar-installation.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.solar-installation.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.structure.home.house.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "object.structure.home.house.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.structure.home.house.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "object.structure.home.house.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "object.structure.home.house.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "object.structure.home.house.construction-type": {
+      "type": "string",
+      "description": "way of construction of structure"
+    },
+    "object.structure.home.house.days-occupied": {
+      "description": "number of days a structure is occupied",
+      "$ref": "#/definitions/days-occupied"
+    },
+    "object.structure.home.house.is-shell": {
+      "type": "boolean",
+      "description": "construction phase of structure is shell construction"
+    },
+    "object.structure.home.house.number-of-floors": {
+      "description": "number of floors of structure",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.structure.home.house.owner.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "object.structure.home.house.owner.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.structure.home.house.owner.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "object.structure.home.house.owner.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "object.structure.home.house.owner.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "object.structure.home.house.owner.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "object.structure.home.house.owner.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "object.structure.home.house.owner.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "object.structure.home.house.owner.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "object.structure.home.house.owner.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.structure.home.house.owner.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "object.structure.home.house.owner.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "object.structure.home.house.owner.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "object.structure.home.house.owner.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.structure.home.house.owner.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "object.structure.home.house.owner.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "object.structure.home.house.owner.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "object.structure.home.house.owner.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "object.structure.home.house.owner.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "object.structure.home.house.owner.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "object.structure.home.house.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.structure.home.house.size": {
+      "description": "size of structure or property in qm",
+      "$ref": "#/definitions/nonnegative"
+    },
+    "object.structure.home.house.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.structure.home.house.year-of-construction": {
+      "description": "year of construction of object",
+      "$ref": "#/definitions/year"
+    },
+    "object.structure.outbuilding.construction-type": {
+      "type": "string",
+      "description": "way of construction of structure"
+    },
+    "object.structure.outbuilding.is-shell": {
+      "type": "boolean",
+      "description": "construction phase of structure is shell construction"
+    },
+    "object.structure.outbuilding.number-of-floors": {
+      "description": "number of floors of structure",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.structure.outbuilding.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.structure.outbuilding.size": {
+      "description": "size of structure or property in qm",
+      "$ref": "#/definitions/nonnegative"
+    },
+    "object.structure.outbuilding.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.structure.outbuilding.year-of-construction": {
+      "description": "year of construction of object",
+      "$ref": "#/definitions/year"
+    },
+    "object.swimming-pool.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.swimming-pool.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.wintergarden.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.wintergarden.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "person.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.home.cancellation-period": {
+      "description": "cancellation-period of product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.contributor.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.home.contributor.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.home.contributor.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.home.contributor.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.home.contributor.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.home.contributor.bank-account.bank-city": {
+      "type": "string",
+      "description": "city of issuing bank"
+    },
+    "product.home.contributor.bank-account.bank-name": {
+      "type": "string",
+      "description": "name of issuing bank"
+    },
+    "product.home.contributor.bank-account.bic": {
+      "type": "string",
+      "description": "Bank Identifier Code"
+    },
+    "product.home.contributor.bank-account.iban": {
+      "type": "string",
+      "description": "International Banking Account Number"
+    },
+    "product.home.contributor.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.home.contributor.credit-card.card-number": {
+      "type": "string",
+      "description": "credit card number"
+    },
+    "product.home.contributor.credit-card.card-type": {
+      "description": "credit card type",
+      "$ref": "#/definitions/credit-card-type"
+    },
+    "product.home.contributor.credit-card.cvc": {
+      "type": "string",
+      "description": "credit card verification code"
+    },
+    "product.home.contributor.credit-card.expiration-month": {
+      "type": "integer",
+      "description": "expiration month of credit card (1-12)"
+    },
+    "product.home.contributor.credit-card.expiration-year": {
+      "description": "expiration year of credit card",
+      "$ref": "#/definitions/year"
+    },
+    "product.home.contributor.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.home.contributor.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.home.contributor.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.home.contributor.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.contributor.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.home.contributor.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.home.contributor.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.home.contributor.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.contributor.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.home.contributor.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.home.contributor.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.home.contributor.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.home.contributor.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.home.contributor.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.home.coverage.home-equipment.airconditioning.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.airconditioning.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home-equipment.airconditioning.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.airconditioning.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home-equipment.building-services-comprehensive.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.building-services-comprehensive.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home-equipment.building-services-comprehensive.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.building-services-comprehensive.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home-equipment.heating-comprehensive.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.heating-comprehensive.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home-equipment.heating-comprehensive.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.heating-comprehensive.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home-equipment.photovoltaic-installation.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.photovoltaic-installation.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home-equipment.photovoltaic-installation.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.photovoltaic-installation.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home-equipment.sauna.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.sauna.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home-equipment.sauna.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.sauna.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home-equipment.solar-installation.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.solar-installation.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home-equipment.solar-installation.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.solar-installation.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home-equipment.storm.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.storm.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home-equipment.storm.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.storm.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home-equipment.swimming-pool.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.swimming-pool.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home-equipment.swimming-pool.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.swimming-pool.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home-equipment.wintergarden.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.wintergarden.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home-equipment.wintergarden.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home-equipment.wintergarden.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home.fire.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home.fire.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home.fire.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home.fire.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home.hail-optical-damage.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home.hail-optical-damage.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home.hail-optical-damage.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home.hail-optical-damage.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home.landslide.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home.landslide.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home.landslide.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home.landslide.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home.natcat-extended.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home.natcat-extended.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home.natcat-extended.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home.natcat-extended.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home.outbuilding.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home.outbuilding.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home.outbuilding.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home.outbuilding.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.coverage.home.waterleakage-home.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home.waterleakage-home.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.home.coverage.home.waterleakage-home.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.coverage.home.waterleakage-home.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.home.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.package": {
+      "type": "string",
+      "description": "specific tariff name"
+    },
+    "product.home.premium-amount": {
+      "description": "premium amount per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.home.premium-payment-interval": {
+      "description": "payment interval for product-premium",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.home.premium-payment-method": {
+      "description": "payment method for product-premium",
+      "$ref": "#/definitions/payment-method"
+    },
+    "product.home.start-date": {
+      "description": "start date of validity period of the product",
+      "$ref": "#/definitions/date"
+    },
+    "product.home.term-time": {
+      "description": "term-time for product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    }
+  },
+  "definitions": {
+    "money": {
+      "type": "number",
+      "format": "money"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "days-occupied": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 365
+    },
+    "nonnegative-integer": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "m",
+        "f"
+      ],
+      "enum-description": [
+        "male",
+        "female"
+      ]
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900
+    },
+    "nonnegative": {
+      "type": "number",
+      "minimum": 0
+    },
+    "temporal-interval": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "enum-description": [
+        "not specified",
+        "one-off",
+        "daily",
+        "weekly",
+        "monthly",
+        "quaterly",
+        "bi-annually",
+        "annually",
+        "every 2 years",
+        "every 3 years"
+      ]
+    },
+    "salutation": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "Ms.",
+        "Mrs.",
+        "Mr."
+      ]
+    },
+    "marital-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "enum-description": [
+        "single",
+        "married",
+        "divorced",
+        "widowed",
+        "partnership",
+        "separated"
+      ]
+    },
+    "payment-method": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "direct debit",
+        "payment slip",
+        "standing order",
+        "credit card"
+      ]
+    },
+    "credit-card-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "visa",
+        "master-card",
+        "american express",
+        "diners club",
+        "other"
+      ]
+    }
+  }
+}

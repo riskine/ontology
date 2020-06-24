@@ -1,0 +1,883 @@
+{
+  "type": "object",
+  "properties": {
+    "object.vehicle.brand": {
+      "type": "string",
+      "description": "brand of vehicle"
+    },
+    "object.vehicle.catalysator": {
+      "type": "boolean",
+      "description": "does vehicle have a catalysator"
+    },
+    "object.vehicle.co2-emission": {
+      "description": "co2-emission (g CO2/km)",
+      "$ref": "#/definitions/nonnegative"
+    },
+    "object.vehicle.commercial-use": {
+      "type": "boolean",
+      "description": "vehicle is used for commercial purposes"
+    },
+    "object.vehicle.current-mileage": {
+      "description": "current mileage of vehicle",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.driver.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "object.vehicle.driver.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.driver.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "object.vehicle.driver.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "object.vehicle.driver.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "object.vehicle.driver.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.driver.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "object.vehicle.driver.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "object.vehicle.driver.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "object.vehicle.driver.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.driver.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "object.vehicle.driver.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "object.vehicle.driver.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "object.vehicle.driver.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.driver.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "object.vehicle.driver.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "object.vehicle.driver.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "object.vehicle.driver.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "object.vehicle.driver.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "object.vehicle.driver.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "object.vehicle.engine": {
+      "description": "engine type of vehicle",
+      "$ref": "#/definitions/engine"
+    },
+    "object.vehicle.engine-displacement": {
+      "description": "engine-displacement of the vehicle (ccm)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.engine-power": {
+      "description": "engine power of vehicle (kW)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.first-registration": {
+      "description": "date of first registration of vehicle",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.first-registration-by-policyholder": {
+      "description": "date of first registration of vehicle by policyholder",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.garage": {
+      "type": "boolean",
+      "description": "vehicle is parked in a garage"
+    },
+    "object.vehicle.horse-power": {
+      "description": "engine power of the vehicle (PS)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.hsn": {
+      "type": "string",
+      "description": "manufacturer key number (4-digit numerical code)"
+    },
+    "object.vehicle.id": {
+      "type": "string",
+      "description": "unique ID of a vehicle (17 digits)"
+    },
+    "object.vehicle.is-leased": {
+      "type": "boolean",
+      "description": "vehicle is leased"
+    },
+    "object.vehicle.model": {
+      "type": "string",
+      "description": "model of vehicle"
+    },
+    "object.vehicle.mostly-commute-use": {
+      "type": "boolean",
+      "description": "vehicle is mostly used for commuting to work"
+    },
+    "object.vehicle.new-registration": {
+      "type": "boolean",
+      "description": "vehicle is newly registered"
+    },
+    "object.vehicle.number-plate": {
+      "type": "string",
+      "description": "number plate of vehicle"
+    },
+    "object.vehicle.owner.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "object.vehicle.owner.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "object.vehicle.owner.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "object.vehicle.owner.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "object.vehicle.owner.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "object.vehicle.owner.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "object.vehicle.owner.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "object.vehicle.owner.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "object.vehicle.owner.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "object.vehicle.owner.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.owner.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "object.vehicle.owner.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "object.vehicle.owner.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "object.vehicle.owner.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.owner.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "object.vehicle.owner.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "object.vehicle.owner.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "object.vehicle.owner.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "object.vehicle.owner.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "object.vehicle.owner.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "object.vehicle.payload": {
+      "description": "payload of vehicle (kg)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.registration-area": {
+      "type": "string",
+      "description": "registration area of vehicle (1-3 letters)"
+    },
+    "object.vehicle.reinstatement-value": {
+      "description": "reinstatement value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.seats": {
+      "description": "number of seats (incl. driver)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.tare-weight": {
+      "description": "tare-weight of vehicle (kg)",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.vehicle.tsn": {
+      "type": "string",
+      "description": "type ID of vehicle"
+    },
+    "object.vehicle.value": {
+      "description": "fair value of object",
+      "$ref": "#/definitions/money"
+    },
+    "object.vehicle.vehicle-type": {
+      "description": "vehicle type",
+      "$ref": "#/definitions/vehicle-type"
+    },
+    "object.vehicle.year-of-construction": {
+      "description": "year of construction of object",
+      "$ref": "#/definitions/year"
+    },
+    "object.vehicle.yearly-mileage": {
+      "description": "average kilometers per year",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "person.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.children.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.children.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.children.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.children.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.children.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.children.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.children.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.children.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.children.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.children.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.children.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.children.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.children.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.children.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.children.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.children.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.children.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.children.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.children.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.children.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.partner.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "person.partner.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.partner.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.partner.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.partner.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "person.partner.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "person.partner.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.partner.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "person.partner.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.partner.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "person.partner.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "person.partner.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "person.partner.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.partner.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.partner.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.partner.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.partner.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.partner.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "person.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "person.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "person.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "person.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "person.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.vehicle-legal.cancellation-period": {
+      "description": "cancellation-period of product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.vehicle-legal.contributor.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.vehicle-legal.contributor.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.vehicle-legal.contributor.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.vehicle-legal.contributor.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.vehicle-legal.contributor.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.vehicle-legal.contributor.bank-account.bank-city": {
+      "type": "string",
+      "description": "city of issuing bank"
+    },
+    "product.vehicle-legal.contributor.bank-account.bank-name": {
+      "type": "string",
+      "description": "name of issuing bank"
+    },
+    "product.vehicle-legal.contributor.bank-account.bic": {
+      "type": "string",
+      "description": "Bank Identifier Code"
+    },
+    "product.vehicle-legal.contributor.bank-account.iban": {
+      "type": "string",
+      "description": "International Banking Account Number"
+    },
+    "product.vehicle-legal.contributor.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.vehicle-legal.contributor.credit-card.card-number": {
+      "type": "string",
+      "description": "credit card number"
+    },
+    "product.vehicle-legal.contributor.credit-card.card-type": {
+      "description": "credit card type",
+      "$ref": "#/definitions/credit-card-type"
+    },
+    "product.vehicle-legal.contributor.credit-card.cvc": {
+      "type": "string",
+      "description": "credit card verification code"
+    },
+    "product.vehicle-legal.contributor.credit-card.expiration-month": {
+      "type": "integer",
+      "description": "expiration month of credit card (1-12)"
+    },
+    "product.vehicle-legal.contributor.credit-card.expiration-year": {
+      "description": "expiration year of credit card",
+      "$ref": "#/definitions/year"
+    },
+    "product.vehicle-legal.contributor.email": {
+      "type": "string",
+      "description": "email-address of person"
+    },
+    "product.vehicle-legal.contributor.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.vehicle-legal.contributor.gender": {
+      "description": "gender (binary)",
+      "$ref": "#/definitions/gender"
+    },
+    "product.vehicle-legal.contributor.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.vehicle-legal.contributor.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.vehicle-legal.contributor.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.vehicle-legal.contributor.mobile-number": {
+      "type": "string",
+      "description": "mobile number of person"
+    },
+    "product.vehicle-legal.contributor.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.vehicle-legal.contributor.phone-number": {
+      "type": "string",
+      "description": "phone number of person"
+    },
+    "product.vehicle-legal.contributor.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.vehicle-legal.contributor.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.vehicle-legal.contributor.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.vehicle-legal.contributor.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.vehicle-legal.contributor.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "product.vehicle-legal.coverage.contract-dispute-own-vehicle.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.vehicle-legal.coverage.contract-dispute-own-vehicle.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.vehicle-legal.coverage.contract-dispute-own-vehicle.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.vehicle-legal.coverage.contract-dispute-own-vehicle.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.vehicle-legal.coverage.traffic-dispute-own-vehicle.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.vehicle-legal.coverage.traffic-dispute-own-vehicle.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.vehicle-legal.coverage.traffic-dispute-own-vehicle.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.vehicle-legal.coverage.traffic-dispute-own-vehicle.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.vehicle-legal.coverage.traffic-dispute-rented-vehicle.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.vehicle-legal.coverage.traffic-dispute-rented-vehicle.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.vehicle-legal.coverage.traffic-dispute-rented-vehicle.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.vehicle-legal.coverage.traffic-dispute-rented-vehicle.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.vehicle-legal.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.vehicle-legal.package": {
+      "type": "string",
+      "description": "specific tariff name"
+    },
+    "product.vehicle-legal.premium-amount": {
+      "description": "premium amount per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.vehicle-legal.premium-payment-interval": {
+      "description": "payment interval for product-premium",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.vehicle-legal.premium-payment-method": {
+      "description": "payment method for product-premium",
+      "$ref": "#/definitions/payment-method"
+    },
+    "product.vehicle-legal.start-date": {
+      "description": "start date of validity period of the product",
+      "$ref": "#/definitions/date"
+    },
+    "product.vehicle-legal.term-time": {
+      "description": "term-time for product in months",
+      "$ref": "#/definitions/nonnegative-integer"
+    }
+  },
+  "definitions": {
+    "money": {
+      "type": "number",
+      "format": "money"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "nonnegative-integer": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "m",
+        "f"
+      ],
+      "enum-description": [
+        "male",
+        "female"
+      ]
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900
+    },
+    "nonnegative": {
+      "type": "number",
+      "minimum": 0
+    },
+    "temporal-interval": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "enum-description": [
+        "not specified",
+        "one-off",
+        "daily",
+        "weekly",
+        "monthly",
+        "quaterly",
+        "bi-annually",
+        "annually",
+        "every 2 years",
+        "every 3 years"
+      ]
+    },
+    "salutation": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "Ms.",
+        "Mrs.",
+        "Mr."
+      ]
+    },
+    "marital-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "enum-description": [
+        "single",
+        "married",
+        "divorced",
+        "widowed",
+        "partnership",
+        "separated"
+      ]
+    },
+    "payment-method": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "direct debit",
+        "payment slip",
+        "standing order",
+        "credit card"
+      ]
+    },
+    "credit-card-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "visa",
+        "master-card",
+        "american express",
+        "diners club",
+        "other"
+      ]
+    },
+    "engine": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "enum-description": [
+        "other",
+        "gasoline",
+        "diesel",
+        "compressed natural gas (CNG)",
+        "liquefied petroleum gas (LPG)",
+        "electric",
+        "hybrid"
+      ]
+    },
+    "vehicle-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "enum-description": [
+        "motor-assisted bicycle",
+        "moped (max. 50ccm)",
+        "(sidecar) motorcycle",
+        "trike",
+        "car",
+        "truck (max. 3500kg)",
+        "truck (> 3500kg)"
+      ]
+    }
+  }
+}

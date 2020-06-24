@@ -1,0 +1,43 @@
+{
+  "$id": "https://ontology.riskine.com/damage.json",
+  "type": "object",
+  "properties": {
+    "onetime-amount": {
+      "description": "onetime financial damage",
+      "$ref": "definitions.json#/money"
+    },
+    "recurring-amount": {
+      "description": "amount of monthly recurring financial damage",
+      "$ref": "definitions.json#/money"
+    },
+    "date": {
+      "description": "the date the damage (first) occurred",
+      "$ref": "definitions.json#/date"
+    },
+    "affected-persons": {
+      "type": "array",
+      "description": "persons affected by damage",
+      "items": {
+        "$ref": "person.json"
+      }
+    },
+    "affected-objects": {
+      "type": "array",
+      "description": "objects affected by damage",
+      "items": {
+        "$ref": "object.json"
+      }
+    },
+    "caused-by": {
+      "description": "risk event that caused the damage",
+      "$ref": "risk.json"
+    },
+    "covered-by": {
+      "type": "array",
+      "items": {
+        "description": "coverages that cover the damage",
+        "$ref": "coverage.json"
+      }
+    }
+  }
+}

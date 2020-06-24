@@ -1,0 +1,22 @@
+{
+    "$id": "https://ontology.riskine.com/education.json",
+    "type": "object",
+    "properties": {
+        "academic-degree": {
+            "description": "academic degree of person",
+            "$ref": "definitions.json#/academic-degree"
+        },
+        "educational-level": {
+            "description": "highest educational level",
+            "$ref": "definitions.json#/educational-level"
+        },
+        "professional-training": {
+            "description": "level of professional training",
+            "$ref": "definitions.json#/professional-training"
+        },
+        "professional-training-type": {
+            "description": "definition of professional training",
+            "$ref": "definitions.json#/professional-training-type"
+        }
+    }
+}

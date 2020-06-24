@@ -1,0 +1,591 @@
+{
+    "$id": "https://ontology.riskine.com/definitions.json",
+    "money": {
+        "type": "number",
+        "format": "money"
+    },
+    "date": {
+        "type": "string",
+        "format": "date"
+    },
+    "days-occupied": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 365
+    },
+    "nonnegative-integer": {
+        "type": "integer",
+        "minimum": 0
+    },
+    "gender": {
+        "type": "string",
+        "enum": [
+            "m",
+            "f"
+        ],
+        "enum-description": [
+            "male",
+            "female"
+        ]
+    },
+    "year": {
+        "type": "integer",
+        "minimum": 1900
+    },
+    "nonnegative": {
+        "type": "number",
+        "minimum": 0
+    },
+    "sport-habits": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3
+        ],
+        "enum-description": [
+            "yes, regularly",
+            "yes, rarely",
+            "no"
+        ]
+    },
+    "risk-sport-habits": {
+        "type": "integer",
+        "enum": [
+            1,
+            2
+        ],
+        "enum-description": [
+            "yes",
+            "no"
+        ]
+    },
+    "past-smoking-habits": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3
+        ],
+        "enum-description": [
+            "never",
+            ">1 year",
+            "<=1 year"
+        ]
+    },
+    "smoking-habits": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3
+        ],
+        "enum-description": [
+            "yes, regularly",
+            "yes, rarely",
+            "no"
+        ]
+    },
+    "area-of-validity": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "enum-description": [
+            "region",
+            "country",
+            "EU",
+            "worldwide"
+        ]
+    },
+    "room-type": {
+        "type": "integer",
+        "enum": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "enum-description": [
+            "not specified",
+            "single",
+            "double",
+            "standard"
+        ]
+    },
+    "level-of-care": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "enum-description": [
+            "level 1",
+            "level 2",
+            "level 3",
+            "level 4",
+            "level 5",
+            "level 6",
+            "level 7"
+        ]
+    },
+    "percentage": {
+        "type": "number",
+        "minimum": 0
+    },
+    "temporal-interval": {
+        "type": "integer",
+        "enum": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "enum-description": [
+            "not specified",
+            "one-off",
+            "daily",
+            "weekly",
+            "monthly",
+            "quaterly",
+            "bi-annually",
+            "annually",
+            "every 2 years",
+            "every 3 years"
+        ]
+    },
+    "salutation": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3
+        ],
+        "enum-description": [
+            "Ms.",
+            "Mrs.",
+            "Mr."
+        ]
+    },
+    "id-type": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "enum-description": [
+            "not specified",
+            "passport",
+            "id-card",
+            "other"
+        ]
+    },
+    "employment-mode": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "enum-description": [
+            "full-time",
+            "part-time",
+            "marginally",
+            "seasonal"
+        ]
+    },
+    "employment-category": {
+        "type": "integer",
+        "enum": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            25,
+            26,
+            28,
+            29,
+            31,
+            33,
+            34,
+            36,
+            38,
+            39
+        ],
+        "enum-description": [
+            "no income",
+            "labourer",
+            "self-employed",
+            "farmer",
+            "public sector employee",
+            "student",
+            "housewife - homemaker",
+            "unemployed",
+            "retired",
+            "(maternity) leave",
+            "apprentice",
+            "employee",
+            "civil servant",
+            "miner",
+            "self-employed artisans",
+            "manager",
+            "director",
+            "freelancer",
+            "public sector labourer",
+            "professional soldier",
+            "regular soldier",
+            "pupil",
+            "director with pension commitment",
+            "executive"
+        ]
+    },
+    "fee-schedule": {
+        "type": "integer",
+        "enum": [
+            0,
+            1,
+            2
+        ],
+        "enum-description": [
+            "not specified",
+            "standard coverage",
+            "superior coverage"
+        ]
+    },
+    "coverage-period": {
+        "type": "integer",
+        "enum": [
+            0,
+            1,
+            6,
+            12
+        ],
+        "enum-description": [
+            "not specified",
+            "at least 1 month",
+            "at least 6 months",
+            "at least 12 months"
+        ]
+    },
+    "start-age": {
+        "type": "integer",
+        "enum": [
+            0,
+            1,
+            2
+        ],
+        "enum-description": [
+            "none",
+            "65 years",
+            "67 years"
+        ]
+    },
+    "marital-status": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            8
+        ],
+        "enum-description": [
+            "single",
+            "married",
+            "divorced",
+            "widowed",
+            "partnership",
+            "separated"
+        ]
+    },
+    "educational-level": {
+        "type": "integer",
+        "enum": [
+            0,
+            3,
+            5,
+            1,
+            2,
+            4
+        ],
+        "enum-description": [
+            "no graduation",
+            "high school diploma (academic)",
+            "university degree",
+            "(qualified) comprehensive school certificate",
+            "secondary school certificate",
+            "high school diploma (professional)"
+        ]
+    },
+    "academic-degree": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "enum-description": [
+            "bachelor",
+            "master",
+            "diploma",
+            "state examination",
+            "doctor - phd"
+        ]
+    },
+    "professional-training": {
+        "type": "integer",
+        "enum": [
+            1,
+            5,
+            3,
+            4,
+            2,
+            0
+        ],
+        "enum-description": [
+            "completed professional training",
+            "university degree",
+            "Meister",
+            "Techniker",
+            "Betriebswirt - Fachwirt",
+            "none - not finished"
+        ]
+    },
+    "professional-training-type": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "enum-description": [
+            "commercial training",
+            "craft training",
+            "industrial training",
+            "short training",
+            "other"
+        ]
+    },
+    "civil-servant-status": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3
+        ],
+        "enum-description": [
+            "civil servant for life",
+            "civil servant on probation",
+            "civil servant on revocation"
+        ]
+    },
+    "payment-method": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "enum-description": [
+            "direct debit",
+            "payment slip",
+            "standing order",
+            "credit card"
+        ]
+    },
+    "credit-card-type": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "enum-description": [
+            "visa",
+            "master-card",
+            "american express",
+            "diners club",
+            "other"
+        ]
+    },
+    "driver-club": {
+        "type": "integer",
+        "enum": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "enum-description": [
+            "none",
+            "ARBÖ",
+            "ÖAMTC",
+            "ADAC",
+            "ACE",
+            "AvD"
+        ]
+    },
+    "engine": {
+        "type": "integer",
+        "enum": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "enum-description": [
+            "other",
+            "gasoline",
+            "diesel",
+            "compressed natural gas (CNG)",
+            "liquefied petroleum gas (LPG)",
+            "electric",
+            "hybrid"
+        ]
+    },
+    "vehicle-type": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "enum-description": [
+            "motor-assisted bicycle",
+            "moped (max. 50ccm)",
+            "(sidecar) motorcycle",
+            "trike",
+            "car",
+            "truck (max. 3500kg)",
+            "truck (> 3500kg)"
+        ]
+    },
+    "license-category": {
+        "type": "array",
+        "items": [
+            {
+                "type": "string",
+                "enum": [
+                    "AM",
+                    "A1",
+                    "A2",
+                    "A",
+                    "B1",
+                    "B",
+                    "BE",
+                    "C1",
+                    "C1E",
+                    "C",
+                    "CE",
+                    "D1",
+                    "D1E",
+                    "D",
+                    "DE",
+                    "F"
+                ]
+            }
+        ]
+    },
+    "license-type": {
+        "type": "integer",
+        "enum": [
+            0,
+            1,
+            2
+        ],
+        "enum-description": [
+            "none",
+            "eu-license",
+            "non-eu license"
+        ]
+    },
+    "role": {
+        "type": "array",
+        "items": [
+            {
+                "type": "integer",
+                "enum": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "enum-description": [
+                    "policyholder",
+                    "partner",
+                    "spouse",
+                    "child",
+                    "parent",
+                    "other person"
+                ]
+            }
+        ]
+    },
+    "construction-type": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "enum-description": [
+            "solid construction",
+            "skeleton construction",
+            "skeleton construction (flammable material)",
+            "skeleton construction (inflammable material)",
+            "wooden construction",
+            "mixed",
+            "other"
+        ]
+    }
+}

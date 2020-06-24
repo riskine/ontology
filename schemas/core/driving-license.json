@@ -1,0 +1,42 @@
+{
+    "$id": "https://ontology.riskine.com/driving-license.json",
+    "type": "object",
+    "properties": {
+        "expiration-date": {
+            "description": "expiration date of the document",
+            "$ref": "definitions.json#/date"
+        },
+        "id-number": {
+            "type": "string",
+            "description": "number of the document"
+        },
+        "issue-authority": {
+            "type": "string",
+            "description": "issuing authority of the document"
+        },
+        "issue-country": {
+            "type": "string",
+            "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+        },
+        "issue-date": {
+            "description": "date of issue of the document",
+            "$ref": "definitions.json#/date"
+        },
+        "license-category": {
+            "description": "license categories wrt 3. EU driver's license directive",
+            "$ref": "definitions.json#/license-category"
+        },
+        "license-type": {
+            "description": "does person have an (eu-)driving-license",
+            "$ref": "definitions.json#/license-type"
+        },
+        "on-probation": {
+            "type": "boolean",
+            "description": "driving-license on probation"
+        },
+        "license-holder": {
+            "description": "holder of driving license",
+            "$ref": "person.json"
+        }
+    }
+}

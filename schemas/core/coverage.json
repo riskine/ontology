@@ -1,0 +1,60 @@
+{
+  "$id": "https://ontology.riskine.com/coverage.json",
+  "type": "object",
+  "properties": {
+    "is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "definitions.json#/money"
+    },
+    "sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "definitions.json#/money"
+    },
+    "contained-in": {
+      "type": "array",
+      "description": "products a coverage is contained in",
+      "items": {
+        "$ref": "product.json"
+      }
+    },
+    "covers": {
+      "type": "array",
+      "items": {
+        "description": "damages that are covered",
+        "$ref": "damage.json"
+      }
+    },
+    "payment-interval": {
+      "description": "payment interval of annuity/allowance",
+      "$ref": "definitions.json#/temporal-interval"
+    },
+    "payment-period": {
+      "$ref": "definitions.json#/nonnegative-integer",
+      "description": "overall payment period for annuity/allowance in months"
+    },
+    "amount-per-interval": {
+      "description": "amount of an annuity/allowance per payment-interval",
+      "$ref": "definitions.json#/money"
+    },
+    "waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "definitions.json#/nonnegative-integer"
+    },
+    "eligibility-period": {
+      "description": "period in which the benefits are eligible",
+      "$ref": "definitions.json#/temporal-interval"
+    },
+    "reimbursement-amount": {
+      "description": "amount of expenses reimbursed by insurance",
+      "$ref": "definitions.json#/money"
+    },
+    "reimbursement-percentage": {
+      "description": "percentage of expenses reimbursed by insurance",
+      "$ref": "definitions.json#/percentage"
+    }
+  }
+}

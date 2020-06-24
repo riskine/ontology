@@ -1,0 +1,61 @@
+{
+  "$id": "https://ontology.riskine.com/product.json",
+  "type": "object",
+  "properties": {
+    "coverages": {
+      "type": "array",
+      "description": "coverages included in product",
+      "items": {
+        "$ref": "coverage.json"
+      }
+    },
+    "policyholder": {
+      "description": "policyholder for product",
+      "$ref": "person.json"
+    },
+    "contributor": {
+      "description": "contributor for product",
+      "$ref": "person.json"
+    },
+    "deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "definitions.json#/money"
+    },
+    "start-date": {
+      "description": "start date of validity period of the product",
+      "$ref": "definitions.json#/date"
+    },
+    "term-time": {
+      "description": "term-time for product in months",
+      "$ref": "definitions.json#/nonnegative-integer"
+    },
+    "cancellation-period": {
+      "$ref": "definitions.json#/nonnegative-integer",
+      "description": "cancellation-period of product in months"
+    },
+    "premium-amount": {
+      "description": "premium amount per payment interval",
+      "$ref": "definitions.json#/money"
+    },
+    "premium-payment-interval": {
+      "description": "payment interval for product-premium",
+      "$ref": "definitions.json#/temporal-interval"
+    },
+    "premium-payment-method": {
+      "description": "payment method for product-premium",
+      "$ref": "definitions.json#/payment-method"
+    },
+    "area-of-validity": {
+      "description": "area of validity for product",
+      "$ref": "definitions.json#/area-of-validity"
+    },
+    "coverage-period-non-european-countries": {
+      "description": "how long is medical treatment covered in non-european countries (in months)",
+      "$ref": "definitions.json#/coverage-period"
+    },
+    "package": {
+      "type": "string",
+      "description": "specific tariff-name"
+    }
+  }
+}
