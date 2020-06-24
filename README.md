@@ -6,14 +6,6 @@
 
 # Global Insurance Ontology
 
-![openontology](./assets/openontology.png "openontology")
-
-created and maintained by [riskine](https://riskine.com) in co-creation with [koble](https://koble.io)
-
-![riskine](./assets/riskine.png "riskine")
-
-![koble](./assets/koble.png "koble")
-
 ## Idea, Concept and Philosophy
 The global insurance market is a huge data exchange ecosystem. To enable integration between players, many components need to be standardised, including data models, available services, and authentication flows. There are many standards in place that vary in scope, structure, age, and other characteristics. For example, many countries are using their own national data models. Meanwhile, existing players and new tech companies are pushing for innovation. Many of these initiatives are facing issues due to the following problems some of the existing standards have:
 
