@@ -1,9 +1,0 @@
-{
-    "$id": "https://ontology.riskine.com/otherschema.json",
-    "type": "object",
-    "properties": {
-        "birthdate": {
-            "type": "string"
-        }
-    }
-}
