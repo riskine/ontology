@@ -22,7 +22,7 @@ In order to support developers, our initiative is focused on creating and contin
  - **customer-centric** - contains wishes, preferences and risks of the customer
  - **practical** - content validated against various existing APIs and standards
 
-It is important to note that this ontology in most cases won't serve as a replacement but as a supplement to local standards like [BiPRO](https://bipro.net), [OMDS](https://www.vvo.at/omds/index.html), EIAC, etc. since those commonly standardize various things like service structure and authentication flows as well. We don't intend to replace these, but to add a contribution by making our work public.
+It is important to note: the idea is not to replace but to supplement local standards like [BiPRO](https://bipro.net), [OMDS](https://www.vvo.at/omds/index.html), EIAC, etc. since those commonly standardize various things like service structure and authentication flows as well. We intend to add a contribution and to drive innovation by making our work public.
 
 ## Content and Technical Structure
 Our guiding principle for data modelling is **simplicity**. Highest-level classes and entities should be as close to the real world as possible. They should be intelligible in a broad context - and not overly technical or intelligible in very specific contexts only.
@@ -135,7 +135,7 @@ Note that the meta-tags `description` and `enum-description` are not part of sta
 ```
 
 ## Usage
-Anyone can download our schemas and use them in their APIs, databases and more.
+Anyone can download our schemas and use them in their APIs, databases and more. Current users include [riskine (docs)](https://docs.riskine.com) and [koble (docs)](https://developers.koble.io/api-reference)
 
 Since all of the schemas are json-schema, you can use the wealth of [json-schema utilities](https://json-schema.org/implementations.html) to get started - or build your own.
 
