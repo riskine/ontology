@@ -21,11 +21,13 @@
         "type": "string",
         "enum": [
             "m",
-            "f"
+            "f",
+            "o"
         ],
         "enum-description": [
             "male",
-            "female"
+            "female",
+            "other"
         ]
     },
     "year": {
