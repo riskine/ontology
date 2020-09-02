@@ -38,7 +38,7 @@
       "description": "first name of person"
     },
     "object.animal.dog.owner.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "object.animal.dog.owner.gross-income": {
@@ -122,7 +122,7 @@
       "description": "first name of person"
     },
     "person.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.gross-income": {
@@ -242,7 +242,7 @@
       "description": "first name of person"
     },
     "product.animal-liability.contributor.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.animal-liability.contributor.gross-income": {

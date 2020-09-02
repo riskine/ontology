@@ -34,7 +34,7 @@
       "description": "first name of person"
     },
     "person.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.gross-income": {
@@ -178,7 +178,7 @@
       "description": "first name of person"
     },
     "product.life.contributor.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.life.contributor.gross-income": {
@@ -274,7 +274,7 @@
       "description": "first name of person"
     },
     "product.life.coverage.onetime-payment-death.beneficiary.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.life.coverage.onetime-payment-death.beneficiary.gross-income": {
@@ -398,7 +398,7 @@
       "description": "first name of person"
     },
     "product.life.policyholder.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.life.policyholder.gross-income": {

@@ -34,7 +34,7 @@
       "description": "first name of person"
     },
     "person.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.gross-income": {
@@ -186,7 +186,7 @@
       "description": "first name of person"
     },
     "product.private-liability.contributor.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.private-liability.contributor.gross-income": {
