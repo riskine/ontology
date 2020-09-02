@@ -50,6 +50,7 @@ To strike a balance between simplicity/practicality and expressiveness, paramete
 | `string` | `date` | Yes |
 | `integer` | - | Yes |
 | `number` | `money` | No |
+| `boolean` | - | No |
 
 #### Json-Schema Definitions
 Recurring definitions are factored out for reuse, e.g. money fields. Every schema includes all relevant definitions so that the schemas look like this:
