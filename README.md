@@ -89,7 +89,8 @@ For core schemas, all the definitions are in `definitions.json`.
             ],
             "enum-description": [
                 "male",
-                "female"
+                "female",
+                "other"
             ]
         },
         ...
@@ -120,7 +121,8 @@ Note that the meta-tags `description` and `enum-description` are not part of sta
             ],
             "enum-description": [
                 "male",
-                "female"
+                "female",
+                "other"
             ]
         },
         "product.accident.coverage.accident-costs-and-medical-expenses.deductible": {
