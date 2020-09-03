@@ -1,5 +1,17 @@
 {
     "$id": "https://ontology.riskine.com/definitions.json",
+    "string": {
+        "type": "string"
+    },
+    "integer:": {
+        "type": "integer"
+    },
+    "number": {
+        "type": "number"
+    },
+    "boolean": {
+        "type": "boolean"
+    },
     "money": {
         "type": "number",
         "format": "money"
