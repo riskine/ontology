@@ -58,7 +58,7 @@
       "description": "first name of person"
     },
     "person.children.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.children.gross-income": {
@@ -114,7 +114,7 @@
       "description": "first name of person"
     },
     "person.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.gross-income": {
@@ -170,7 +170,7 @@
       "description": "first name of person"
     },
     "person.partner.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.partner.gross-income": {
@@ -318,7 +318,7 @@
       "description": "first name of person"
     },
     "product.travel.contributor.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.travel.contributor.gross-income": {

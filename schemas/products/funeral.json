@@ -34,7 +34,7 @@
       "description": "first name of person"
     },
     "person.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.gross-income": {
@@ -178,7 +178,7 @@
       "description": "first name of person"
     },
     "product.funeral.contributor.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.funeral.contributor.gross-income": {
@@ -258,7 +258,7 @@
       "description": "first name of person"
     },
     "product.funeral.coverage.funeral-costs.beneficiary.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.funeral.coverage.funeral-costs.beneficiary.gross-income": {
@@ -378,7 +378,7 @@
       "description": "first name of person"
     },
     "product.funeral.policyholder.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.funeral.policyholder.gross-income": {

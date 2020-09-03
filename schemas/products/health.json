@@ -70,7 +70,7 @@
       "description": "first name of person"
     },
     "person.children.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.children.gross-income": {
@@ -174,7 +174,7 @@
       "description": "first name of person"
     },
     "person.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.gross-income": {
@@ -262,7 +262,7 @@
       "description": "first name of person"
     },
     "person.partner.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.partner.gross-income": {
@@ -502,7 +502,7 @@
       "description": "first name of person"
     },
     "product.health.contributor.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.health.contributor.gross-income": {
@@ -1466,7 +1466,7 @@
       "description": "first name of person"
     },
     "product.health.policyholder.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.health.policyholder.gross-income": {

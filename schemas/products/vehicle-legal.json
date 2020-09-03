@@ -54,7 +54,7 @@
       "description": "first name of person"
     },
     "object.vehicle.driver.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "object.vehicle.driver.gross-income": {
@@ -190,7 +190,7 @@
       "description": "first name of person"
     },
     "object.vehicle.owner.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "object.vehicle.owner.gross-income": {
@@ -334,7 +334,7 @@
       "description": "first name of person"
     },
     "person.children.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.children.gross-income": {
@@ -390,7 +390,7 @@
       "description": "first name of person"
     },
     "person.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.gross-income": {
@@ -446,7 +446,7 @@
       "description": "first name of person"
     },
     "person.partner.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.partner.gross-income": {
@@ -590,7 +590,7 @@
       "description": "first name of person"
     },
     "product.vehicle-legal.contributor.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.vehicle-legal.contributor.gross-income": {

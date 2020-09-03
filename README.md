@@ -50,6 +50,7 @@ To strike a balance between simplicity/practicality and expressiveness, paramete
 | `string` | `date` | Yes |
 | `integer` | - | Yes |
 | `number` | `money` | No |
+| `boolean` | - | No |
 
 #### Json-Schema Definitions
 Recurring definitions are factored out for reuse, e.g. money fields. Every schema includes all relevant definitions so that the schemas look like this:
@@ -79,15 +80,17 @@ For core schemas, all the definitions are in `definitions.json`.
             "format": "date"
         },
         "gender": {
-            "description": "gender (binary)",
+            "description": "gender",
             "type": "string",
             "enum": [
                 "m",
-                "f"
+                "f",
+                "o"
             ],
             "enum-description": [
                 "male",
-                "female"
+                "female",
+                "other"
             ]
         },
         ...
@@ -109,15 +112,17 @@ Note that the meta-tags `description` and `enum-description` are not part of sta
             "format": "date"
         },
         "person.gender": {
-            "description": "gender (binary)",
+            "description": "gender",
             "type": "string",
             "enum": [
                 "m",
-                "f"
+                "f",
+                "o"
             ],
             "enum-description": [
                 "male",
-                "female"
+                "female",
+                "other"
             ]
         },
         "product.accident.coverage.accident-costs-and-medical-expenses.deductible": {
@@ -142,7 +147,7 @@ Since all of the schemas are json-schema, you can use the wealth of [json-schema
 ### Example 1: Generating Boilerplate
  - You want to create a python program to analyze accident insurance contracts from various providers
  - To get started as fast as possible, you want a readymade class completely describing any accident insurance contract out there, in which you can then import your various data and process in one interface
- - Generate a boilerplate class `AccidentInsurance` from the `accident.json` using [quicktype.io](https://app.quicktype.io?share=iuWx3zo4JVivZBTTEjgy). You can, of course, omit fields from the schema as needed
+ - Generate a boilerplate class `AccidentInsurance` from the `accident.json` using [quicktype.io](https://app.quicktype.io?share=j0ykUfzlt3t5TtjIUNKl). You can, of course, omit fields from the schema as needed
  - Map data that you have into the class
  - Write your analysis algos against the class interface
 

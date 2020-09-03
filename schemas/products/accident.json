@@ -58,7 +58,7 @@
       "description": "first name of person"
     },
     "person.children.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.children.gross-income": {
@@ -114,7 +114,7 @@
       "description": "first name of person"
     },
     "person.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.gross-income": {
@@ -170,7 +170,7 @@
       "description": "first name of person"
     },
     "person.partner.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.partner.gross-income": {
@@ -314,7 +314,7 @@
       "description": "first name of person"
     },
     "product.accident.contributor.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.accident.contributor.gross-income": {
@@ -606,7 +606,7 @@
       "description": "first name of person"
     },
     "product.accident.policyholder.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.accident.policyholder.gross-income": {

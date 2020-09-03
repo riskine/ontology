@@ -58,7 +58,7 @@
       "description": "first name of person"
     },
     "object.household-contents.owner.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "object.household-contents.owner.gross-income": {
@@ -206,7 +206,7 @@
       "description": "first name of person"
     },
     "person.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.gross-income": {
@@ -326,7 +326,7 @@
       "description": "first name of person"
     },
     "product.household-contents.contributor.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.household-contents.contributor.gross-income": {

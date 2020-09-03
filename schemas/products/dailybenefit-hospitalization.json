@@ -34,7 +34,7 @@
       "description": "first name of person"
     },
     "person.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.gross-income": {
@@ -154,7 +154,7 @@
       "description": "first name of person"
     },
     "product.dailybenefit-hospitalization.contributor.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.dailybenefit-hospitalization.contributor.gross-income": {
@@ -354,7 +354,7 @@
       "description": "first name of person"
     },
     "product.dailybenefit-hospitalization.policyholder.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.dailybenefit-hospitalization.policyholder.gross-income": {

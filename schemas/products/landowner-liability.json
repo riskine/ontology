@@ -34,7 +34,7 @@
       "description": "first name of person"
     },
     "object.property.developed-property.owner.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "object.property.developed-property.owner.gross-income": {
@@ -142,7 +142,7 @@
       "description": "first name of person"
     },
     "object.property.undeveloped-property.owner.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "object.property.undeveloped-property.owner.gross-income": {
@@ -230,7 +230,7 @@
       "description": "first name of person"
     },
     "person.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "person.gross-income": {
@@ -350,7 +350,7 @@
       "description": "first name of person"
     },
     "product.landowner-liability.contributor.gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "#/definitions/gender"
     },
     "product.landowner-liability.contributor.gross-income": {

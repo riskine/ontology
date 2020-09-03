@@ -15,7 +15,7 @@
       "$ref": "definitions.json#/date"
     },
     "gender": {
-      "description": "gender (binary)",
+      "description": "gender",
       "$ref": "definitions.json#/gender"
     },
     "address": {
