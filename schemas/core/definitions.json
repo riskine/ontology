@@ -597,5 +597,20 @@
             "mixed",
             "other"
         ]
-    }
+    },
+        "in-place-status": {
+            "type": "integer",
+            "enum": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "enum-description": [
+                "none",
+                "none (legally not necessary)",
+                "yes (internal)",
+                "yes (external)"
+            ]
+        }
 }
