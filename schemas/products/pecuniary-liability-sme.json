@@ -1,0 +1,416 @@
+{
+    "type": "object",
+    "properties": {
+        "organization.address.city": {
+            "type": "string",
+            "description": "city (as part of an address)"
+        },
+        "organization.address.country": {
+            "type": "string",
+            "description": "country  (ISO 3166-1 alpha-2 country code)"
+        },
+        "organization.address.house-number": {
+            "type": "string",
+            "description": "house number (as part of an address)"
+        },
+        "organization.address.postcode": {
+            "type": "string",
+            "description": "postal code (as part of an address)"
+        },
+        "organization.address.street": {
+            "type": "string",
+            "description": "street (as part of an address)"
+        },
+        "organization.business-name": {
+            "type": "string",
+            "description": "name of organization"
+        },
+        "organization.email": {
+            "type": "string",
+            "description": "email-address"
+        },
+        "organization.finances.annual-report-number": {
+            "description": "number of annual reports",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "organization.finances.positive-annual-result": {
+            "type": "boolean",
+            "description": "annual result of previous year is positive"
+        },
+        "organization.finances.positive-equity": {
+            "type": "boolean",
+            "description": "equity of organization is positive"
+        },
+        "organization.finances.total-payroll-gross-amount": {
+            "description": "gross amount of yearly total payroll",
+            "$ref": "#/definitions/money"
+        },
+        "organization.founding-date": {
+            "description": "founding date of organization",
+            "$ref": "#/definitions/date"
+        },
+        "organization.legal-form": {
+            "type": "string",
+            "description": "legal form of organization (ELF ISO standard 20275)"
+        },
+        "organization.mobile-number": {
+            "type": "string",
+            "description": "mobile number"
+        },
+        "organization.phone-number": {
+            "type": "string",
+            "description": "phone number"
+        },
+        "organization.revenue.is-generated-us": {
+            "type": "boolean",
+            "description": "revenue is generated in US"
+        },
+        "organization.revenue.net-amount": {
+            "description": "yearly revenue net-amount",
+            "$ref": "#/definitions/money"
+        },
+        "organization.revenue.net-amount-us": {
+            "description": "yearly revenue net-amount generated in us",
+            "$ref": "#/definitions/money"
+        },
+        "organization.security-measure.anti-virus-protection.in-place": {
+            "type": "boolean",
+            "description": "element or measure exists"
+        },
+        "organization.security-measure.anti-virus-protection.update-frequency": {
+            "description": "update frequency of security-measure",
+            "$ref": "#/definitions/temporal-interval"
+        },
+        "organization.security-measure.data-protection-officer.in-place-status": {
+            "description": "status of data-protection-officer",
+            "$ref": "#/definitions/in-place-status"
+        },
+        "organization.security-measure.external-backups.in-place": {
+            "type": "boolean",
+            "description": "element or measure exists"
+        },
+        "organization.security-measure.external-backups.update-frequency": {
+            "description": "update frequency of security-measure",
+            "$ref": "#/definitions/temporal-interval"
+        },
+        "organization.security-measure.firewall.in-place": {
+            "type": "boolean",
+            "description": "element or measure exists"
+        },
+        "organization.security-measure.firewall.update-frequency": {
+            "description": "update frequency of security-measure",
+            "$ref": "#/definitions/temporal-interval"
+        },
+        "product.pecuniary-liability-sme.anniversary-date": {
+            "description": "date of policy anniversary",
+            "$ref": "#/definitions/date"
+        },
+        "product.pecuniary-liability-sme.automatic-renewal": {
+            "type": "boolean",
+            "description": "automatic renewal of policy"
+        },
+        "product.pecuniary-liability-sme.cancellation-period": {
+            "description": "cancellation-period of product in months",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.pecuniary-liability-sme.coverage.commercial-liability.annual-limit-factor": {
+            "type": "integer",
+            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+        },
+        "product.pecuniary-liability-sme.coverage.commercial-liability.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.commercial-liability.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.pecuniary-liability-sme.coverage.commercial-liability.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.commercial-liability.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.pecuniary-liability-sme.coverage.cyber-firstparty-loss.annual-limit-factor": {
+            "type": "integer",
+            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+        },
+        "product.pecuniary-liability-sme.coverage.cyber-firstparty-loss.current-claims-in-place": {
+            "type": "boolean",
+            "description": "there are currently any open claims (or, complaints, legal-actions)"
+        },
+        "product.pecuniary-liability-sme.coverage.cyber-firstparty-loss.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.cyber-firstparty-loss.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.pecuniary-liability-sme.coverage.cyber-firstparty-loss.previous-claims-amount": {
+            "description": "total claims amount in relevant time-period",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.cyber-firstparty-loss.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.cyber-firstparty-loss.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.pecuniary-liability-sme.coverage.directors-external-liability.annual-limit-factor": {
+            "type": "integer",
+            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+        },
+        "product.pecuniary-liability-sme.coverage.directors-external-liability.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.directors-external-liability.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.pecuniary-liability-sme.coverage.directors-external-liability.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.directors-external-liability.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.pecuniary-liability-sme.coverage.interim-manager-liability.annual-limit-factor": {
+            "type": "integer",
+            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+        },
+        "product.pecuniary-liability-sme.coverage.interim-manager-liability.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.interim-manager-liability.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.pecuniary-liability-sme.coverage.interim-manager-liability.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.interim-manager-liability.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.pecuniary-liability-sme.coverage.key-person.annual-limit-factor": {
+            "type": "integer",
+            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+        },
+        "product.pecuniary-liability-sme.coverage.key-person.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.key-person.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.pecuniary-liability-sme.coverage.key-person.previous-claims-number": {
+            "type": "integer",
+            "description": "total number of claims in relevant time-period"
+        },
+        "product.pecuniary-liability-sme.coverage.key-person.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.key-person.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.pecuniary-liability-sme.coverage.mergers-liability.annual-limit-factor": {
+            "type": "integer",
+            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+        },
+        "product.pecuniary-liability-sme.coverage.mergers-liability.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.mergers-liability.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.pecuniary-liability-sme.coverage.mergers-liability.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.mergers-liability.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-firstparty-loss-by-insured.annual-limit-factor": {
+            "type": "integer",
+            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-firstparty-loss-by-insured.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-firstparty-loss-by-insured.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-firstparty-loss-by-insured.previous-claims-number": {
+            "type": "integer",
+            "description": "total number of claims in relevant time-period"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-firstparty-loss-by-insured.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-firstparty-loss-by-insured.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-liability.annual-limit-factor": {
+            "type": "integer",
+            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-liability.current-claims-in-place": {
+            "type": "boolean",
+            "description": "there are currently any open claims (or, complaints, legal-actions)"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-liability.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-liability.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-liability.previous-claims-amount": {
+            "description": "total claims amount in relevant time-period",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-liability.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.pecuniary-liability.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.pecuniary-liability-sme.coverage.print-firstparty-loss.annual-limit-factor": {
+            "type": "integer",
+            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+        },
+        "product.pecuniary-liability-sme.coverage.print-firstparty-loss.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.print-firstparty-loss.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.pecuniary-liability-sme.coverage.print-firstparty-loss.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.coverage.print-firstparty-loss.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.pecuniary-liability-sme.package": {
+            "type": "string",
+            "description": "specific tariff name"
+        },
+        "product.pecuniary-liability-sme.premium-amount": {
+            "description": "premium amount per payment interval",
+            "$ref": "#/definitions/money"
+        },
+        "product.pecuniary-liability-sme.premium-payment-interval": {
+            "description": "payment interval for product-premium",
+            "$ref": "#/definitions/temporal-interval"
+        },
+        "product.pecuniary-liability-sme.premium-payment-method": {
+            "description": "payment method for product-premium",
+            "$ref": "#/definitions/payment-method"
+        },
+        "product.pecuniary-liability-sme.start-date": {
+            "description": "start date of validity period of the product",
+            "$ref": "#/definitions/date"
+        },
+        "product.pecuniary-liability-sme.term-time": {
+            "description": "term-time for product in months",
+            "$ref": "#/definitions/nonnegative-integer"
+        }
+    },
+    "definitions": {
+        "money": {
+            "type": "number",
+            "format": "money"
+        },
+        "date": {
+            "type": "string",
+            "format": "date"
+        },
+        "nonnegative-integer": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "temporal-interval": {
+            "type": "integer",
+            "enum": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "enum-description": [
+                "not specified",
+                "one-off",
+                "daily",
+                "weekly",
+                "monthly",
+                "quaterly",
+                "bi-annually",
+                "annually",
+                "every 2 years",
+                "every 3 years"
+            ]
+        },
+        "payment-method": {
+            "type": "integer",
+            "enum": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "enum-description": [
+                "direct debit",
+                "payment slip",
+                "standing order",
+                "credit card"
+            ]
+        },
+        "in-place-status": {
+            "type": "integer",
+            "enum": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "enum-description": [
+                "none",
+                "none (legally not necessary)",
+                "yes (internal)",
+                "yes (external)"
+            ]
+        }
+    }
+}
