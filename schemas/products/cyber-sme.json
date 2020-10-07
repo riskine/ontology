@@ -77,6 +77,10 @@
             "description": "number of data processed, stored per year",
             "$ref": "#/definitions/nonnegative-integer"
         },
+        "organization.economic-activity": {
+            "type": "string",
+            "description": "economic activity of organization"
+        },
         "organization.email": {
             "type": "string",
             "description": "email-address"
@@ -84,6 +88,10 @@
         "organization.founding-date": {
             "description": "founding date of organization",
             "$ref": "#/definitions/date"
+        },
+        "organization.industry": {
+            "type": "string",
+            "description": "industry the organization operates in"
         },
         "organization.legal-form": {
             "type": "string",

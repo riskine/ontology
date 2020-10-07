@@ -29,6 +29,10 @@
             "description": "date of entry in commercial registry",
             "$ref": "#/definitions/date"
         },
+        "organization.economic-activity": {
+            "type": "string",
+            "description": "economic activity of organization"
+        },
         "organization.email": {
             "type": "string",
             "description": "email-address"
@@ -52,6 +56,10 @@
         "organization.founding-date": {
             "description": "founding date of organization",
             "$ref": "#/definitions/date"
+        },
+        "organization.industry": {
+            "type": "string",
+            "description": "industry the organization operates in"
         },
         "organization.legal-form": {
             "type": "string",
