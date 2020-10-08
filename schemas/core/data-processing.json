@@ -1,0 +1,22 @@
+{
+    "$id": "https://ontology.riskine.com/data-processing.json",
+    "type": "object",
+    "properties": {
+        "in-place": {
+            "type": "boolean",
+            "description": "element or measure exists"
+        },
+        "yearly-data-amount": {
+            "description": "number of data processed or stored per year",
+            "$ref": "definitions.json#/nonnegative-integer"
+        },
+        "storage-in-us": {
+            "type": "boolean",
+            "description": "data stored on us-based servers or data-centers"
+        },
+        "us-citizen-data": {
+            "type": "boolean",
+            "description": "processing or storage of data of us-citizens"
+        }
+    }
+}
