@@ -55,6 +55,10 @@
     "reimbursement-percentage": {
       "description": "percentage of expenses reimbursed by insurance",
       "$ref": "definitions.json#/percentage"
+    },
+    "annual-limit-factor": {
+      "type": "integer",
+      "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
     }
   }
 }
