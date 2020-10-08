@@ -27,7 +27,7 @@
     },
     "person.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.first-name": {
       "type": "string",
@@ -51,7 +51,7 @@
     },
     "person.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.net-income": {
       "description": "annual net income of person",
@@ -59,7 +59,7 @@
     },
     "person.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.phone-prefix": {
       "type": "string",
@@ -179,7 +179,7 @@
     },
     "product.invalidity.contributor.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.invalidity.contributor.first-name": {
       "type": "string",
@@ -203,7 +203,7 @@
     },
     "product.invalidity.contributor.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.invalidity.contributor.net-income": {
       "description": "annual net income of person",
@@ -211,7 +211,7 @@
     },
     "product.invalidity.contributor.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.invalidity.contributor.phone-prefix": {
       "type": "string",
@@ -283,7 +283,7 @@
     },
     "product.invalidity.policyholder.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.invalidity.policyholder.first-name": {
       "type": "string",
@@ -307,7 +307,7 @@
     },
     "product.invalidity.policyholder.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.invalidity.policyholder.net-income": {
       "description": "annual net income of person",
@@ -315,7 +315,7 @@
     },
     "product.invalidity.policyholder.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.invalidity.policyholder.phone-prefix": {
       "type": "string",

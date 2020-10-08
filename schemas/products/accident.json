@@ -51,7 +51,7 @@
     },
     "person.children.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.children.first-name": {
       "type": "string",
@@ -75,7 +75,7 @@
     },
     "person.children.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.children.net-income": {
       "description": "annual net income of person",
@@ -83,7 +83,7 @@
     },
     "person.children.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.children.phone-prefix": {
       "type": "string",
@@ -107,7 +107,7 @@
     },
     "person.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.first-name": {
       "type": "string",
@@ -131,7 +131,7 @@
     },
     "person.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.net-income": {
       "description": "annual net income of person",
@@ -163,7 +163,7 @@
     },
     "person.partner.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.partner.first-name": {
       "type": "string",
@@ -187,7 +187,7 @@
     },
     "person.partner.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.partner.net-income": {
       "description": "annual net income of person",
@@ -195,7 +195,7 @@
     },
     "person.partner.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.partner.phone-prefix": {
       "type": "string",
@@ -219,7 +219,7 @@
     },
     "person.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.phone-prefix": {
       "type": "string",
@@ -307,7 +307,7 @@
     },
     "product.accident.contributor.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.accident.contributor.first-name": {
       "type": "string",
@@ -331,7 +331,7 @@
     },
     "product.accident.contributor.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.accident.contributor.net-income": {
       "description": "annual net income of person",
@@ -339,7 +339,7 @@
     },
     "product.accident.contributor.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.accident.contributor.phone-prefix": {
       "type": "string",
@@ -599,7 +599,7 @@
     },
     "product.accident.policyholder.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.accident.policyholder.first-name": {
       "type": "string",
@@ -623,7 +623,7 @@
     },
     "product.accident.policyholder.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.accident.policyholder.net-income": {
       "description": "annual net income of person",
@@ -631,7 +631,7 @@
     },
     "product.accident.policyholder.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.accident.policyholder.phone-prefix": {
       "type": "string",

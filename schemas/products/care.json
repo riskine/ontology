@@ -27,7 +27,7 @@
     },
     "person.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.first-name": {
       "type": "string",
@@ -51,7 +51,7 @@
     },
     "person.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.net-income": {
       "description": "annual net income of person",
@@ -59,7 +59,7 @@
     },
     "person.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.phone-prefix": {
       "type": "string",
@@ -151,7 +151,7 @@
     },
     "product.care.contributor.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.care.contributor.first-name": {
       "type": "string",
@@ -175,7 +175,7 @@
     },
     "product.care.contributor.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.care.contributor.net-income": {
       "description": "annual net income of person",
@@ -183,7 +183,7 @@
     },
     "product.care.contributor.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.care.contributor.phone-prefix": {
       "type": "string",
@@ -283,7 +283,7 @@
     },
     "product.care.policyholder.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.care.policyholder.first-name": {
       "type": "string",
@@ -307,7 +307,7 @@
     },
     "product.care.policyholder.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.care.policyholder.net-income": {
       "description": "annual net income of person",
@@ -315,7 +315,7 @@
     },
     "product.care.policyholder.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.care.policyholder.phone-prefix": {
       "type": "string",

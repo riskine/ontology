@@ -27,7 +27,7 @@
     },
     "person.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.first-name": {
       "type": "string",
@@ -51,7 +51,7 @@
     },
     "person.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.net-income": {
       "description": "annual net income of person",
@@ -59,7 +59,7 @@
     },
     "person.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.phone-prefix": {
       "type": "string",
@@ -147,7 +147,7 @@
     },
     "product.dailybenefit-hospitalization.contributor.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.dailybenefit-hospitalization.contributor.first-name": {
       "type": "string",
@@ -171,7 +171,7 @@
     },
     "product.dailybenefit-hospitalization.contributor.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.dailybenefit-hospitalization.contributor.net-income": {
       "description": "annual net income of person",
@@ -179,7 +179,7 @@
     },
     "product.dailybenefit-hospitalization.contributor.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.dailybenefit-hospitalization.contributor.phone-prefix": {
       "type": "string",
@@ -347,7 +347,7 @@
     },
     "product.dailybenefit-hospitalization.policyholder.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.dailybenefit-hospitalization.policyholder.first-name": {
       "type": "string",
@@ -371,7 +371,7 @@
     },
     "product.dailybenefit-hospitalization.policyholder.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.dailybenefit-hospitalization.policyholder.net-income": {
       "description": "annual net income of person",
@@ -379,7 +379,7 @@
     },
     "product.dailybenefit-hospitalization.policyholder.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.dailybenefit-hospitalization.policyholder.phone-prefix": {
       "type": "string",

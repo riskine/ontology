@@ -123,7 +123,7 @@
     },
     "object.vehicle.driver.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "object.vehicle.driver.engine-related-tax-relief": {
       "type": "boolean",
@@ -183,7 +183,7 @@
     },
     "object.vehicle.driver.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "object.vehicle.driver.nationality": {
       "type": "string",
@@ -195,7 +195,7 @@
     },
     "object.vehicle.driver.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "object.vehicle.driver.phone-prefix": {
       "type": "string",
@@ -399,7 +399,7 @@
     },
     "object.vehicle.owner.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "object.vehicle.owner.engine-related-tax-relief": {
       "type": "boolean",
@@ -459,7 +459,7 @@
     },
     "object.vehicle.owner.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "object.vehicle.owner.nationality": {
       "type": "string",
@@ -471,7 +471,7 @@
     },
     "object.vehicle.owner.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "object.vehicle.owner.phone-prefix": {
       "type": "string",
@@ -659,7 +659,7 @@
     },
     "person.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.engine-related-tax-relief": {
       "type": "boolean",
@@ -719,7 +719,7 @@
     },
     "person.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.nationality": {
       "type": "string",
@@ -731,7 +731,7 @@
     },
     "person.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.phone-prefix": {
       "type": "string",
@@ -851,7 +851,7 @@
     },
     "product.motor.contributor.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.motor.contributor.first-name": {
       "type": "string",
@@ -899,7 +899,7 @@
     },
     "product.motor.contributor.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.motor.contributor.net-income": {
       "description": "annual net income of person",
@@ -907,7 +907,7 @@
     },
     "product.motor.contributor.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.motor.contributor.phone-prefix": {
       "type": "string",
@@ -1651,7 +1651,7 @@
     },
     "product.motor.policyholder.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.motor.policyholder.engine-related-tax-relief": {
       "type": "boolean",
@@ -1711,7 +1711,7 @@
     },
     "product.motor.policyholder.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.motor.policyholder.nationality": {
       "type": "string",
@@ -1723,7 +1723,7 @@
     },
     "product.motor.policyholder.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.motor.policyholder.phone-prefix": {
       "type": "string",

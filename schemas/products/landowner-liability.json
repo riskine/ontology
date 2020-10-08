@@ -27,7 +27,7 @@
     },
     "object.property.developed-property.owner.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "object.property.developed-property.owner.first-name": {
       "type": "string",
@@ -51,7 +51,7 @@
     },
     "object.property.developed-property.owner.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "object.property.developed-property.owner.net-income": {
       "description": "annual net income of person",
@@ -59,7 +59,7 @@
     },
     "object.property.developed-property.owner.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "object.property.developed-property.owner.phone-prefix": {
       "type": "string",
@@ -135,7 +135,7 @@
     },
     "object.property.undeveloped-property.owner.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "object.property.undeveloped-property.owner.first-name": {
       "type": "string",
@@ -159,7 +159,7 @@
     },
     "object.property.undeveloped-property.owner.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "object.property.undeveloped-property.owner.net-income": {
       "description": "annual net income of person",
@@ -167,7 +167,7 @@
     },
     "object.property.undeveloped-property.owner.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "object.property.undeveloped-property.owner.phone-prefix": {
       "type": "string",
@@ -223,7 +223,7 @@
     },
     "person.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.first-name": {
       "type": "string",
@@ -247,7 +247,7 @@
     },
     "person.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.net-income": {
       "description": "annual net income of person",
@@ -255,7 +255,7 @@
     },
     "person.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.phone-prefix": {
       "type": "string",
@@ -343,7 +343,7 @@
     },
     "product.landowner-liability.contributor.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.landowner-liability.contributor.first-name": {
       "type": "string",
@@ -367,7 +367,7 @@
     },
     "product.landowner-liability.contributor.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.landowner-liability.contributor.net-income": {
       "description": "annual net income of person",
@@ -375,7 +375,7 @@
     },
     "product.landowner-liability.contributor.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.landowner-liability.contributor.phone-prefix": {
       "type": "string",

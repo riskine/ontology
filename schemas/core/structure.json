@@ -20,7 +20,7 @@
       "$ref": "definitions.json#/nonnegative-integer"
     },
     "address": {
-      "description": "address of person, structure or property",
+      "description": "address of person, organization, structure or property",
       "$ref": "address.json"
     },
     "is-shell": {
