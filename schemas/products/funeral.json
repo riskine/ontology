@@ -27,7 +27,7 @@
     },
     "person.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.first-name": {
       "type": "string",
@@ -55,7 +55,7 @@
     },
     "person.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.net-income": {
       "description": "annual net income of person",
@@ -67,7 +67,7 @@
     },
     "person.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.phone-prefix": {
       "type": "string",
@@ -171,7 +171,7 @@
     },
     "product.funeral.contributor.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.funeral.contributor.first-name": {
       "type": "string",
@@ -195,7 +195,7 @@
     },
     "product.funeral.contributor.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.funeral.contributor.net-income": {
       "description": "annual net income of person",
@@ -203,7 +203,7 @@
     },
     "product.funeral.contributor.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.funeral.contributor.phone-prefix": {
       "type": "string",
@@ -251,7 +251,7 @@
     },
     "product.funeral.coverage.funeral-costs.beneficiary.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.funeral.coverage.funeral-costs.beneficiary.first-name": {
       "type": "string",
@@ -275,7 +275,7 @@
     },
     "product.funeral.coverage.funeral-costs.beneficiary.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.funeral.coverage.funeral-costs.beneficiary.net-income": {
       "description": "annual net income of person",
@@ -283,7 +283,7 @@
     },
     "product.funeral.coverage.funeral-costs.beneficiary.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.funeral.coverage.funeral-costs.beneficiary.phone-prefix": {
       "type": "string",
@@ -371,7 +371,7 @@
     },
     "product.funeral.policyholder.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.funeral.policyholder.first-name": {
       "type": "string",
@@ -395,7 +395,7 @@
     },
     "product.funeral.policyholder.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.funeral.policyholder.net-income": {
       "description": "annual net income of person",
@@ -403,7 +403,7 @@
     },
     "product.funeral.policyholder.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.funeral.policyholder.phone-prefix": {
       "type": "string",

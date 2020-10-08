@@ -27,7 +27,7 @@
     },
     "person.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.first-name": {
       "type": "string",
@@ -55,7 +55,7 @@
     },
     "person.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.net-income": {
       "description": "annual net income of person",
@@ -67,7 +67,7 @@
     },
     "person.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.phone-prefix": {
       "type": "string",
@@ -171,7 +171,7 @@
     },
     "product.life.contributor.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.life.contributor.first-name": {
       "type": "string",
@@ -195,7 +195,7 @@
     },
     "product.life.contributor.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.life.contributor.net-income": {
       "description": "annual net income of person",
@@ -203,7 +203,7 @@
     },
     "product.life.contributor.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.life.contributor.phone-prefix": {
       "type": "string",
@@ -267,7 +267,7 @@
     },
     "product.life.coverage.onetime-payment-death.beneficiary.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.life.coverage.onetime-payment-death.beneficiary.first-name": {
       "type": "string",
@@ -291,7 +291,7 @@
     },
     "product.life.coverage.onetime-payment-death.beneficiary.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.life.coverage.onetime-payment-death.beneficiary.net-income": {
       "description": "annual net income of person",
@@ -299,7 +299,7 @@
     },
     "product.life.coverage.onetime-payment-death.beneficiary.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.life.coverage.onetime-payment-death.beneficiary.phone-prefix": {
       "type": "string",
@@ -391,7 +391,7 @@
     },
     "product.life.policyholder.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.life.policyholder.first-name": {
       "type": "string",
@@ -415,7 +415,7 @@
     },
     "product.life.policyholder.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.life.policyholder.net-income": {
       "description": "annual net income of person",
@@ -423,7 +423,7 @@
     },
     "product.life.policyholder.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.life.policyholder.phone-prefix": {
       "type": "string",

@@ -47,7 +47,7 @@
     },
     "object.vehicle.driver.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "object.vehicle.driver.first-name": {
       "type": "string",
@@ -71,7 +71,7 @@
     },
     "object.vehicle.driver.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "object.vehicle.driver.net-income": {
       "description": "annual net income of person",
@@ -79,7 +79,7 @@
     },
     "object.vehicle.driver.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "object.vehicle.driver.phone-prefix": {
       "type": "string",
@@ -183,7 +183,7 @@
     },
     "object.vehicle.owner.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "object.vehicle.owner.first-name": {
       "type": "string",
@@ -207,7 +207,7 @@
     },
     "object.vehicle.owner.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "object.vehicle.owner.net-income": {
       "description": "annual net income of person",
@@ -215,7 +215,7 @@
     },
     "object.vehicle.owner.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "object.vehicle.owner.phone-prefix": {
       "type": "string",
@@ -327,7 +327,7 @@
     },
     "person.children.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.children.first-name": {
       "type": "string",
@@ -351,7 +351,7 @@
     },
     "person.children.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.children.net-income": {
       "description": "annual net income of person",
@@ -359,7 +359,7 @@
     },
     "person.children.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.children.phone-prefix": {
       "type": "string",
@@ -383,7 +383,7 @@
     },
     "person.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.first-name": {
       "type": "string",
@@ -407,7 +407,7 @@
     },
     "person.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.net-income": {
       "description": "annual net income of person",
@@ -439,7 +439,7 @@
     },
     "person.partner.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.partner.first-name": {
       "type": "string",
@@ -463,7 +463,7 @@
     },
     "person.partner.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.partner.net-income": {
       "description": "annual net income of person",
@@ -471,7 +471,7 @@
     },
     "person.partner.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.partner.phone-prefix": {
       "type": "string",
@@ -495,7 +495,7 @@
     },
     "person.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.phone-prefix": {
       "type": "string",
@@ -583,7 +583,7 @@
     },
     "product.vehicle-legal.contributor.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.vehicle-legal.contributor.first-name": {
       "type": "string",
@@ -607,7 +607,7 @@
     },
     "product.vehicle-legal.contributor.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.vehicle-legal.contributor.net-income": {
       "description": "annual net income of person",
@@ -615,7 +615,7 @@
     },
     "product.vehicle-legal.contributor.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.vehicle-legal.contributor.phone-prefix": {
       "type": "string",

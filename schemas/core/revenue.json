@@ -1,0 +1,18 @@
+{
+    "$id": "https://ontology.riskine.com/revenue.json",
+    "type": "object",
+    "properties": {
+        "net-amount": {
+            "description": "yearly revenue net-amount",
+            "$ref": "definitions.json#/money"
+        },
+        "is-generated-us": {
+            "type": "boolean",
+            "description": "revenue is generated in US"
+        },
+        "net-amount-us": {
+            "description": "yearly revenue net-amount generated in us",
+            "$ref": "definitions.json#/money"
+        }
+    }
+}

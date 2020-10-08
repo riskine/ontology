@@ -1,0 +1,22 @@
+{
+    "$id": "https://ontology.riskine.com/finances.json",
+    "type": "object",
+    "properties": {
+        "annual-report-number": {
+            "description": "number of annual reports",
+            "$ref": "definitions.json#/nonnegative-integer"
+        },
+        "positive-annual-result": {
+            "type": "boolean",
+            "description": "annual result of previous year is positive"
+        },
+        "positive-equity": {
+            "type": "boolean",
+            "description": "(consolidated) equity of organization (and ev. subsidiaries) is positive"
+        },
+        "total-payroll-gross-amount": {
+            "description": "gross amount of yearly total payroll",
+            "$ref": "definitions.json#/money"
+        }
+    }
+}

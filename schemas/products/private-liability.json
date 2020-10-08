@@ -27,7 +27,7 @@
     },
     "person.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.first-name": {
       "type": "string",
@@ -51,7 +51,7 @@
     },
     "person.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.net-income": {
       "description": "annual net income of person",
@@ -59,7 +59,7 @@
     },
     "person.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.phone-prefix": {
       "type": "string",
@@ -179,7 +179,7 @@
     },
     "product.private-liability.contributor.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.private-liability.contributor.first-name": {
       "type": "string",
@@ -203,7 +203,7 @@
     },
     "product.private-liability.contributor.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.private-liability.contributor.net-income": {
       "description": "annual net income of person",
@@ -211,7 +211,7 @@
     },
     "product.private-liability.contributor.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.private-liability.contributor.phone-prefix": {
       "type": "string",

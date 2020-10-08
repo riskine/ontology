@@ -31,7 +31,7 @@
     },
     "object.animal.dog.owner.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "object.animal.dog.owner.first-name": {
       "type": "string",
@@ -55,7 +55,7 @@
     },
     "object.animal.dog.owner.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "object.animal.dog.owner.net-income": {
       "description": "annual net income of person",
@@ -63,7 +63,7 @@
     },
     "object.animal.dog.owner.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "object.animal.dog.owner.phone-prefix": {
       "type": "string",
@@ -115,7 +115,7 @@
     },
     "person.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.first-name": {
       "type": "string",
@@ -139,7 +139,7 @@
     },
     "person.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.net-income": {
       "description": "annual net income of person",
@@ -147,7 +147,7 @@
     },
     "person.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.phone-prefix": {
       "type": "string",
@@ -235,7 +235,7 @@
     },
     "product.animal-liability.contributor.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.animal-liability.contributor.first-name": {
       "type": "string",
@@ -259,7 +259,7 @@
     },
     "product.animal-liability.contributor.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.animal-liability.contributor.net-income": {
       "description": "annual net income of person",
@@ -267,7 +267,7 @@
     },
     "product.animal-liability.contributor.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.animal-liability.contributor.phone-prefix": {
       "type": "string",

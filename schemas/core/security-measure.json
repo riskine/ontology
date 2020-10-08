@@ -1,0 +1,14 @@
+{
+    "$id": "https://ontology.riskine.com/security-measure.json",
+    "type": "object",
+    "properties": {
+        "in-place": {
+            "type": "boolean",
+            "description": "element or measure exists"
+        },
+        "update-frequency": {
+            "description": "update frequency of security-measure",
+            "$ref": "definitions.json#/temporal-interval"
+        }
+    }
+}

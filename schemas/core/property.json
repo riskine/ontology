@@ -16,7 +16,7 @@
       "description": "property is developed"
     },
     "address": {
-      "description": "address of person, structure or property",
+      "description": "address of person, organization, structure or property",
       "$ref": "address.json"
     }
   }

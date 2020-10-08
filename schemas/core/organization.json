@@ -1,0 +1,94 @@
+{
+    "$id": "https://ontology.riskine.com/organization.json",
+    "type": "object",
+    "properties": {
+        "business-name": {
+            "type": "string",
+            "description": "name of organization"
+        },
+        "address": {
+            "description": "address of person, organization, structure or property",
+            "$ref": "address.json"
+        },
+        "founding-date": {
+            "description": "founding date of organization",
+            "$ref": "definitions.json#/date"
+        },
+        "commercial-registry-entry-date": {
+            "description": "date of entry in commercial registry",
+            "$ref": "definitions.json#/date"
+        },
+        "industry": {
+            "type": "string",
+            "description": "industry the organization operates in"
+        },
+        "economic-activity": {
+            "type": "string",
+            "description": "economic activity of organization"
+        },
+        "legal-form": {
+            "type": "string",
+            "description": "legal form of organization (ELF ISO standard 20275)"
+        },
+        "email": {
+            "type": "string",
+            "description": "email-address"
+        },
+        "phone-number": {
+            "type": "string",
+            "description": "phone number"
+        },
+        "mobile-number": {
+            "type": "string",
+            "description": "mobile number"
+        },
+        "revenue": {
+            "description": "revenue of organization",
+            "$ref": "revenue.json"
+        },
+        "subsidiary-ewr": {
+            "type": "boolean",
+            "description": "organization has subsidiaries in EWR"
+        },
+        "subsidiary-other-countries": {
+            "type": "boolean",
+            "description": "organization has subsidiaries in other countries"
+        },
+        "subsidiary-own-country": {
+            "type": "boolean",
+            "description": "organization has subsidiaries in own country"
+        },
+        "subsidiary-us": {
+            "type": "boolean",
+            "description": "organization has subsidiaries in US"
+        },
+        "finances": {
+            "description": "financial information of organization",
+            "$ref": "finances.json"
+        },
+        "security-measure": {
+            "description": "security-measures of organization",
+            "$ref": "security-measure.json"
+        },
+        "data-processing": {
+            "description": "data processed by organization",
+            "$ref": "data-processing.json"
+        },
+        "at-stock-market": {
+            "type": "boolean",
+            "description": "shares of organization (and / or ev. subsidiary) are traded at the stock market"
+        },
+        "insolvency-proceedings-in-place": {
+            "type": "boolean",
+            "description": "organization (and / or ev. subsidiary) is involved in insolvency proceedings"
+        },
+        "merger-in-place": {
+            "type": "boolean",
+            "description": "organization (and / or ev. subsidiary) recently actively participated in a merger / acquisition"
+        },
+        "takeover-in-place": {
+            "type": "boolean",
+            "description": "organization (and / or ev.subsidiary) was sold recently"
+        }
+    }
+}

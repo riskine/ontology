@@ -1,0 +1,245 @@
+{
+    "type": "object",
+    "properties": {
+        "organization.address.city": {
+            "type": "string",
+            "description": "city (as part of an address)"
+        },
+        "organization.address.country": {
+            "type": "string",
+            "description": "country  (ISO 3166-1 alpha-2 country code)"
+        },
+        "organization.address.house-number": {
+            "type": "string",
+            "description": "house number (as part of an address)"
+        },
+        "organization.address.postcode": {
+            "type": "string",
+            "description": "postal code (as part of an address)"
+        },
+        "organization.address.street": {
+            "type": "string",
+            "description": "street (as part of an address)"
+        },
+        "organization.at-stock-market": {
+            "type": "boolean",
+            "description": "shares of organization (and / or ev. subsidiary) are traded at the stock market"
+        },
+        "organization.business-name": {
+            "type": "string",
+            "description": "name of organization"
+        },
+        "organization.commercial-registry-entry-date": {
+            "description": "date of entry in commercial registry",
+            "$ref": "#/definitions/date"
+        },
+        "organization.economic-activity": {
+            "type": "string",
+            "description": "economic activity of organization"
+        },
+        "organization.email": {
+            "type": "string",
+            "description": "email-address"
+        },
+        "organization.finances.annual-report-number": {
+            "description": "number of annual reports",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "organization.finances.positive-annual-result": {
+            "type": "boolean",
+            "description": "annual result of previous year is positive"
+        },
+        "organization.finances.positive-equity": {
+            "type": "boolean",
+            "description": "(consolidated) equity of organization (and ev. subsidiaries) is positive"
+        },
+        "organization.finances.total-payroll-gross-amount": {
+            "description": "gross amount of yearly total payroll",
+            "$ref": "#/definitions/money"
+        },
+        "organization.founding-date": {
+            "description": "founding date of organization",
+            "$ref": "#/definitions/date"
+        },
+        "organization.industry": {
+            "type": "string",
+            "description": "industry the organization operates in"
+        },
+        "organization.insolvency-proceedings-in-place": {
+            "type": "boolean",
+            "description": "organization (and / or ev. subsidiary) is involved in insolvency proceedings"
+        },
+        "organization.legal-form": {
+            "type": "string",
+            "description": "legal form of organization (ELF ISO standard 20275)"
+        },
+        "organization.merger-in-place": {
+            "type": "boolean",
+            "description": "organization (and / or ev. subsidiary) recently actively participated in a merger / acquisition"
+        },
+        "organization.mobile-number": {
+            "type": "string",
+            "description": "mobile number"
+        },
+        "organization.phone-number": {
+            "type": "string",
+            "description": "phone number"
+        },
+        "organization.revenue.is-generated-us": {
+            "type": "boolean",
+            "description": "revenue is generated in US"
+        },
+        "organization.revenue.net-amount": {
+            "description": "yearly revenue net-amount",
+            "$ref": "#/definitions/money"
+        },
+        "organization.revenue.net-amount-us": {
+            "description": "yearly revenue net-amount generated in us",
+            "$ref": "#/definitions/money"
+        },
+        "organization.subsidiary-ewr": {
+            "type": "boolean",
+            "description": "organization has subsidiaries in EWR"
+        },
+        "organization.subsidiary-other-countries": {
+            "type": "boolean",
+            "description": "organization has subsidiaries in other countries"
+        },
+        "organization.subsidiary-own-country": {
+            "type": "boolean",
+            "description": "organization has subsidiaries in own country"
+        },
+        "organization.subsidiary-us": {
+            "type": "boolean",
+            "description": "organization has subsidiaries in US"
+        },
+        "organization.takeover-in-place": {
+            "type": "boolean",
+            "description": "organization (and / or ev.subsidiary) was sold recently"
+        },
+        "product.directors-liability-sme.anniversary-date": {
+            "description": "date of policy anniversary",
+            "$ref": "#/definitions/date"
+        },
+        "product.directors-liability-sme.automatic-renewal": {
+            "type": "boolean",
+            "description": "automatic renewal of policy"
+        },
+        "product.directors-liability-sme.cancellation-period": {
+            "description": "cancellation-period of product in months",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.directors-liability-sme.coverage.directors-pecuniary-liability.annual-limit-factor": {
+            "type": "integer",
+            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+        },
+        "product.directors-liability-sme.coverage.directors-pecuniary-liability.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.directors-liability-sme.coverage.directors-pecuniary-liability.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.directors-liability-sme.coverage.directors-pecuniary-liability.previous-claims-amount": {
+            "description": "total claims amount in relevant time-period",
+            "$ref": "#/definitions/money"
+        },
+        "product.directors-liability-sme.coverage.directors-pecuniary-liability.previous-claims-in-place": {
+            "type": "boolean",
+            "description": "there are claims made in the relevant time-period"
+        },
+        "product.directors-liability-sme.coverage.directors-pecuniary-liability.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.directors-liability-sme.coverage.directors-pecuniary-liability.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.directors-liability-sme.package": {
+            "type": "string",
+            "description": "specific tariff name"
+        },
+        "product.directors-liability-sme.premium-amount": {
+            "description": "premium amount per payment interval",
+            "$ref": "#/definitions/money"
+        },
+        "product.directors-liability-sme.premium-payment-interval": {
+            "description": "payment interval for product-premium",
+            "$ref": "#/definitions/temporal-interval"
+        },
+        "product.directors-liability-sme.premium-payment-method": {
+            "description": "payment method for product-premium",
+            "$ref": "#/definitions/payment-method"
+        },
+        "product.directors-liability-sme.request-declined": {
+            "type": "boolean",
+            "description": "request for similar product was declined"
+        },
+        "product.directors-liability-sme.start-date": {
+            "description": "start date of validity period of the product",
+            "$ref": "#/definitions/date"
+        },
+        "product.directors-liability-sme.term-time": {
+            "description": "term-time for product in months",
+            "$ref": "#/definitions/nonnegative-integer"
+        }
+    },
+    "definitions": {
+        "money": {
+            "type": "number",
+            "format": "money"
+        },
+        "date": {
+            "type": "string",
+            "format": "date"
+        },
+        "nonnegative-integer": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "temporal-interval": {
+            "type": "integer",
+            "enum": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "enum-description": [
+                "not specified",
+                "one-off",
+                "daily",
+                "weekly",
+                "monthly",
+                "quaterly",
+                "bi-annually",
+                "annually",
+                "every 2 years",
+                "every 3 years"
+            ]
+        },
+        "payment-method": {
+            "type": "integer",
+            "enum": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "enum-description": [
+                "direct debit",
+                "payment slip",
+                "standing order",
+                "credit card"
+            ]
+        }
+    }
+}
