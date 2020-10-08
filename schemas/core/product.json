@@ -25,6 +25,10 @@
       "description": "start date of validity period of the product",
       "$ref": "definitions.json#/date"
     },
+    "anniversary-date": {
+      "description": "date of policy anniversary",
+      "$ref": "definitions.json#/date"
+    },
     "term-time": {
       "description": "term-time for product in months",
       "$ref": "definitions.json#/nonnegative-integer"
@@ -32,6 +36,10 @@
     "cancellation-period": {
       "$ref": "definitions.json#/nonnegative-integer",
       "description": "cancellation-period of product in months"
+    },
+    "automatic-renewal": {
+      "type": "boolean",
+      "description": "automatic renewal of policy"
     },
     "premium-amount": {
       "description": "premium amount per payment interval",
@@ -56,6 +64,10 @@
     "package": {
       "type": "string",
       "description": "specific tariff-name"
+    },
+    "request-declined": {
+      "type": "boolean",
+      "description": "request for similar product was declined"
     }
   }
 }

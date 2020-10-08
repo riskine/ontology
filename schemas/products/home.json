@@ -119,7 +119,7 @@
     },
     "object.structure.home.house.owner.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "object.structure.home.house.owner.first-name": {
       "type": "string",
@@ -143,7 +143,7 @@
     },
     "object.structure.home.house.owner.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "object.structure.home.house.owner.net-income": {
       "description": "annual net income of person",
@@ -151,7 +151,7 @@
     },
     "object.structure.home.house.owner.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "object.structure.home.house.owner.phone-prefix": {
       "type": "string",
@@ -259,7 +259,7 @@
     },
     "person.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "person.first-name": {
       "type": "string",
@@ -283,7 +283,7 @@
     },
     "person.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "person.net-income": {
       "description": "annual net income of person",
@@ -291,7 +291,7 @@
     },
     "person.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "person.phone-prefix": {
       "type": "string",
@@ -379,7 +379,7 @@
     },
     "product.home.contributor.email": {
       "type": "string",
-      "description": "email-address of person"
+      "description": "email-address"
     },
     "product.home.contributor.first-name": {
       "type": "string",
@@ -403,7 +403,7 @@
     },
     "product.home.contributor.mobile-number": {
       "type": "string",
-      "description": "mobile number of person"
+      "description": "mobile number"
     },
     "product.home.contributor.net-income": {
       "description": "annual net income of person",
@@ -411,7 +411,7 @@
     },
     "product.home.contributor.phone-number": {
       "type": "string",
-      "description": "phone number of person"
+      "description": "phone number"
     },
     "product.home.contributor.phone-prefix": {
       "type": "string",
