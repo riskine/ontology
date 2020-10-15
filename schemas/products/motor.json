@@ -2233,6 +2233,10 @@
             "description": "payment method for product-premium",
             "$ref": "#/definitions/payment-method"
         },
+        "product.motor.product-type": {
+            "type": "string",
+            "description": "type of the motor-product"
+        },
         "product.motor.start-date": {
             "description": "start date of validity period of the product",
             "$ref": "#/definitions/date"
