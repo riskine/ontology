@@ -321,7 +321,7 @@
       "type": "string",
       "description": "specific tariff name"
     },
-    "product.dailybenetif-hospitalization.policy-number": {
+    "product.dailybenefit-hospitalization.policy-number": {
       "type": "string",
       "description": "number of insurance policy"
     },
