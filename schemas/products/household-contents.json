@@ -557,6 +557,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.household-contents.policy-number": {
+      "type": "string",
+      "description": "number of insurance policy"
+    },
     "product.household-contents.premium-amount": {
       "description": "premium amount per payment interval",
       "$ref": "#/definitions/money"

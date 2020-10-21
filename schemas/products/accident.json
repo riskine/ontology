@@ -573,6 +573,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.accident.policy-number": {
+      "type": "string",
+      "description": "number of insurance policy"
+    },
     "product.accident.policyholder.address.city": {
       "type": "string",
       "description": "city (as part of an address)"

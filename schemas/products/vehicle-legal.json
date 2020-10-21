@@ -693,6 +693,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.vehicle-legal.policy-number": {
+      "type": "string",
+      "description": "number of insurance policy"
+    },
     "product.vehicle-legal.premium-amount": {
       "description": "premium amount per payment interval",
       "$ref": "#/definitions/money"

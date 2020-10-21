@@ -469,6 +469,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.landowner-liability.policy-number": {
+      "type": "string",
+      "description": "number of insurance policy"
+    },
     "product.landowner-liability.premium-amount": {
       "description": "premium amount per payment interval",
       "$ref": "#/definitions/money"

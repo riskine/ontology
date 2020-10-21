@@ -337,6 +337,10 @@
             "type": "string",
             "description": "specific tariff name"
         },
+        "product.pecuniary-liability-sme.policy-number": {
+            "type": "string",
+            "description": "number of insurance policy"
+        },
         "product.pecuniary-liability-sme.premium-amount": {
             "description": "premium amount per payment interval",
             "$ref": "#/definitions/money"
