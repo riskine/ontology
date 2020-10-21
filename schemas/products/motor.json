@@ -2233,6 +2233,22 @@
             "description": "payment method for product-premium",
             "$ref": "#/definitions/payment-method"
         },
+        "product.motor.previous-insurer": {
+            "type": "string",
+            "description": "name of previous insurance company"
+        },
+        "product.motor.previous-policy-number": {
+            "type": "string",
+            "description": "number of previous insurance policy"
+        },
+        "product.motor.previous-premium-amount": {
+            "description": "premium amount of previous product per payment interval",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.previous-premium-payment-interval": {
+            "description": "payment interval for premium of previous product",
+            "$ref": "#/definitions/temporal-interval"
+        },
         "product.motor.product-type": {
             "type": "string",
             "description": "type of the motor-product"
