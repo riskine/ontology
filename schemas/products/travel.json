@@ -453,6 +453,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.travel.policy-number": {
+      "type": "string",
+      "description": "number of insurance policy"
+    },
     "product.travel.premium-amount": {
       "description": "premium amount per payment interval",
       "$ref": "#/definitions/money"

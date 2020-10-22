@@ -365,6 +365,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.life.policy-number": {
+      "type": "string",
+      "description": "number of insurance policy"
+    },
     "product.life.policyholder.address.city": {
       "type": "string",
       "description": "city (as part of an address)"

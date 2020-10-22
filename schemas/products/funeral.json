@@ -345,6 +345,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.funeral.policy-number": {
+      "type": "string",
+      "description": "number of insurance policy"
+    },
     "product.funeral.policyholder.address.city": {
       "type": "string",
       "description": "city (as part of an address)"

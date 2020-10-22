@@ -257,6 +257,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.invalidity.policy-number": {
+      "type": "string",
+      "description": "number of insurance policy"
+    },
     "product.invalidity.policyholder.address.city": {
       "type": "string",
       "description": "city (as part of an address)"

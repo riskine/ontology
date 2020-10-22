@@ -329,6 +329,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.animal-liability.policy-number": {
+      "type": "string",
+      "description": "number of insurance policy"
+    },
     "product.animal-liability.premium-amount": {
       "description": "premium amount per payment interval",
       "$ref": "#/definitions/money"

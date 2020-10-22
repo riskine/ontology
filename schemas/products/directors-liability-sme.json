@@ -161,6 +161,10 @@
             "type": "string",
             "description": "specific tariff name"
         },
+        "product.directors-liability-sme.policy-number": {
+            "type": "string",
+            "description": "number of insurance policy"
+        },
         "product.directors-liability-sme.premium-amount": {
             "description": "premium amount per payment interval",
             "$ref": "#/definitions/money"

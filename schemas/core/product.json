@@ -17,6 +17,10 @@
       "description": "contributor for product",
       "$ref": "person.json"
     },
+    "policy-number": {
+      "type": "string",
+      "description": "number of insurance policy"
+    },
     "deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "definitions.json#/money"
