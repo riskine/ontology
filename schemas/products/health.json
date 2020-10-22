@@ -1397,7 +1397,7 @@
       "type": "string",
       "description": "specific tariff name"
     },
-    "product.motor.policy-number": {
+    "product.health.policy-number": {
       "type": "string",
       "description": "number of insurance policy"
     },
