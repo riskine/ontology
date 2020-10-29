@@ -489,6 +489,22 @@
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
+    "product.household.coverage.household-contents.glass-damage.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.household-contents.glass-damage.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.household.coverage.household-contents.glass-damage.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.household-contents.glass-damage.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
     "product.household.coverage.household-contents.glass-damage-extended.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
