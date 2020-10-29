@@ -405,6 +405,22 @@
       "type": "string",
       "description": "title of person (as part of the salutation)"
     },
+    "product.household.coverage.elemental-damages.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.elemental-damages.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.household.coverage.elemental-damages.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.elemental-damages.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
     "product.household.coverage.household-contents.bicycle-theft.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
@@ -581,6 +597,18 @@
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
+    "product.household.coverage.outdoor.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.household.coverage.outdoor.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.outdoor.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
     "product.household.coverage.private-liability.best-coverage-guarantee.is-included": {
       "type": "boolean",
       "description": "coverage/tariff-option is included in the product"
@@ -713,6 +741,10 @@
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
+    "product.household.coverage.sum-insured": {
+      "description": "max. amount insured by all coverages",
+      "$ref": "#/definitions/money"
+    },    
     "product.household.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
@@ -735,6 +767,18 @@
     },
     "product.household.premium-payment-method": {
       "description": "payment method for product-premium",
+      "$ref": "#/definitions/payment-method"
+    },
+    "product.household.previous-premium-amount": {
+      "description": "premium amount per payment interval of previous policy",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.previous-premium-payment-interval": {
+      "description": "payment interval for product-premium of previous policy",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.household.previous-premium-payment-method": {
+      "description": "payment method for product-premium of previous policy",
       "$ref": "#/definitions/payment-method"
     },
     "product.household.start-date": {
