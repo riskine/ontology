@@ -405,21 +405,21 @@
       "type": "string",
       "description": "title of person (as part of the salutation)"
     },
-    "product.household.coverage.elemental-damages.deductible": {
-      "description": "deductible for given coverage(bundle) or product",
-      "$ref": "#/definitions/money"
+    "product.household.coverage.household-contents.elemental-damages.deductible": {
+        "description": "deductible for given coverage(bundle) or product",
+        "$ref": "#/definitions/money"
     },
-    "product.household.coverage.elemental-damages.is-included": {
-      "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+    "product.household.coverage.household-contents.elemental-damages.is-included": {
+        "type": "boolean",
+        "description": "coverage or tariff-option is included in the product"
     },
-    "product.household.coverage.elemental-damages.sum-insured": {
-      "description": "max. amount insured by the coverage(bundle)",
-      "$ref": "#/definitions/money"
+    "product.household.coverage.household-contents.elemental-damages.sum-insured": {
+        "description": "max. amount insured by the coverage(bundle)",
+        "$ref": "#/definitions/money"
     },
-    "product.household.coverage.elemental-damages.waiting-time": {
-      "description": "waiting time for coverage(bundle) in days",
-      "$ref": "#/definitions/nonnegative-integer"
+    "product.household.coverage.household-contents.elemental-damages.waiting-time": {
+        "description": "waiting time for coverage(bundle) in days",
+        "$ref": "#/definitions/nonnegative-integer"
     },
     "product.household.coverage.household-contents.bicycle-theft.deductible": {
       "description": "deductible for given coverage(bundle) or product",
@@ -541,22 +541,6 @@
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household.coverage.household-contents.natcat-extended.deductible": {
-      "description": "deductible for given coverage(bundle) or product",
-      "$ref": "#/definitions/money"
-    },
-    "product.household.coverage.household-contents.natcat-extended.is-included": {
-      "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
-    },
-    "product.household.coverage.household-contents.natcat-extended.sum-insured": {
-      "description": "max. amount insured by the coverage(bundle)",
-      "$ref": "#/definitions/money"
-    },
-    "product.household.coverage.household-contents.natcat-extended.waiting-time": {
-      "description": "waiting time for coverage(bundle) in days",
-      "$ref": "#/definitions/nonnegative-integer"
-    },
     "product.household.coverage.household-contents.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
@@ -613,15 +597,19 @@
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household.coverage.outdoor.is-included": {
-      "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+    "product.household.coverage.household-contents.outdoor.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
     },
-    "product.household.coverage.outdoor.sum-insured": {
+    "product.household.coverage.household-contents.outdoor.is-included": {
+      "type": "boolean",
+      "description": "coverage or tariff-option is included in the product"
+    },
+    "product.household.coverage.household-contents.outdoor.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.household.coverage.outdoor.waiting-time": {
+    "product.household.coverage.household-contents.outdoor.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
@@ -757,10 +745,6 @@
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household.coverage.sum-insured": {
-      "description": "max. amount insured by all coverages",
-      "$ref": "#/definitions/money"
-    },    
     "product.household.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
