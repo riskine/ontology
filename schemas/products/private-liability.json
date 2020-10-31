@@ -1,6 +1,14 @@
 {
   "type": "object",
   "properties": {
+    "object.person.children": {
+      "type": "integer",
+      "description": "number of children to insure by the policy holder"
+    },
+    "object.person.adults": {
+      "type": "integer",
+      "description": "number of adults to insure by the policy holder"
+    },
     "person.address.city": {
       "type": "string",
       "description": "city (as part of an address)"
@@ -453,6 +461,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.private-liability.policyholder.birthdate" : {
+      "description": "birth date of the policy holder",
+      "$ref": "#/definitions/date"
+    },
     "product.private-liability.policy-number": {
       "type": "string",
       "description": "number of insurance policy"
@@ -467,6 +479,18 @@
     },
     "product.private-liability.premium-payment-method": {
       "description": "payment method for product-premium",
+      "$ref": "#/definitions/payment-method"
+    },
+    "product.private-liability.previous-premium-amount": {
+      "description": "previous premium amount per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.private-liability.previous-premium-payment-interval": {
+      "description": "payment interval for previous product-premium",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.private-liability.previous-premium-payment-method": {
+      "description": "payment method for previous product-premium",
       "$ref": "#/definitions/payment-method"
     },
     "product.private-liability.start-date": {
