@@ -25,91 +25,99 @@
       "description": "fair value of object",
       "$ref": "#/definitions/money"
     },
-    "object.household-contents.owner.address.city": {
+    "object.household.adults": {
+      "description": "number of insured adults",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.household.children": {
+      "description": "number of insured children",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "object.household.owner.address.city": {
       "type": "string",
       "description": "city (as part of an address)"
     },
-    "object.household-contents.owner.address.country": {
+    "object.household.owner.address.country": {
       "type": "string",
       "description": "country  (ISO 3166-1 alpha-2 country code)"
     },
-    "object.household-contents.owner.address.house-number": {
+    "object.household.owner.address.house-number": {
       "type": "string",
       "description": "house number (as part of an address)"
     },
-    "object.household-contents.owner.address.postcode": {
+    "object.household.owner.address.postcode": {
       "type": "string",
       "description": "postal code (as part of an address)"
     },
-    "object.household-contents.owner.address.street": {
+    "object.household.owner.address.street": {
       "type": "string",
       "description": "street (as part of an address)"
     },
-    "object.household-contents.owner.birthdate": {
+    "object.household.owner.birthdate": {
       "description": "birthdate of person or animal",
       "$ref": "#/definitions/date"
     },
-    "object.household-contents.owner.email": {
+    "object.household.owner.email": {
       "type": "string",
       "description": "email-address"
     },
-    "object.household-contents.owner.first-name": {
+    "object.household.owner.first-name": {
       "type": "string",
       "description": "first name of person"
     },
-    "object.household-contents.owner.gender": {
+    "object.household.owner.gender": {
       "description": "gender",
       "$ref": "#/definitions/gender"
     },
-    "object.household-contents.owner.gross-income": {
+    "object.household.owner.gross-income": {
       "description": "annual gross income of person",
       "$ref": "#/definitions/money"
     },
-    "object.household-contents.owner.last-name": {
+    "object.household.owner.last-name": {
       "type": "string",
       "description": "last name of person"
     },
-    "object.household-contents.owner.marital-status": {
+    "object.household.owner.marital-status": {
       "description": "marital status of person",
       "$ref": "#/definitions/marital-status"
     },
-    "object.household-contents.owner.mobile-number": {
+    "object.household.owner.mobile-number": {
       "type": "string",
       "description": "mobile number"
     },
-    "object.household-contents.owner.net-income": {
+    "object.household.owner.net-income": {
       "description": "annual net income of person",
       "$ref": "#/definitions/money"
     },
-    "object.household-contents.owner.phone-number": {
+    "object.household.owner.phone-number": {
       "type": "string",
       "description": "phone number"
     },
-    "object.household-contents.owner.phone-prefix": {
+    "object.household.owner.phone-prefix": {
       "type": "string",
       "description": "prefix of phone-number"
     },
-    "object.household-contents.owner.salutation": {
+    "object.household.owner.salutation": {
       "description": "salutation of person",
       "$ref": "#/definitions/salutation"
     },
-    "object.household-contents.owner.ssn": {
+    "object.household.owner.ssn": {
       "type": "string",
       "description": "social security number of person"
     },
-    "object.household-contents.owner.tax-id": {
+    "object.household.owner.tax-id": {
       "type": "string",
       "description": "tax-id of person"
     },
-    "object.household-contents.owner.title": {
+    "object.household.owner.title": {
       "type": "string",
       "description": "title of person (as part of the salutation)"
     },
-    "object.household-contents.reinstatement-value": {
+    "object.household.reinstatement-value": {
       "description": "reinstatement value of object",
       "$ref": "#/definitions/money"
     },
-    "object.household-contents.value": {
+    "object.household.value": {
       "description": "fair value of object",
       "$ref": "#/definitions/money"
     },
@@ -253,331 +261,391 @@
       "type": "string",
       "description": "title of person (as part of the salutation)"
     },
-    "product.household-contents.cancellation-period": {
+    "product.household.cancellation-period": {
       "description": "cancellation-period of product in months",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household-contents.contributor.address.city": {
+    "product.household.contributor.address.city": {
       "type": "string",
       "description": "city (as part of an address)"
     },
-    "product.household-contents.contributor.address.country": {
+    "product.household.contributor.address.country": {
       "type": "string",
       "description": "country  (ISO 3166-1 alpha-2 country code)"
     },
-    "product.household-contents.contributor.address.house-number": {
+    "product.household.contributor.address.house-number": {
       "type": "string",
       "description": "house number (as part of an address)"
     },
-    "product.household-contents.contributor.address.postcode": {
+    "product.household.contributor.address.postcode": {
       "type": "string",
       "description": "postal code (as part of an address)"
     },
-    "product.household-contents.contributor.address.street": {
+    "product.household.contributor.address.street": {
       "type": "string",
       "description": "street (as part of an address)"
     },
-    "product.household-contents.contributor.bank-account.bank-city": {
+    "product.household.contributor.bank-account.bank-city": {
       "type": "string",
       "description": "city of issuing bank"
     },
-    "product.household-contents.contributor.bank-account.bank-name": {
+    "product.household.contributor.bank-account.bank-name": {
       "type": "string",
       "description": "name of issuing bank"
     },
-    "product.household-contents.contributor.bank-account.bic": {
+    "product.household.contributor.bank-account.bic": {
       "type": "string",
       "description": "Bank Identifier Code"
     },
-    "product.household-contents.contributor.bank-account.iban": {
+    "product.household.contributor.bank-account.iban": {
       "type": "string",
       "description": "International Banking Account Number"
     },
-    "product.household-contents.contributor.birthdate": {
+    "product.household.contributor.birthdate": {
       "description": "birthdate of person or animal",
       "$ref": "#/definitions/date"
     },
-    "product.household-contents.contributor.credit-card.card-number": {
+    "product.household.contributor.credit-card.card-number": {
       "type": "string",
       "description": "credit card number"
     },
-    "product.household-contents.contributor.credit-card.card-type": {
+    "product.household.contributor.credit-card.card-type": {
       "description": "credit card type",
       "$ref": "#/definitions/credit-card-type"
     },
-    "product.household-contents.contributor.credit-card.cvc": {
+    "product.household.contributor.credit-card.cvc": {
       "type": "string",
       "description": "credit card verification code"
     },
-    "product.household-contents.contributor.credit-card.expiration-month": {
+    "product.household.contributor.credit-card.expiration-month": {
       "type": "integer",
       "description": "expiration month of credit card (1-12)"
     },
-    "product.household-contents.contributor.credit-card.expiration-year": {
+    "product.household.contributor.credit-card.expiration-year": {
       "description": "expiration year of credit card",
       "$ref": "#/definitions/year"
     },
-    "product.household-contents.contributor.email": {
+    "product.household.contributor.email": {
       "type": "string",
       "description": "email-address"
     },
-    "product.household-contents.contributor.first-name": {
+    "product.household.contributor.first-name": {
       "type": "string",
       "description": "first name of person"
     },
-    "product.household-contents.contributor.gender": {
+    "product.household.contributor.gender": {
       "description": "gender",
       "$ref": "#/definitions/gender"
     },
-    "product.household-contents.contributor.gross-income": {
+    "product.household.contributor.gross-income": {
       "description": "annual gross income of person",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.contributor.last-name": {
+    "product.household.contributor.last-name": {
       "type": "string",
       "description": "last name of person"
     },
-    "product.household-contents.contributor.marital-status": {
+    "product.household.contributor.marital-status": {
       "description": "marital status of person",
       "$ref": "#/definitions/marital-status"
     },
-    "product.household-contents.contributor.mobile-number": {
+    "product.household.contributor.mobile-number": {
       "type": "string",
       "description": "mobile number"
     },
-    "product.household-contents.contributor.net-income": {
+    "product.household.contributor.net-income": {
       "description": "annual net income of person",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.contributor.phone-number": {
+    "product.household.contributor.phone-number": {
       "type": "string",
       "description": "phone number"
     },
-    "product.household-contents.contributor.phone-prefix": {
+    "product.household.contributor.phone-prefix": {
       "type": "string",
       "description": "prefix of phone-number"
     },
-    "product.household-contents.contributor.salutation": {
+    "product.household.contributor.salutation": {
       "description": "salutation of person",
       "$ref": "#/definitions/salutation"
     },
-    "product.household-contents.contributor.ssn": {
+    "product.household.contributor.ssn": {
       "type": "string",
       "description": "social security number of person"
     },
-    "product.household-contents.contributor.tax-id": {
+    "product.household.contributor.tax-id": {
       "type": "string",
       "description": "tax-id of person"
     },
-    "product.household-contents.contributor.title": {
+    "product.household.contributor.title": {
       "type": "string",
       "description": "title of person (as part of the salutation)"
     },
-    "product.household-contents.coverage.household-contents.bicycle-theft.deductible": {
+    "product.household.coverage.bicycle-theft.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.bicycle-theft.is-included": {
+    "product.household.coverage.bicycle-theft.is-included": {
       "type": "boolean",
       "description": "coverage/tariff-option is included in the product"
     },
-    "product.household-contents.coverage.household-contents.bicycle-theft.sum-insured": {
+    "product.household.coverage.bicycle-theft.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.bicycle-theft.waiting-time": {
+    "product.household.coverage.bicycle-theft.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household-contents.coverage.household-contents.burglary.deductible": {
+    "product.household.coverage.burglary.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.burglary.is-included": {
+    "product.household.coverage.burglary.is-included": {
       "type": "boolean",
       "description": "coverage/tariff-option is included in the product"
     },
-    "product.household-contents.coverage.household-contents.burglary.sum-insured": {
+    "product.household.coverage.burglary.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.burglary.waiting-time": {
+    "product.household.coverage.burglary.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household-contents.coverage.household-contents.deductible": {
+    "product.household.coverage.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.electronic-devices-special.deductible": {
+    "product.household.coverage.electronic-devices-special.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.electronic-devices-special.is-included": {
+    "product.household.coverage.electronic-devices-special.is-included": {
       "type": "boolean",
       "description": "coverage/tariff-option is included in the product"
     },
-    "product.household-contents.coverage.household-contents.electronic-devices-special.sum-insured": {
+    "product.household.coverage.electronic-devices-special.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.electronic-devices-special.waiting-time": {
+    "product.household.coverage.electronic-devices-special.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household-contents.coverage.household-contents.fire-storm-hail.deductible": {
+    "product.household.coverage.elemental-damage.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.fire-storm-hail.is-included": {
+    "product.household.coverage.elemental-damage.is-included": {
       "type": "boolean",
       "description": "coverage/tariff-option is included in the product"
     },
-    "product.household-contents.coverage.household-contents.fire-storm-hail.sum-insured": {
+    "product.household.coverage.elemental-damage.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.fire-storm-hail.waiting-time": {
+    "product.household.coverage.elemental-damage.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household-contents.coverage.household-contents.glass-damage-extended.deductible": {
+    "product.household.coverage.fire-storm-hail.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.glass-damage-extended.is-included": {
+    "product.household.coverage.fire-storm-hail.is-included": {
       "type": "boolean",
       "description": "coverage/tariff-option is included in the product"
     },
-    "product.household-contents.coverage.household-contents.glass-damage-extended.sum-insured": {
+    "product.household.coverage.fire-storm-hail.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.glass-damage-extended.waiting-time": {
+    "product.household.coverage.fire-storm-hail.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household-contents.coverage.household-contents.is-included": {
-      "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
-    },
-    "product.household-contents.coverage.household-contents.mobility.deductible": {
+    "product.household.coverage.glass-damage.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.mobility.is-included": {
+    "product.household.coverage.glass-damage.is-included": {
       "type": "boolean",
       "description": "coverage/tariff-option is included in the product"
     },
-    "product.household-contents.coverage.household-contents.mobility.sum-insured": {
+    "product.household.coverage.glass-damage.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.mobility.waiting-time": {
+    "product.household.coverage.glass-damage.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household-contents.coverage.household-contents.natcat-extended.deductible": {
+    "product.household.coverage.glass-damage-extended.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.natcat-extended.is-included": {
+    "product.household.coverage.glass-damage-extended.is-included": {
       "type": "boolean",
       "description": "coverage/tariff-option is included in the product"
     },
-    "product.household-contents.coverage.household-contents.natcat-extended.sum-insured": {
+    "product.household.coverage.glass-damage-extended.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.natcat-extended.waiting-time": {
+    "product.household.coverage.glass-damage-extended.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household-contents.coverage.household-contents.sum-insured": {
-      "description": "max. amount insured by the coverage(bundle)",
-      "$ref": "#/definitions/money"
-    },
-    "product.household-contents.coverage.household-contents.valuables.deductible": {
-      "description": "deductible for given coverage(bundle) or product",
-      "$ref": "#/definitions/money"
-    },
-    "product.household-contents.coverage.household-contents.valuables.is-included": {
+    "product.household.coverage.is-included": {
       "type": "boolean",
       "description": "coverage/tariff-option is included in the product"
     },
-    "product.household-contents.coverage.household-contents.valuables.sum-insured": {
-      "description": "max. amount insured by the coverage(bundle)",
-      "$ref": "#/definitions/money"
-    },
-    "product.household-contents.coverage.household-contents.valuables.waiting-time": {
-      "description": "waiting time for coverage(bundle) in days",
-      "$ref": "#/definitions/nonnegative-integer"
-    },
-    "product.household-contents.coverage.household-contents.vandalism-household.deductible": {
+    "product.household.coverage.mobility.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.vandalism-household.is-included": {
+    "product.household.coverage.mobility.is-included": {
       "type": "boolean",
       "description": "coverage/tariff-option is included in the product"
     },
-    "product.household-contents.coverage.household-contents.vandalism-household.sum-insured": {
+    "product.household.coverage.mobility.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.vandalism-household.waiting-time": {
+    "product.household.coverage.mobility.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household-contents.coverage.household-contents.waiting-time": {
-      "description": "waiting time for coverage(bundle) in days",
-      "$ref": "#/definitions/nonnegative-integer"
-    },
-    "product.household-contents.coverage.household-contents.waterleakage-household.deductible": {
+    "product.household.coverage.natcat-extended.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.waterleakage-household.is-included": {
+    "product.household.coverage.natcat-extended.is-included": {
       "type": "boolean",
       "description": "coverage/tariff-option is included in the product"
     },
-    "product.household-contents.coverage.household-contents.waterleakage-household.sum-insured": {
+    "product.household.coverage.natcat-extended.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.coverage.household-contents.waterleakage-household.waiting-time": {
+    "product.household.coverage.natcat-extended.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.household-contents.deductible": {
+    "product.household.coverage.outdoor.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.package": {
+    "product.household.coverage.outdoor.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.household.coverage.outdoor.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.outdoor.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.household.coverage.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.valuables.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.valuables.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.household.coverage.valuables.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.valuables.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.household.coverage.vandalism-household.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.vandalism-household.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.household.coverage.vandalism-household.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.vandalism-household.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.household.coverage.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.household.coverage.waterleakage-household.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.waterleakage-household.is-included": {
+      "type": "boolean",
+      "description": "coverage/tariff-option is included in the product"
+    },
+    "product.household.coverage.waterleakage-household.sum-insured": {
+      "description": "max. amount insured by the coverage(bundle)",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.coverage.waterleakage-household.waiting-time": {
+      "description": "waiting time for coverage(bundle) in days",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.household.deductible": {
+      "description": "deductible for given coverage(bundle) or product",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.package": {
       "type": "string",
       "description": "specific tariff name"
     },
-    "product.household-contents.policy-number": {
+    "product.household.policy-number": {
       "type": "string",
       "description": "number of insurance policy"
     },
-    "product.household-contents.premium-amount": {
+    "product.household.previous-premium-amount": {
+      "description": "previous premium amount per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "product.household.previous-premium-payment-interval": {
+      "description": "previous payment interval for product-premium",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "product.household.previous-premium-payment-method": {
+      "description": "previous payment method for product-premium",
+      "$ref": "#/definitions/payment-method"
+    },
+    "product.household.premium-amount": {
       "description": "premium amount per payment interval",
       "$ref": "#/definitions/money"
     },
-    "product.household-contents.premium-payment-interval": {
+    "product.household.premium-payment-interval": {
       "description": "payment interval for product-premium",
       "$ref": "#/definitions/temporal-interval"
     },
-    "product.household-contents.premium-payment-method": {
+    "product.household.premium-payment-method": {
       "description": "payment method for product-premium",
       "$ref": "#/definitions/payment-method"
     },
-    "product.household-contents.start-date": {
+    "product.household.start-date": {
       "description": "start date of validity period of the product",
       "$ref": "#/definitions/date"
     },
-    "product.household-contents.term-time": {
+    "product.household.term-time": {
       "description": "term-time for product in months",
       "$ref": "#/definitions/nonnegative-integer"
     }
