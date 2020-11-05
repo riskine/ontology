@@ -1,14 +1,6 @@
 {
   "type": "object",
   "properties": {
-    "object.person.children": {
-      "type": "integer",
-      "description": "number of children to insure by the policy holder"
-    },
-    "object.person.adults": {
-      "type": "integer",
-      "description": "number of adults to insure by the policy holder"
-    },
     "person.address.city": {
       "type": "string",
       "description": "city (as part of an address)"
@@ -457,17 +449,101 @@
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
+    "product.private-liability.number-insured-adults": {
+      "description": "number of insured adults",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
+    "product.private-liability.number-insured-children": {
+      "description": "number of insured children",
+      "$ref": "#/definitions/nonnegative-integer"
+    },
     "product.private-liability.package": {
       "type": "string",
       "description": "specific tariff name"
     },
-    "product.private-liability.policyholder.birthdate" : {
-      "description": "birth date of the policy holder",
-      "$ref": "#/definitions/date"
-    },
     "product.private-liability.policy-number": {
       "type": "string",
       "description": "number of insurance policy"
+    },
+    "product.private-liability.policyholder.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "product.private-liability.policyholder.address.country": {
+      "type": "string",
+      "description": "country  (ISO 3166-1 alpha-2 country code)"
+    },
+    "product.private-liability.policyholder.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "product.private-liability.policyholder.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "product.private-liability.policyholder.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "product.private-liability.policyholder.birthdate": {
+      "description": "birthdate of person or animal",
+      "$ref": "#/definitions/date"
+    },
+    "product.private-liability.policyholder.email": {
+      "type": "string",
+      "description": "email-address"
+    },
+    "product.private-liability.policyholder.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "product.private-liability.policyholder.gender": {
+      "description": "gender",
+      "$ref": "#/definitions/gender"
+    },
+    "product.private-liability.policyholder.gross-income": {
+      "description": "annual gross income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.private-liability.policyholder.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "product.private-liability.policyholder.marital-status": {
+      "description": "marital status of person",
+      "$ref": "#/definitions/marital-status"
+    },
+    "product.private-liability.policyholder.mobile-number": {
+      "type": "string",
+      "description": "mobile number"
+    },
+    "product.private-liability.policyholder.net-income": {
+      "description": "annual net income of person",
+      "$ref": "#/definitions/money"
+    },
+    "product.private-liability.policyholder.phone-number": {
+      "type": "string",
+      "description": "phone number"
+    },
+    "product.private-liability.policyholder.phone-prefix": {
+      "type": "string",
+      "description": "prefix of phone-number"
+    },
+    "product.private-liability.policyholder.salutation": {
+      "description": "salutation of person",
+      "$ref": "#/definitions/salutation"
+    },
+    "product.private-liability.policyholder.ssn": {
+      "type": "string",
+      "description": "social security number of person"
+    },
+    "product.private-liability.policyholder.tax-id": {
+      "type": "string",
+      "description": "tax-id of person"
+    },
+    "product.private-liability.policyholder.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
     },
     "product.private-liability.premium-amount": {
       "description": "premium amount per payment interval",
@@ -480,6 +556,14 @@
     "product.private-liability.premium-payment-method": {
       "description": "payment method for product-premium",
       "$ref": "#/definitions/payment-method"
+    },
+    "product.private-liability.previous-insurer": {
+      "type": "string",
+      "description": "name of previous insurance company"
+    },
+    "product.private-liability.previous-policy-number": {
+      "type": "string",
+      "description": "number of previous insurance policy"
     },
     "product.private-liability.previous-premium-amount": {
       "description": "previous premium amount per payment interval",
