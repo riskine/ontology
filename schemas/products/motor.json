@@ -29,6 +29,14 @@
             "description": "current mileage of vehicle",
             "$ref": "#/definitions/nonnegative-integer"
         },
+        "object.vehicle.driver.youngest.age": {
+            "type": "number",
+            "description": "youngest age of the driver"
+        },  
+        "object.vehicle.driver.other.is-included": {
+            "type": "boolean",
+            "description": "other driver is included in the product"
+        },
         "object.vehicle.driver.address.city": {
             "type": "string",
             "description": "city (as part of an address)"
@@ -301,7 +309,7 @@
             "type": "boolean",
             "description": "vehicle is newly registered"
         },
-        "object.vehicle.number-plate": {
+        "object.vehicle.license-plate": {
             "type": "string",
             "description": "number plate of vehicle"
         },
@@ -928,6 +936,26 @@
         "product.motor.contributor.title": {
             "type": "string",
             "description": "title of person (as part of the salutation)"
+        },
+        "product.motor.coverage.comprehensive.replacement-of-parts-without-deduction.is-included": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#"
+        },
+        "product.motor.coverage.liability.environmental-damage.sum-insured": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#"
+        },
+        "product.motor.coverage.comprehensive.fully.own-vehicle-self-damage.sum-insured": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#"
+        },
+        "product.motor.coverage.comprehensive.fully.major-damage-using-ships.is-included": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#"
+        },
+        "product.motor.coverage.comprehensive.fully.tow-damage.sum-insured": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#"
         },
         "product.motor.coverage.additional-accomodation-costs.deductible": {
             "description": "deductible for given coverage(bundle) or product",
@@ -2264,6 +2292,10 @@
         "product.motor.term-time": {
             "description": "term-time for product in months",
             "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.motor.policy-language": {
+            "description": "language of the policy (relevant in CH)",
+            "$ref": "#"
         }
     },
     "definitions": {
