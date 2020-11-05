@@ -233,215 +233,199 @@
       "type": "string",
       "description": "title of person (as part of the salutation)"
     },
-    "product.private-liability.coverage.private-liability.best-coverage-guarantee.is-included": {
+    "product.private-liability.coverage.best-coverage-guarantee.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.damages-by-children.deductible": {
+    "product.private-liability.coverage.damages-by-children.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.damages-by-children.is-included": {
+    "product.private-liability.coverage.damages-by-children.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.damages-by-children.sum-insured": {
+    "product.private-liability.coverage.damages-by-children.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.damages-by-children.waiting-time": {
+    "product.private-liability.coverage.damages-by-children.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.private-liability.coverage.private-liability.damages-to-borrowed-rented-goods.deductible": {
+    "product.private-liability.coverage.damages-to-borrowed-rented-goods.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.damages-to-borrowed-rented-goods.is-included": {
+    "product.private-liability.coverage.damages-to-borrowed-rented-goods.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.damages-to-borrowed-rented-goods.sum-insured": {
+    "product.private-liability.coverage.damages-to-borrowed-rented-goods.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.damages-to-borrowed-rented-goods.waiting-time": {
+    "product.private-liability.coverage.damages-to-borrowed-rented-goods.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.private-liability.coverage.private-liability.damages-to-owned-property.deductible": {
+    "product.private-liability.coverage.damages-to-owned-property.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.damages-to-owned-property.is-included": {
+    "product.private-liability.coverage.damages-to-owned-property.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.damages-to-owned-property.sum-insured": {
+    "product.private-liability.coverage.damages-to-owned-property.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.damages-to-owned-property.waiting-time": {
+    "product.private-liability.coverage.damages-to-owned-property.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.private-liability.coverage.private-liability.damages-to-rented-property.deductible": {
+    "product.private-liability.coverage.damages-to-rented-property.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.damages-to-rented-property.is-included": {
+    "product.private-liability.coverage.damages-to-rented-property.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.damages-to-rented-property.sum-insured": {
+    "product.private-liability.coverage.damages-to-rented-property.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.damages-to-rented-property.waiting-time": {
+    "product.private-liability.coverage.damages-to-rented-property.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.private-liability.coverage.private-liability.damages-to-rentedout-property.deductible": {
+    "product.private-liability.coverage.damages-to-rentedout-property.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.damages-to-rentedout-property.is-included": {
+    "product.private-liability.coverage.damages-to-rentedout-property.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.damages-to-rentedout-property.sum-insured": {
+    "product.private-liability.coverage.damages-to-rentedout-property.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.damages-to-rentedout-property.waiting-time": {
+    "product.private-liability.coverage.damages-to-rentedout-property.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.private-liability.coverage.private-liability.deductible": {
+    "product.private-liability.coverage.keyloss-rented-home.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.is-included": {
+    "product.private-liability.coverage.keyloss-rented-home.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.keyloss-rented-home.deductible": {
-      "description": "deductible for given coverage(bundle) or product",
-      "$ref": "#/definitions/money"
-    },
-    "product.private-liability.coverage.private-liability.keyloss-rented-home.is-included": {
-      "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
-    },
-    "product.private-liability.coverage.private-liability.keyloss-rented-home.sum-insured": {
+    "product.private-liability.coverage.keyloss-rented-home.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.keyloss-rented-home.waiting-time": {
+    "product.private-liability.coverage.keyloss-rented-home.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.private-liability.coverage.private-liability.personal-injury.deductible": {
+    "product.private-liability.coverage.personal-injury.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.personal-injury.is-included": {
+    "product.private-liability.coverage.personal-injury.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.personal-injury.sum-insured": {
+    "product.private-liability.coverage.personal-injury.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.personal-injury.waiting-time": {
+    "product.private-liability.coverage.personal-injury.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.private-liability.coverage.private-liability.property-damage.deductible": {
+    "product.private-liability.coverage.property-damage.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.property-damage.is-included": {
+    "product.private-liability.coverage.property-damage.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.property-damage.sum-insured": {
+    "product.private-liability.coverage.property-damage.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.property-damage.waiting-time": {
+    "product.private-liability.coverage.property-damage.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.private-liability.coverage.private-liability.related-thirdparty-damage.deductible": {
+    "product.private-liability.coverage.related-thirdparty-damage.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.related-thirdparty-damage.is-included": {
+    "product.private-liability.coverage.related-thirdparty-damage.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.related-thirdparty-damage.sum-insured": {
+    "product.private-liability.coverage.related-thirdparty-damage.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.related-thirdparty-damage.waiting-time": {
+    "product.private-liability.coverage.related-thirdparty-damage.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.private-liability.coverage.private-liability.sports.deductible": {
+    "product.private-liability.coverage.sports.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.sports.is-included": {
+    "product.private-liability.coverage.sports.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.sports.sum-insured": {
+    "product.private-liability.coverage.sports.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.sports.waiting-time": {
+    "product.private-liability.coverage.sports.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.private-liability.coverage.private-liability.sum-insured": {
-      "description": "max. amount insured by the coverage(bundle)",
-      "$ref": "#/definitions/money"
-    },
-    "product.private-liability.coverage.private-liability.thirdparty-default.deductible": {
+    "product.private-liability.coverage.thirdparty-default.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.thirdparty-default.is-included": {
+    "product.private-liability.coverage.thirdparty-default.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.thirdparty-default.sum-insured": {
+    "product.private-liability.coverage.thirdparty-default.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.thirdparty-default.waiting-time": {
+    "product.private-liability.coverage.thirdparty-default.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
-    "product.private-liability.coverage.private-liability.waiting-time": {
-      "description": "waiting time for coverage(bundle) in days",
-      "$ref": "#/definitions/nonnegative-integer"
-    },
-    "product.private-liability.coverage.private-liability.web-usage.deductible": {
+    "product.private-liability.coverage.web-usage.deductible": {
       "description": "deductible for given coverage(bundle) or product",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.web-usage.is-included": {
+    "product.private-liability.coverage.web-usage.is-included": {
       "type": "boolean",
-      "description": "coverage/tariff-option is included in the product"
+      "description": "coverage or tariff-option is included in the product"
     },
-    "product.private-liability.coverage.private-liability.web-usage.sum-insured": {
+    "product.private-liability.coverage.web-usage.sum-insured": {
       "description": "max. amount insured by the coverage(bundle)",
       "$ref": "#/definitions/money"
     },
-    "product.private-liability.coverage.private-liability.web-usage.waiting-time": {
+    "product.private-liability.coverage.web-usage.waiting-time": {
       "description": "waiting time for coverage(bundle) in days",
       "$ref": "#/definitions/nonnegative-integer"
     },
@@ -789,8 +773,8 @@
       ]
     },
     "year": {
-        "type": "integer",
-        "minimum": 1900
+      "type": "integer",
+      "minimum": 1900
     }
   }
 }
