@@ -1,0 +1,319 @@
+{
+  "type": "object",
+  "properties": {
+    "object.vehicle.previous-insurer.id": {
+      "type": "string",
+      "description": "id of previous insurance company"
+    },
+    "object.vehicle.previous-insurer.name": {
+      "type": "string",
+      "description": "name of previous insurance company"
+    },
+    "object.vehicle.previous-insurer.payment-interval": {
+      "description": "payment interval for premium of previous product",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "object.vehicle.previous-insurer.payment-method": {
+      "description": "payment method for premium of previous product",
+      "$ref": "#/definitions/payment-method"
+    },
+    "object.vehicle.previous-insurer.policy-number": {
+      "type": "string",
+      "description": "number of previous insurance policy"
+    },
+    "object.vehicle.previous-insurer.premium-amount": {
+      "description": "premium amount of previous product per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "object.person.previous-insurer.id": {
+      "type": "string",
+      "description": "id of previous insurance company"
+    },
+    "object.person.previous-insurer.name": {
+      "type": "string",
+      "description": "name of previous insurance company"
+    },
+    "object.person.previous-insurer.payment-interval": {
+      "description": "payment interval for premium of previous product",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "object.person.previous-insurer.payment-method": {
+      "description": "payment method for premium of previous product",
+      "$ref": "#/definitions/payment-method"
+    },
+    "object.person.previous-insurer.policy-number": {
+      "type": "string",
+      "description": "number of previous insurance policy"
+    },
+    "object.person.previous-insurer.premium-amount": {
+      "description": "premium amount of previous product per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "object.household.previous-insurer.id": {
+      "type": "string",
+      "description": "id of previous insurance company"
+    },
+    "object.household.previous-insurer.name": {
+      "type": "string",
+      "description": "name of previous insurance company"
+    },
+    "object.household.previous-insurer.payment-interval": {
+      "description": "payment interval for premium of previous product",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "object.household.previous-insurer.payment-method": {
+      "description": "payment method for premium of previous product",
+      "$ref": "#/definitions/payment-method"
+    },
+    "object.household.previous-insurer.policy-number": {
+      "type": "string",
+      "description": "number of previous insurance policy"
+    },
+    "object.household.previous-insurer.premium-amount": {
+      "description": "premium amount of previous product per payment interval",
+      "$ref": "#/definitions/money"
+    },
+    "object.company.previous-insurer.id": {
+      "type": "string",
+      "description": "id of previous insurance company"
+    },
+    "object.company.previous-insurer.name": {
+      "type": "string",
+      "description": "name of previous insurance company"
+    },
+    "object.company.previous-insurer.payment-interval": {
+      "description": "payment interval for premium of previous product",
+      "$ref": "#/definitions/temporal-interval"
+    },
+    "object.company.previous-insurer.payment-method": {
+      "description": "payment method for premium of previous product",
+      "$ref": "#/definitions/payment-method"
+    },
+    "object.company.previous-insurer.policy-number": {
+      "type": "string",
+      "description": "number of previous insurance policy"
+    },
+    "object.company.previous-insurer.premium-amount": {
+      "description": "premium amount of previous product per payment interval",
+      "$ref": "#/definitions/money"
+    }
+  },
+  "definitions": {
+    "money": {
+      "type": "number",
+      "format": "money"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "days-occupied": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 365
+    },
+    "nonnegative-integer": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "m",
+        "f",
+        "o"
+      ],
+      "enum-description": [
+        "male",
+        "female",
+        "other"
+      ]
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900
+    },
+    "nonnegative": {
+      "type": "number",
+      "minimum": 0
+    },
+    "percentage": {
+      "type": "number",
+      "minimum": 0
+    },
+    "temporal-interval": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "enum-description": [
+        "not specified",
+        "one-off",
+        "daily",
+        "weekly",
+        "monthly",
+        "quaterly",
+        "bi-annually",
+        "annually",
+        "every 2 years",
+        "every 3 years"
+      ]
+    },
+    "salutation": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "Ms.",
+        "Mrs.",
+        "Mr."
+      ]
+    },
+    "employment-mode": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "full-time",
+        "part-time",
+        "marginally",
+        "seasonal"
+      ]
+    },
+    "employment-category": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        25,
+        26,
+        28,
+        29,
+        31,
+        33,
+        34,
+        36,
+        38,
+        39
+      ],
+      "enum-description": [
+        "no income",
+        "labourer",
+        "self-employed",
+        "farmer",
+        "public sector employee",
+        "student",
+        "housewife - homemaker",
+        "unemployed",
+        "retired",
+        "(maternity) leave",
+        "apprentice",
+        "employee",
+        "civil servant",
+        "miner",
+        "self-employed artisans",
+        "manager",
+        "director",
+        "freelancer",
+        "public sector labourer",
+        "professional soldier",
+        "regular soldier",
+        "pupil",
+        "director with pension commitment",
+        "executive"
+      ]
+    },
+    "marital-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "enum-description": [
+        "single",
+        "married",
+        "divorced",
+        "widowed",
+        "partnership",
+        "separated"
+      ]
+    },
+    "civil-servant-status": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "enum-description": [
+        "civil servant for life",
+        "civil servant on probation",
+        "civil servant on revocation"
+      ]
+    },
+    "payment-method": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enum-description": [
+        "direct debit",
+        "payment slip",
+        "standing order",
+        "credit card"
+      ]
+    },
+    "credit-card-type": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "enum-description": [
+        "visa",
+        "master-card",
+        "american express",
+        "diners club",
+        "other"
+      ]
+    }
+  }
+}
