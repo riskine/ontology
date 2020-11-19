@@ -1397,6 +1397,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.health.policy-language": {
+      "type": "string",
+      "description": "language of the policy (ISO 639-1 language code)"
+    },
     "product.health.policy-number": {
       "type": "string",
       "description": "number of insurance policy"
