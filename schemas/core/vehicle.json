@@ -90,9 +90,9 @@
       "type": "string",
       "description": "registration area of vehicle (1-3 letters)"
     },
-    "number-plate": {
+    "license-plate": {
       "type": "string",
-      "description": "number plate of vehicle"
+      "description": "license plate of vehicle"
     },
     "co2-emission": {
       "$ref": "definitions.json#/nonnegative",

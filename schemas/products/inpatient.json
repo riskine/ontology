@@ -741,6 +741,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.inpatient.policy-language": {
+      "type": "string",
+      "description": "language of the policy (ISO 639-1 language code)"
+    },
     "product.inpatient.policy-number": {
       "type": "string",
       "description": "number of insurance policy"

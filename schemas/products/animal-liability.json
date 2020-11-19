@@ -329,6 +329,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.animal-liability.policy-language": {
+      "type": "string",
+      "description": "language of the policy (ISO 639-1 language code)"
+    },
     "product.animal-liability.policy-number": {
       "type": "string",
       "description": "number of insurance policy"

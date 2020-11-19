@@ -453,6 +453,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.travel.policy-language": {
+      "type": "string",
+      "description": "language of the policy (ISO 639-1 language code)"
+    },
     "product.travel.policy-number": {
       "type": "string",
       "description": "number of insurance policy"
