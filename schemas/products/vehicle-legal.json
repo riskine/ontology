@@ -693,6 +693,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.vehicle-legal.policy-language": {
+      "type": "string",
+      "description": "language of the policy (ISO 639-1 language code)"
+    },
     "product.vehicle-legal.policy-number": {
       "type": "string",
       "description": "number of insurance policy"

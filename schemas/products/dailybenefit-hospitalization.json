@@ -321,6 +321,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.dailybenefit-hospitalization.policy-language": {
+      "type": "string",
+      "description": "language of the policy (ISO 639-1 language code)"
+    },
     "product.dailybenefit-hospitalization.policy-number": {
       "type": "string",
       "description": "number of insurance policy"

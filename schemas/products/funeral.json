@@ -345,6 +345,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.funeral.policy-language": {
+      "type": "string",
+      "description": "language of the policy (ISO 639-1 language code)"
+    },
     "product.funeral.policy-number": {
       "type": "string",
       "description": "number of insurance policy"

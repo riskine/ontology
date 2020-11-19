@@ -57,6 +57,10 @@
       "description": "payment method for product-premium",
       "$ref": "definitions.json#/payment-method"
     },
+    "policy-language": {
+      "type": "string",
+      "description": "language of the policy (ISO 639-1 language code)"
+    },
     "area-of-validity": {
       "description": "area of validity for product",
       "$ref": "definitions.json#/area-of-validity"

@@ -469,6 +469,10 @@
       "type": "string",
       "description": "specific tariff name"
     },
+    "product.landowner-liability.policy-language": {
+      "type": "string",
+      "description": "language of the policy (ISO 639-1 language code)"
+    },
     "product.landowner-liability.policy-number": {
       "type": "string",
       "description": "number of insurance policy"

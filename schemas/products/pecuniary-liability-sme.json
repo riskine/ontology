@@ -337,6 +337,10 @@
             "type": "string",
             "description": "specific tariff name"
         },
+        "product.pecuniary-liability-sme.policy-language": {
+            "type": "string",
+            "description": "language of the policy (ISO 639-1 language code)"
+        },
         "product.pecuniary-liability-sme.policy-number": {
             "type": "string",
             "description": "number of insurance policy"
