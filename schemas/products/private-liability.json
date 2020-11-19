@@ -549,6 +549,10 @@
       "type": "string",
       "description": "name of previous insurance company"
     },
+    "product.private-liability.previous-insurer-id": {
+      "type": "string",
+      "description": "ID of previous insurance company"
+    },
     "product.private-liability.previous-policy-number": {
       "type": "string",
       "description": "number of previous insurance policy"

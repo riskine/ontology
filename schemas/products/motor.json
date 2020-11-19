@@ -2297,6 +2297,10 @@
             "type": "string",
             "description": "name of previous insurance company"
         },
+        "product.motor.previous-insurer-id": {
+            "type": "string",
+            "description": "ID of previous insurance company"
+        },
         "product.motor.previous-policy-number": {
             "type": "string",
             "description": "number of previous insurance policy"
@@ -2308,6 +2312,10 @@
         "product.motor.previous-premium-payment-interval": {
             "description": "payment interval for premium of previous product",
             "$ref": "#/definitions/temporal-interval"
+        },
+        "product.motor.previous-premium-payment-method": {
+            "description": "payment method for premium of previous product",
+            "$ref": "#/definitions/payment-method"
         },
         "product.motor.product-type": {
             "type": "string",

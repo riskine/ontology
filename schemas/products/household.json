@@ -785,6 +785,10 @@
             "type": "string",
             "description": "name of previous insurance company"
         },
+        "product.household.previous-insurer-id": {
+            "type": "string",
+            "description": "ID of previous insurance company"
+        },
         "product.household.previous-policy-number": {
             "type": "string",
             "description": "number of previous insurance policy"
