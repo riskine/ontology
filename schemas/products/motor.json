@@ -29,14 +29,6 @@
             "description": "current mileage of vehicle",
             "$ref": "#/definitions/nonnegative-integer"
         },
-        "object.vehicle.driver.youngest.age": {
-            "type": "number",
-            "description": "youngest age of the driver"
-        },  
-        "object.vehicle.driver.other.is-included": {
-            "type": "boolean",
-            "description": "other driver is included in the product"
-        },
         "object.vehicle.driver.address.city": {
             "type": "string",
             "description": "city (as part of an address)"
@@ -297,6 +289,10 @@
             "type": "boolean",
             "description": "vehicle is leased"
         },
+        "object.vehicle.license-plate": {
+            "type": "string",
+            "description": "license plate of vehicle"
+        },
         "object.vehicle.model": {
             "type": "string",
             "description": "model of vehicle"
@@ -308,10 +304,6 @@
         "object.vehicle.new-registration": {
             "type": "boolean",
             "description": "vehicle is newly registered"
-        },
-        "object.vehicle.license-plate": {
-            "type": "string",
-            "description": "number plate of vehicle"
         },
         "object.vehicle.owner.address.city": {
             "type": "string",
@@ -937,26 +929,6 @@
             "type": "string",
             "description": "title of person (as part of the salutation)"
         },
-        "product.motor.coverage.comprehensive.replacement-of-parts-without-deduction.is-included": {
-            "description": "deductible for given coverage(bundle) or product",
-            "$ref": "#"
-        },
-        "product.motor.coverage.liability.environmental-damage.sum-insured": {
-            "description": "deductible for given coverage(bundle) or product",
-            "$ref": "#"
-        },
-        "product.motor.coverage.comprehensive.fully.own-vehicle-self-damage.sum-insured": {
-            "description": "deductible for given coverage(bundle) or product",
-            "$ref": "#"
-        },
-        "product.motor.coverage.comprehensive.fully.major-damage-using-ships.is-included": {
-            "description": "deductible for given coverage(bundle) or product",
-            "$ref": "#"
-        },
-        "product.motor.coverage.comprehensive.fully.tow-damage.sum-insured": {
-            "description": "deductible for given coverage(bundle) or product",
-            "$ref": "#"
-        },
         "product.motor.coverage.additional-accomodation-costs.deductible": {
             "description": "deductible for given coverage(bundle) or product",
             "$ref": "#/definitions/money"
@@ -972,6 +944,10 @@
         "product.motor.coverage.additional-accomodation-costs.waiting-time": {
             "description": "waiting time for coverage(bundle) in days",
             "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.motor.coverage.additional-driver.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
         },
         "product.motor.coverage.additional-transport-costs.deductible": {
             "description": "deductible for given coverage(bundle) or product",
@@ -1085,6 +1061,38 @@
             "type": "boolean",
             "description": "coverage or tariff-option is included in the product"
         },
+        "product.motor.coverage.comprehensive.fully.major-damage-using-ships.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.fully.major-damage-using-ships.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.motor.coverage.comprehensive.fully.major-damage-using-ships.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.fully.major-damage-using-ships.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.motor.coverage.comprehensive.fully.own-vehicle-self-damage.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.fully.own-vehicle-self-damage.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.motor.coverage.comprehensive.fully.own-vehicle-self-damage.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.fully.own-vehicle-self-damage.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
         "product.motor.coverage.comprehensive.fully.parking-damage.deductible": {
             "description": "deductible for given coverage(bundle) or product",
             "$ref": "#/definitions/money"
@@ -1137,6 +1145,22 @@
             "description": "waiting time for coverage(bundle) in days",
             "$ref": "#/definitions/nonnegative-integer"
         },
+        "product.motor.coverage.comprehensive.fully.tow-damage.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.fully.tow-damage.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.motor.coverage.comprehensive.fully.tow-damage.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.fully.tow-damage.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
         "product.motor.coverage.comprehensive.fully.vandalism.deductible": {
             "description": "deductible for given coverage(bundle) or product",
             "$ref": "#/definitions/money"
@@ -1150,22 +1174,6 @@
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.vandalism.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
-            "$ref": "#/definitions/nonnegative-integer"
-        },
-        "product.motor.coverage.comprehensive.fully.vehicle-damage-accident.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
-            "$ref": "#/definitions/money"
-        },
-        "product.motor.coverage.comprehensive.fully.vehicle-damage-accident.is-included": {
-            "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
-        },
-        "product.motor.coverage.comprehensive.fully.vehicle-damage-accident.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
-            "$ref": "#/definitions/money"
-        },
-        "product.motor.coverage.comprehensive.fully.vehicle-damage-accident.waiting-time": {
             "description": "waiting time for coverage(bundle) in days",
             "$ref": "#/definitions/nonnegative-integer"
         },
@@ -1645,6 +1653,22 @@
             "type": "boolean",
             "description": "coverage or tariff-option is included in the product"
         },
+        "product.motor.coverage.liability.environmental-damage.deductible": {
+            "description": "deductible for given coverage(bundle) or product",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.liability.environmental-damage.is-included": {
+            "type": "boolean",
+            "description": "coverage or tariff-option is included in the product"
+        },
+        "product.motor.coverage.liability.environmental-damage.sum-insured": {
+            "description": "max. amount insured by the coverage(bundle)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.liability.environmental-damage.waiting-time": {
+            "description": "waiting time for coverage(bundle) in days",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
         "product.motor.coverage.liability.extended-vehicle-rental-protection-personal-injury.deductible": {
             "description": "deductible for given coverage(bundle) or product",
             "$ref": "#/definitions/money"
@@ -2029,6 +2053,10 @@
             "type": "string",
             "description": "specific tariff name"
         },
+        "product.motor.policy-language": {
+            "type": "string",
+            "description": "language of the policy (ISO 639-1 language code)"
+        },
         "product.motor.policy-number": {
             "type": "string",
             "description": "number of insurance policy"
@@ -2292,10 +2320,6 @@
         "product.motor.term-time": {
             "description": "term-time for product in months",
             "$ref": "#/definitions/nonnegative-integer"
-        },
-        "product.motor.policy-language": {
-            "description": "language of the policy (relevant in CH)",
-            "$ref": "#"
         }
     },
     "definitions": {
