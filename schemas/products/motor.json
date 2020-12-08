@@ -309,6 +309,14 @@
             "type": "string",
             "description": "city (as part of an address)"
         },
+        "object.vehicle.carholder.equal.policyholder": {
+            "type": "boolean",
+            "description": "city (as part of an address)"
+        },
+        "object.vehicle.carholder.address.city": {
+            "type": "string",
+            "description": "city (as part of an address)"
+        },
         "object.vehicle.owner.address.country": {
             "type": "string",
             "description": "country  (ISO 3166-1 alpha-2 country code)"
