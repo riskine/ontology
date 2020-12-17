@@ -273,6 +273,206 @@
             "type": "boolean",
             "description": "vehicle is parked in a garage"
         },
+        "object.vehicle.holder.address.city": {
+            "type": "string",
+            "description": "city (as part of an address)"
+        },
+        "object.vehicle.holder.address.country": {
+            "type": "string",
+            "description": "country  (ISO 3166-1 alpha-2 country code)"
+        },
+        "object.vehicle.holder.address.house-number": {
+            "type": "string",
+            "description": "house number (as part of an address)"
+        },
+        "object.vehicle.holder.address.postcode": {
+            "type": "string",
+            "description": "postal code (as part of an address)"
+        },
+        "object.vehicle.holder.address.street": {
+            "type": "string",
+            "description": "street (as part of an address)"
+        },
+        "object.vehicle.holder.birthdate": {
+            "description": "birthdate of person or animal",
+            "$ref": "#/definitions/date"
+        },
+        "object.vehicle.holder.driver-club-membership": {
+            "description": "driver club person is member of",
+            "$ref": "#/definitions/driver-club"
+        },
+        "object.vehicle.holder.driving-license.expiration-date": {
+            "description": "expiration date of the document",
+            "$ref": "#/definitions/date"
+        },
+        "object.vehicle.holder.driving-license.id-number": {
+            "type": "string",
+            "description": "number of the document"
+        },
+        "object.vehicle.holder.driving-license.issue-authority": {
+            "type": "string",
+            "description": "issuing authority of the document"
+        },
+        "object.vehicle.holder.driving-license.issue-country": {
+            "type": "string",
+            "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+        },
+        "object.vehicle.holder.driving-license.issue-date": {
+            "description": "date of issue of the document",
+            "$ref": "#/definitions/date"
+        },
+        "object.vehicle.holder.driving-license.license-category": {
+            "description": "license categories wrt 3. EU driver's license directive",
+            "$ref": "#/definitions/license-category"
+        },
+        "object.vehicle.holder.driving-license.license-type": {
+            "description": "does person have an (eu-)driving-license",
+            "$ref": "#/definitions/license-type"
+        },
+        "object.vehicle.holder.driving-license.on-probation": {
+            "type": "boolean",
+            "description": "driving-license on probation"
+        },
+        "object.vehicle.holder.education.academic-degree": {
+            "description": "academic degree of person",
+            "$ref": "#/definitions/academic-degree"
+        },
+        "object.vehicle.holder.education.educational-level": {
+            "description": "highest educational level",
+            "$ref": "#/definitions/educational-level"
+        },
+        "object.vehicle.holder.education.professional-training": {
+            "description": "level of professional training",
+            "$ref": "#/definitions/professional-training"
+        },
+        "object.vehicle.holder.education.professional-training-type": {
+            "description": "definition of professional training",
+            "$ref": "#/definitions/professional-training-type"
+        },
+        "object.vehicle.holder.email": {
+            "type": "string",
+            "description": "email-address"
+        },
+        "object.vehicle.holder.engine-related-tax-relief": {
+            "type": "boolean",
+            "description": "person is relieved from engine-related insurance tax"
+        },
+        "object.vehicle.holder.first-name": {
+            "type": "string",
+            "description": "first name of person"
+        },
+        "object.vehicle.holder.gender": {
+            "description": "gender",
+            "$ref": "#/definitions/gender"
+        },
+        "object.vehicle.holder.gross-income": {
+            "description": "annual gross income of person",
+            "$ref": "#/definitions/money"
+        },
+        "object.vehicle.holder.has-role": {
+            "description": "role a person fullfills additionally",
+            "$ref": "#/definitions/role"
+        },
+        "object.vehicle.holder.identification.expiration-date": {
+            "description": "expiration date of the document",
+            "$ref": "#/definitions/date"
+        },
+        "object.vehicle.holder.identification.id-number": {
+            "type": "string",
+            "description": "number of the document"
+        },
+        "object.vehicle.holder.identification.id-type": {
+            "description": "type of a person's identification document",
+            "$ref": "#/definitions/id-type"
+        },
+        "object.vehicle.holder.identification.issue-authority": {
+            "type": "string",
+            "description": "issuing authority of the document"
+        },
+        "object.vehicle.holder.identification.issue-country": {
+            "type": "string",
+            "description": "country where the document was issued (ISO 3166-1 alpha-2 country code)"
+        },
+        "object.vehicle.holder.identification.issue-date": {
+            "description": "date of issue of the document",
+            "$ref": "#/definitions/date"
+        },
+        "object.vehicle.holder.is-policyholder": {
+            "type": "boolean",
+            "description": "vehicleholder is the same as policyholder"
+        },
+        "object.vehicle.holder.last-name": {
+            "type": "string",
+            "description": "last name of person"
+        },
+        "object.vehicle.holder.marital-status": {
+            "description": "marital status of person",
+            "$ref": "#/definitions/marital-status"
+        },
+        "object.vehicle.holder.mobile-number": {
+            "type": "string",
+            "description": "mobile number"
+        },
+        "object.vehicle.holder.net-income": {
+            "description": "annual net income of person",
+            "$ref": "#/definitions/money"
+        },
+        "object.vehicle.holder.phone-number": {
+            "type": "string",
+            "description": "phone number"
+        },
+        "object.vehicle.holder.phone-prefix": {
+            "type": "string",
+            "description": "prefix of phone-number"
+        },
+        "object.vehicle.holder.profession.amount-physical-work": {
+            "description": "amount of physical work a person has to do as part of their job (in percent)",
+            "$ref": "#/definitions/percentage"
+        },
+        "object.vehicle.holder.profession.amount-travel-activity": {
+            "description": "amount of travel activity a person has to do as part of their job (in percent)",
+            "$ref": "#/definitions/percentage"
+        },
+        "object.vehicle.holder.profession.civil-servant-status": {
+            "description": "employment-status of civil servants",
+            "$ref": "#/definitions/civil-servant-status"
+        },
+        "object.vehicle.holder.profession.designation": {
+            "type": "string",
+            "description": "specific job description of person"
+        },
+        "object.vehicle.holder.profession.employment-category": {
+            "description": "employment category of person",
+            "$ref": "#/definitions/employment-category"
+        },
+        "object.vehicle.holder.profession.employment-mode": {
+            "description": "mode of the employment relationship (e.g., full, part-time)",
+            "$ref": "#/definitions/employment-mode"
+        },
+        "object.vehicle.holder.profession.self-employment-start-date": {
+            "description": "start date of self employment",
+            "$ref": "#/definitions/date"
+        },
+        "object.vehicle.holder.profession.staff-responsibility-number": {
+            "description": "number of people the person is responsible for (as part of their job)",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "object.vehicle.holder.salutation": {
+            "description": "salutation of person",
+            "$ref": "#/definitions/salutation"
+        },
+        "object.vehicle.holder.ssn": {
+            "type": "string",
+            "description": "social security number of person"
+        },
+        "object.vehicle.holder.tax-id": {
+            "type": "string",
+            "description": "tax-id of person"
+        },
+        "object.vehicle.holder.title": {
+            "type": "string",
+            "description": "title of person (as part of the salutation)"
+        },
         "object.vehicle.horse-power": {
             "description": "engine power of the vehicle (PS)",
             "$ref": "#/definitions/nonnegative-integer"
