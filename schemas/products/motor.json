@@ -297,6 +297,10 @@
             "description": "birthdate of person or animal",
             "$ref": "#/definitions/date"
         },
+        "object.vehicle.holder.driver-club-membership": {
+            "description": "driver club person is member of",
+            "$ref": "#/definitions/driver-club"
+        },
         "object.vehicle.holder.driving-license.expiration-date": {
             "description": "expiration date of the document",
             "$ref": "#/definitions/date"
@@ -349,6 +353,10 @@
             "type": "string",
             "description": "email-address"
         },
+        "object.vehicle.holder.engine-related-tax-relief": {
+            "type": "boolean",
+            "description": "person is relieved from engine-related insurance tax"
+        },
         "object.vehicle.holder.first-name": {
             "type": "string",
             "description": "first name of person"
@@ -360,6 +368,10 @@
         "object.vehicle.holder.gross-income": {
             "description": "annual gross income of person",
             "$ref": "#/definitions/money"
+        },
+        "object.vehicle.holder.has-role": {
+            "description": "role a person fullfills additionally",
+            "$ref": "#/definitions/role"
         },
         "object.vehicle.holder.identification.expiration-date": {
             "description": "expiration date of the document",
