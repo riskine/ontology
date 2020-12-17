@@ -159,179 +159,179 @@
         },
         "product.cyber-sme.coverage.cyber-assistance.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "assistance in case of cyber-damages (e.g., 24 / 7 crisis hotline, forensic services,...) (option is included in the product)"
         },
         "product.cyber-sme.coverage.cyber-blackmail.annual-limit-factor": {
             "type": "integer",
-            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+            "description": "coverage of pecuniary damages caused by cyber blackmail (factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit)"
         },
         "product.cyber-sme.coverage.cyber-blackmail.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of pecuniary damages caused by cyber blackmail (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-blackmail.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of pecuniary damages caused by cyber blackmail (option is included in the product)"
         },
         "product.cyber-sme.coverage.cyber-blackmail.previous-claims-amount": {
-            "description": "total claims amount in relevant time-period",
+            "description": "coverage of pecuniary damages caused by cyber blackmail (total claims amount in relevant time-period)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-blackmail.previous-claims-in-place": {
             "type": "boolean",
-            "description": "there are claims made in the relevant time-period"
+            "description": "coverage of pecuniary damages caused by cyber blackmail (there are claims made in the relevant time-period)"
         },
         "product.cyber-sme.coverage.cyber-blackmail.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of pecuniary damages caused by cyber blackmail (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-blackmail.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of pecuniary damages caused by cyber blackmail (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.cyber-sme.coverage.cyber-business-interruption.annual-limit-factor": {
             "type": "integer",
-            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+            "description": "coverage of expenses for business-interruption caused by cyber-related damages (factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit)"
         },
         "product.cyber-sme.coverage.cyber-business-interruption.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of expenses for business-interruption caused by cyber-related damages (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-business-interruption.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of expenses for business-interruption caused by cyber-related damages (option is included in the product)"
         },
         "product.cyber-sme.coverage.cyber-business-interruption.previous-claims-amount": {
-            "description": "total claims amount in relevant time-period",
+            "description": "coverage of expenses for business-interruption caused by cyber-related damages (total claims amount in relevant time-period)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-business-interruption.previous-claims-in-place": {
             "type": "boolean",
-            "description": "there are claims made in the relevant time-period"
+            "description": "coverage of expenses for business-interruption caused by cyber-related damages (there are claims made in the relevant time-period)"
         },
         "product.cyber-sme.coverage.cyber-business-interruption.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of expenses for business-interruption caused by cyber-related damages (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-business-interruption.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of expenses for business-interruption caused by cyber-related damages (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.cyber-sme.coverage.cyber-fidelity-bond.annual-limit-factor": {
             "type": "integer",
-            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+            "description": "fidelity bond: coverage of damages caused by fraudulent acts of individuals (factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit)"
         },
         "product.cyber-sme.coverage.cyber-fidelity-bond.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "fidelity bond: coverage of damages caused by fraudulent acts of individuals (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-fidelity-bond.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "fidelity bond: coverage of damages caused by fraudulent acts of individuals (option is included in the product)"
         },
         "product.cyber-sme.coverage.cyber-fidelity-bond.previous-claims-amount": {
-            "description": "total claims amount in relevant time-period",
+            "description": "fidelity bond: coverage of damages caused by fraudulent acts of individuals (total claims amount in relevant time-period)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-fidelity-bond.previous-claims-in-place": {
             "type": "boolean",
-            "description": "there are claims made in the relevant time-period"
+            "description": "fidelity bond: coverage of damages caused by fraudulent acts of individuals (there are claims made in the relevant time-period)"
         },
         "product.cyber-sme.coverage.cyber-fidelity-bond.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "fidelity bond: coverage of damages caused by fraudulent acts of individuals (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-fidelity-bond.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "fidelity bond: coverage of damages caused by fraudulent acts of individuals (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.cyber-sme.coverage.cyber-firstparty-loss.annual-limit-factor": {
             "type": "integer",
-            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+            "description": "coverage of firstparty damages  (data & it) caused by cyber crime (factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit)"
         },
         "product.cyber-sme.coverage.cyber-firstparty-loss.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of firstparty damages  (data & it) caused by cyber crime (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-firstparty-loss.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of firstparty damages  (data & it) caused by cyber crime (option is included in the product)"
         },
         "product.cyber-sme.coverage.cyber-firstparty-loss.previous-claims-amount": {
-            "description": "total claims amount in relevant time-period",
+            "description": "coverage of firstparty damages  (data & it) caused by cyber crime (total claims amount in relevant time-period)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-firstparty-loss.previous-claims-in-place": {
             "type": "boolean",
-            "description": "there are claims made in the relevant time-period"
+            "description": "coverage of firstparty damages  (data & it) caused by cyber crime (there are claims made in the relevant time-period)"
         },
         "product.cyber-sme.coverage.cyber-firstparty-loss.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of firstparty damages  (data & it) caused by cyber crime (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-firstparty-loss.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of firstparty damages  (data & it) caused by cyber crime (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.cyber-sme.coverage.cyber-liability.annual-limit-factor": {
             "type": "integer",
-            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+            "description": "liability-coverage for cyber-damages (factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit)"
         },
         "product.cyber-sme.coverage.cyber-liability.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability-coverage for cyber-damages (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-liability.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability-coverage for cyber-damages (option is included in the product)"
         },
         "product.cyber-sme.coverage.cyber-liability.previous-claims-amount": {
-            "description": "total claims amount in relevant time-period",
+            "description": "liability-coverage for cyber-damages (total claims amount in relevant time-period)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-liability.previous-claims-in-place": {
             "type": "boolean",
-            "description": "there are claims made in the relevant time-period"
+            "description": "liability-coverage for cyber-damages (there are claims made in the relevant time-period)"
         },
         "product.cyber-sme.coverage.cyber-liability.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability-coverage for cyber-damages (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-liability.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability-coverage for cyber-damages (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.cyber-sme.coverage.cyber-payment.annual-limit-factor": {
             "type": "integer",
-            "description": "factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit"
+            "description": "coverage of damages regarding payment instruments caused by cyber crime (factor for generating the maximal annual limit; (sum-insured) x (annual-limit-factor) = maximal-annual-limit)"
         },
         "product.cyber-sme.coverage.cyber-payment.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of damages regarding payment instruments caused by cyber crime (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-payment.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of damages regarding payment instruments caused by cyber crime (option is included in the product)"
         },
         "product.cyber-sme.coverage.cyber-payment.previous-claims-amount": {
-            "description": "total claims amount in relevant time-period",
+            "description": "coverage of damages regarding payment instruments caused by cyber crime (total claims amount in relevant time-period)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-payment.previous-claims-in-place": {
             "type": "boolean",
-            "description": "there are claims made in the relevant time-period"
+            "description": "coverage of damages regarding payment instruments caused by cyber crime (there are claims made in the relevant time-period)"
         },
         "product.cyber-sme.coverage.cyber-payment.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of damages regarding payment instruments caused by cyber crime (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.cyber-sme.coverage.cyber-payment.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of damages regarding payment instruments caused by cyber crime (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.cyber-sme.coverage.cyber-prevention-measures.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "extended preventive measures and training regarding cyber-security (option is included in the product)"
         },
         "product.cyber-sme.package": {
             "type": "string",
