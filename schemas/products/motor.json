@@ -938,1055 +938,1055 @@
             "description": "title of person (as part of the salutation)"
         },
         "product.motor.coverage.additional-accomodation-costs.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage for additional costs for accomodation and meals for the duration of the vehicle repair (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.additional-accomodation-costs.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage for additional costs for accomodation and meals for the duration of the vehicle repair (option is included in the product)"
         },
         "product.motor.coverage.additional-accomodation-costs.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage for additional costs for accomodation and meals for the duration of the vehicle repair (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.additional-accomodation-costs.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage for additional costs for accomodation and meals for the duration of the vehicle repair (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.additional-driver.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "additional driver is included in the product (option is included in the product)"
         },
         "product.motor.coverage.additional-transport-costs.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of additional transport costs for insured persons after vehicle damage (return to home address or continuation of journey) (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.additional-transport-costs.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of additional transport costs for insured persons after vehicle damage (return to home address or continuation of journey) (option is included in the product)"
         },
         "product.motor.coverage.additional-transport-costs.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of additional transport costs for insured persons after vehicle damage (return to home address or continuation of journey) (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.additional-transport-costs.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of additional transport costs for insured persons after vehicle damage (return to home address or continuation of journey) (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.assistance-hotline.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "assistance-hotline for motor-insurance: 24 / 7 advice and organisation of measures (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.advance-bonus.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "advance bonus for comprehensive coverage (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "comprehensive coverages for vehicles (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.extended-contract-term.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "extended contract term for comprehensive coverage (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.better-performance-guarantee.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "better performance guarantee wrt. previous insurer for comprehensive coverage (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.compensation-new-value.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "fully-comprehensive compensation of reinstatement value in case of total damage of a vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.compensation-new-value.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "fully-comprehensive compensation of reinstatement value in case of total damage of a vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.compensation-new-value.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "fully-comprehensive compensation of reinstatement value in case of total damage of a vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.compensation-new-value.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "fully-comprehensive compensation of reinstatement value in case of total damage of a vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.fully.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "fully comprehensive coverages for vehicles (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.discount-protection.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "discount protection for comprehensive coverage in case of a claim made (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.gap-coverage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "GAP coverage for leased vehicles (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.gap-coverage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "GAP coverage for leased vehicles (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.gap-coverage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "GAP coverage for leased vehicles (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.gap-coverage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "GAP coverage for leased vehicles (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.fully.glass-damage-extended.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "fully-comprehensive coverage for damage to vehicle parts made of glass or materials used as a substitute for glass (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.glass-damage-extended.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "fully-comprehensive coverage for damage to vehicle parts made of glass or materials used as a substitute for glass (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.glass-damage-extended.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "fully-comprehensive coverage for damage to vehicle parts made of glass or materials used as a substitute for glass (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.glass-damage-extended.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "fully-comprehensive coverage for damage to vehicle parts made of glass or materials used as a substitute for glass (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.fully.interchangeable-license-plates.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "fully comprehensive coverage in case of interchangeable license plates (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.interchangeable-license-plates.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "fully comprehensive coverage in case of interchangeable license plates (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.interchangeable-license-plates.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "fully comprehensive coverage in case of interchangeable license plates (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.interchangeable-license-plates.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "fully comprehensive coverage in case of interchangeable license plates (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.fully.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "fully comprehensive coverages for vehicles (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.major-damage-using-ships.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage for major damage during the use of ships and ferries for passenger cars (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.major-damage-using-ships.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage for major damage during the use of ships and ferries for passenger cars (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.major-damage-using-ships.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage for major damage during the use of ships and ferries for passenger cars (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.major-damage-using-ships.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage for major damage during the use of ships and ferries for passenger cars (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.fully.own-vehicle-self-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "fully comprehensive coverage for selfinflicted damages on own vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.own-vehicle-self-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "fully comprehensive coverage for selfinflicted damages on own vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.own-vehicle-self-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "fully comprehensive coverage for selfinflicted damages on own vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.own-vehicle-self-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "fully comprehensive coverage for selfinflicted damages on own vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.fully.parking-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "comprehensive coverage for damages on a parked vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.parking-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "comprehensive coverage for damages on a parked vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.parking-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "comprehensive coverage for damages on a parked vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.parking-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "comprehensive coverage for damages on a parked vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.fully.replacement-vehicle-plate-transfer.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "fully comprehensive-coverage for a replacement-vehicle; if the insured vehicle is not fit for use, the license plates can be transferred to another operationally safe vehicle for a specified amount of time (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.replacement-vehicle-plate-transfer.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "fully comprehensive-coverage for a replacement-vehicle; if the insured vehicle is not fit for use, the license plates can be transferred to another operationally safe vehicle for a specified amount of time (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.replacement-vehicle-plate-transfer.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "fully comprehensive-coverage for a replacement-vehicle; if the insured vehicle is not fit for use, the license plates can be transferred to another operationally safe vehicle for a specified amount of time (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.replacement-vehicle-plate-transfer.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "fully comprehensive-coverage for a replacement-vehicle; if the insured vehicle is not fit for use, the license plates can be transferred to another operationally safe vehicle for a specified amount of time (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.fully.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "fully comprehensive coverages for vehicles (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.suspension-bonus.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "suspension bonus for fully-comprehensive coverage when license plate is deposited (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.suspension-bonus.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "suspension bonus for fully-comprehensive coverage when license plate is deposited (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.suspension-bonus.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "suspension bonus for fully-comprehensive coverage when license plate is deposited (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.suspension-bonus.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "suspension bonus for fully-comprehensive coverage when license plate is deposited (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.fully.tow-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of damages between towed and towing vehicles or trailers (without external impuls) (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.tow-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of damages between towed and towing vehicles or trailers (without external impuls) (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.tow-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of damages between towed and towing vehicles or trailers (without external impuls) (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.tow-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of damages between towed and towing vehicles or trailers (without external impuls) (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.fully.vandalism.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "comprehensive coverage of damage on vehicle caused by vandalism (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.vandalism.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "comprehensive coverage of damage on vehicle caused by vandalism (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.fully.vandalism.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "comprehensive coverage of damage on vehicle caused by vandalism (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.fully.vandalism.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "comprehensive coverage of damage on vehicle caused by vandalism (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.fully.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "fully comprehensive coverages for vehicles (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.garage-binding.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "garage binding (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "comprehensive coverages for vehicles (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.new-for-old-without-deduction.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "replacement of vehicle-parts without deduction by insurer in case of difference between reinstatement and fair value of replaced parts (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.animal-bites.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of damages caused by animal bites (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.animal-bites.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of damages caused by animal bites (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.animal-bites.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of damages caused by animal bites (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.animal-bites.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of damages caused by animal bites (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.animal-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of damages caused by animals (accident, etc) on a vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.animal-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of damages caused by animals (accident, etc) on a vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.animal-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of damages caused by animals (accident, etc) on a vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.animal-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of damages caused by animals (accident, etc) on a vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.better-performance-guarantee.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "better performance guarantee wrt. previous insurer for comprehensive coverage (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.compensation-new-value.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "partial-comprehensive compensation of reinstatement value in case of total damage of a vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.compensation-new-value.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "partial-comprehensive compensation of reinstatement value in case of total damage of a vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.compensation-new-value.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "partial-comprehensive compensation of reinstatement value in case of total damage of a vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.compensation-new-value.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "partial-comprehensive compensation of reinstatement value in case of total damage of a vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "partial comprehensive coverages for vehicles (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.elemental-damages-extended.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "additional coverage of damages on vehicle caused by elemental elements as avalanche, mudflow (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.elemental-damages-extended.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "additional coverage of damages on vehicle caused by elemental elements as avalanche, mudflow (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.elemental-damages-extended.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "additional coverage of damages on vehicle caused by elemental elements as avalanche, mudflow (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.elemental-damages-extended.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "additional coverage of damages on vehicle caused by elemental elements as avalanche, mudflow (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.elemental-damages.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of damages on vehicle caused by elemental events (lightning, storm, …) (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.elemental-damages.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of damages on vehicle caused by elemental events (lightning, storm, …) (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.elemental-damages.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of damages on vehicle caused by elemental events (lightning, storm, …) (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.elemental-damages.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of damages on vehicle caused by elemental events (lightning, storm, …) (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.fire-and-explosion.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "fire-damage coverage for a vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.fire-and-explosion.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "fire-damage coverage for a vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.fire-and-explosion.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "fire-damage coverage for a vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.fire-and-explosion.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "fire-damage coverage for a vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-exchange.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "exchange of damaged glass (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-exchange.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "exchange of damaged glass (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-exchange.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "exchange of damaged glass (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-exchange.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "exchange of damaged glass (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-extended.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "partial-comprehensive coverage for damage to vehicle parts made of glass or materials used as a substitute for glass (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-extended.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "partial-comprehensive coverage for damage to vehicle parts made of glass or materials used as a substitute for glass (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-extended.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "partial-comprehensive coverage for damage to vehicle parts made of glass or materials used as a substitute for glass (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-extended.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "partial-comprehensive coverage for damage to vehicle parts made of glass or materials used as a substitute for glass (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-repair.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "repair in case of glass damage (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-repair.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "repair in case of glass damage (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-repair.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "repair in case of glass damage (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-repair.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "repair in case of glass damage (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage-without-deduction.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "no deductible in case of glass damage repair (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage for glass damage for large vehicle panes (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage for glass damage for large vehicle panes (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage for glass damage for large vehicle panes (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.glass-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage for glass damage for large vehicle panes (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.gross-negligence.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of damages caused by gross negligence (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.gross-negligence.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of damages caused by gross negligence (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.gross-negligence.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of damages caused by gross negligence (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.gross-negligence.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of damages caused by gross negligence (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.interchangeable-license-plates.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "partial comprehensive coverage in case of interchangeable license plates (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.interchangeable-license-plates.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "partial comprehensive coverage in case of interchangeable license plates (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.interchangeable-license-plates.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "partial comprehensive coverage in case of interchangeable license plates (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.interchangeable-license-plates.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "partial comprehensive coverage in case of interchangeable license plates (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "partial comprehensive coverages for vehicles (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.maintainance-after-accident-assistence.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage for maintenance and cleaning of the interior of the vehicle following damage caused during the provision of assistance to road accident victims (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.parking-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "comprehensive coverage for damages on a parked vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.parking-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "comprehensive coverage for damages on a parked vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.parking-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "comprehensive coverage for damages on a parked vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.parking-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "comprehensive coverage for damages on a parked vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.personal-effects.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage on damages on personal effects, i.e., personal items or belongings inside vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.personal-effects.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage on damages on personal effects, i.e., personal items or belongings inside vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.personal-effects.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage on damages on personal effects, i.e., personal items or belongings inside vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.personal-effects.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage on damages on personal effects, i.e., personal items or belongings inside vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.refund-purchase-price.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "refund purchase price of a vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.refund-purchase-price.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "refund purchase price of a vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.refund-purchase-price.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "refund purchase price of a vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.refund-purchase-price.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "refund purchase price of a vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.registration-and-transfer-costs.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "expenses for registration- and transfer-costs in case of reinstatement-value-compensation for a vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.replacement-vehicle-plate-transfer.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "partial comprehensive-coverage for a replacement-vehicle; if the insured vehicle is not fit for use, the license plates can be transferred to another operationally safe vehicle for a specified amount of time (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.replacement-vehicle-plate-transfer.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "partial comprehensive-coverage for a replacement-vehicle; if the insured vehicle is not fit for use, the license plates can be transferred to another operationally safe vehicle for a specified amount of time (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.replacement-vehicle-plate-transfer.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "partial comprehensive-coverage for a replacement-vehicle; if the insured vehicle is not fit for use, the license plates can be transferred to another operationally safe vehicle for a specified amount of time (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.replacement-vehicle-plate-transfer.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "partial comprehensive-coverage for a replacement-vehicle; if the insured vehicle is not fit for use, the license plates can be transferred to another operationally safe vehicle for a specified amount of time (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.short-circuit.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of damages on vehicle caused by short-circuit (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.short-circuit.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of damages on vehicle caused by short-circuit (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.short-circuit.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of damages on vehicle caused by short-circuit (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.short-circuit.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of damages on vehicle caused by short-circuit (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.special-equipment.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of damages to special-equipment of vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.special-equipment.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of damages to special-equipment of vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.special-equipment.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of damages to special-equipment of vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.special-equipment.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of damages to special-equipment of vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "partial comprehensive coverages for vehicles (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.suspension-bonus.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "suspension bonus for partial-comprehensive coverage when license plate is deposited (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.suspension-bonus.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "suspension bonus for partial-comprehensive coverage when license plate is deposited (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.suspension-bonus.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "suspension bonus for partial-comprehensive coverage when license plate is deposited (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.suspension-bonus.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "suspension bonus for partial-comprehensive coverage when license plate is deposited (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.theft-and-robbery.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "partial comprehensive coverage of theft or robbery of vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.theft-and-robbery.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "partial comprehensive coverage of theft or robbery of vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.theft-and-robbery.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "partial comprehensive coverage of theft or robbery of vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.theft-and-robbery.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "partial comprehensive coverage of theft or robbery of vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.vandalism.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "comprehensive coverage of damage on vehicle caused by vandalism (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.vandalism.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "comprehensive coverage of damage on vehicle caused by vandalism (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.vandalism.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "comprehensive coverage of damage on vehicle caused by vandalism (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.vandalism.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "comprehensive coverage of damage on vehicle caused by vandalism (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "partial comprehensive coverages for vehicles (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.recycling-costs.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of expenses for disposal- and recycling-costs in case of total damage of vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.recycling-costs.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of expenses for disposal- and recycling-costs in case of total damage of vehicle (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.recycling-costs.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of expenses for disposal- and recycling-costs in case of total damage of vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.recycling-costs.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of expenses for disposal- and recycling-costs in case of total damage of vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.replacement-of-operating-materials.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of replacement of operating materials in case of vehicle repair (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.replacement-of-operating-materials.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of replacement of operating materials in case of vehicle repair (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.replacement-of-operating-materials.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of replacement of operating materials in case of vehicle repair (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.replacement-of-operating-materials.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of replacement of operating materials in case of vehicle repair (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "comprehensive coverages for vehicles (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "comprehensive coverages for vehicles (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.delivery-costs-spare-parts.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of delivery costs for spare parts for the vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.delivery-costs-spare-parts.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of delivery costs for spare parts for the vehicle (option is included in the product)"
         },
         "product.motor.coverage.delivery-costs-spare-parts.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of delivery costs for spare parts for the vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.delivery-costs-spare-parts.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of delivery costs for spare parts for the vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.discount-protection.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "discount protection for liability coverage in case of a claim made (option is included in the product)"
         },
         "product.motor.coverage.fuel-breakdown.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage in case of fuel breakdown: lack of fuel, wrong fuel, or - in case of e-vehicle - depleted battery (option is included in the product)"
         },
         "product.motor.coverage.liability.abroad-protection.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability abroad protection (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.abroad-protection.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability abroad protection (option is included in the product)"
         },
         "product.motor.coverage.liability.abroad-protection.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability abroad protection (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.abroad-protection.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability abroad protection (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.liability.better-performance-guarantee.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "better performance guarantee wrt. previous insurer for liability coverage (option is included in the product)"
         },
         "product.motor.coverage.liability.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability coverages for vehicles (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.discount-protection.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "discount protection for liability coverage in case of a claim made (option is included in the product)"
         },
         "product.motor.coverage.liability.environmental-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of claims under the Environmental Damage Act (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.environmental-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of claims under the Environmental Damage Act (option is included in the product)"
         },
         "product.motor.coverage.liability.environmental-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of claims under the Environmental Damage Act (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.environmental-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of claims under the Environmental Damage Act (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.liability.extended-vehicle-rental-protection-personal-injury.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "extended rental-car-protection for liability-claims wrt personal injury in foreign countries (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.extended-vehicle-rental-protection-personal-injury.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "extended rental-car-protection for liability-claims wrt personal injury in foreign countries (option is included in the product)"
         },
         "product.motor.coverage.liability.extended-vehicle-rental-protection-personal-injury.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "extended rental-car-protection for liability-claims wrt personal injury in foreign countries (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.extended-vehicle-rental-protection-personal-injury.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "extended rental-car-protection for liability-claims wrt personal injury in foreign countries (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.liability.extended-vehicle-rental-protection-property-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "extended rental-car-protection for liability-claims wrt property damage in foreign countries (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.extended-vehicle-rental-protection-property-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "extended rental-car-protection for liability-claims wrt property damage in foreign countries (option is included in the product)"
         },
         "product.motor.coverage.liability.extended-vehicle-rental-protection-property-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "extended rental-car-protection for liability-claims wrt property damage in foreign countries (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.extended-vehicle-rental-protection-property-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "extended rental-car-protection for liability-claims wrt property damage in foreign countries (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.liability.firstparty-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of damages caused on another vehicle for which person is policyholder (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.firstparty-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of damages caused on another vehicle for which person is policyholder (option is included in the product)"
         },
         "product.motor.coverage.liability.firstparty-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of damages caused on another vehicle for which person is policyholder (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.firstparty-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of damages caused on another vehicle for which person is policyholder (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.liability.followup-costs-unusable-car.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "claim costs for rental car or loss of earnings because of unusability of damaged car (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.followup-costs-unusable-car.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "claim costs for rental car or loss of earnings because of unusability of damaged car (option is included in the product)"
         },
         "product.motor.coverage.liability.followup-costs-unusable-car.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "claim costs for rental car or loss of earnings because of unusability of damaged car (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.followup-costs-unusable-car.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "claim costs for rental car or loss of earnings because of unusability of damaged car (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.liability.interchangeable-license-plates.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability-coverage in case of interchangeable license plates (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.interchangeable-license-plates.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability-coverage in case of interchangeable license plates (option is included in the product)"
         },
         "product.motor.coverage.liability.interchangeable-license-plates.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability-coverage in case of interchangeable license plates (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.interchangeable-license-plates.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability-coverage in case of interchangeable license plates (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.liability.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability coverages for vehicles (option is included in the product)"
         },
         "product.motor.coverage.liability.personal-injury.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability coverage in case of 3rd party personal injury (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.personal-injury.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability coverage in case of 3rd party personal injury (option is included in the product)"
         },
         "product.motor.coverage.liability.personal-injury.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability coverage in case of 3rd party personal injury (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.personal-injury.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability coverage in case of 3rd party personal injury (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.liability.property-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability coverage in case of property damage (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.property-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability coverage in case of property damage (option is included in the product)"
         },
         "product.motor.coverage.liability.property-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability coverage in case of property damage (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.property-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability coverage in case of property damage (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.liability.replacement-vehicle-plate-transfer.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability-coverage for a replacement-vehicle; if the insured vehicle is not fit for use, the license plates can be transferred to another operationally safe vehicle for a specified amount of time (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.replacement-vehicle-plate-transfer.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability-coverage for a replacement-vehicle; if the insured vehicle is not fit for use, the license plates can be transferred to another operationally safe vehicle for a specified amount of time (option is included in the product)"
         },
         "product.motor.coverage.liability.replacement-vehicle-plate-transfer.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability-coverage for a replacement-vehicle; if the insured vehicle is not fit for use, the license plates can be transferred to another operationally safe vehicle for a specified amount of time (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.replacement-vehicle-plate-transfer.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability-coverage for a replacement-vehicle; if the insured vehicle is not fit for use, the license plates can be transferred to another operationally safe vehicle for a specified amount of time (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.liability.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability coverages for vehicles (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.suspension-bonus.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "suspension bonus for liability coverage when license plate is deposited (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.suspension-bonus.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "suspension bonus for liability coverage when license plate is deposited (option is included in the product)"
         },
         "product.motor.coverage.liability.suspension-bonus.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "suspension bonus for liability coverage when license plate is deposited (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.liability.suspension-bonus.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "suspension bonus for liability coverage when license plate is deposited (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.liability.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability coverages for vehicles (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.passenger-cover.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "passenger cover (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.passenger-cover.driver-protection.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "passenger cover: accident protection for driver in case of selfinflicted accident (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.passenger-cover.driver-protection.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "passenger cover: accident protection for driver in case of selfinflicted accident (option is included in the product)"
         },
         "product.motor.coverage.passenger-cover.driver-protection.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "passenger cover: accident protection for driver in case of selfinflicted accident (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.passenger-cover.driver-protection.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "passenger cover: accident protection for driver in case of selfinflicted accident (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.passenger-cover.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "passenger cover (option is included in the product)"
         },
         "product.motor.coverage.passenger-cover.passenger-protection.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "passenger cover: accident protection for passengers (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.passenger-cover.passenger-protection.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "passenger cover: accident protection for passengers (option is included in the product)"
         },
         "product.motor.coverage.passenger-cover.passenger-protection.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "passenger cover: accident protection for passengers (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.passenger-cover.passenger-protection.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "passenger cover: accident protection for passengers (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.passenger-cover.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "passenger cover (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.passenger-cover.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "passenger cover (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.replacement-driver.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of costs for a replacement-driver, who brings the vehicle (and its occupants) home if the driver is not fit to drive after accident (option is included in the product)"
         },
         "product.motor.coverage.replacement-of-small-parts.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "in case of a breakdown service on site, the replacement of small parts will be reimbursed (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.replacement-of-small-parts.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "in case of a breakdown service on site, the replacement of small parts will be reimbursed (option is included in the product)"
         },
         "product.motor.coverage.replacement-of-small-parts.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "in case of a breakdown service on site, the replacement of small parts will be reimbursed (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.replacement-of-small-parts.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "in case of a breakdown service on site, the replacement of small parts will be reimbursed (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.replacement-vehicle.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "motor assistance: replacement vehicle in case the insured vehicle is damaged (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.replacement-vehicle.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "motor assistance: replacement vehicle in case the insured vehicle is damaged (option is included in the product)"
         },
         "product.motor.coverage.replacement-vehicle.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "motor assistance: replacement vehicle in case the insured vehicle is damaged (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.replacement-vehicle.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "motor assistance: replacement vehicle in case the insured vehicle is damaged (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.vat-reimbursement-waiver.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "waiver of VAT reimbursement (option is included in the product)"
         },
         "product.motor.coverage.vehicle-assistance.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "motor assistance for vehicle in case of an accident (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.vehicle-assistance.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "motor assistance for vehicle in case of an accident (option is included in the product)"
         },
         "product.motor.coverage.vehicle-assistance.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "motor assistance for vehicle in case of an accident (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.vehicle-assistance.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "motor assistance for vehicle in case of an accident (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.vehicle-recovery.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "recovery of the vehicle and transport to nearest suitable garage (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.vehicle-recovery.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "recovery of the vehicle and transport to nearest suitable garage (option is included in the product)"
         },
         "product.motor.coverage.vehicle-recovery.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "recovery of the vehicle and transport to nearest suitable garage (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.vehicle-recovery.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "recovery of the vehicle and transport to nearest suitable garage (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.vehicle-relocation.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "relocation of the vehicle in agreed garage if repair cannot been done in a certain time-frame (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.vehicle-relocation.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "relocation of the vehicle in agreed garage if repair cannot been done in a certain time-frame (option is included in the product)"
         },
         "product.motor.coverage.vehicle-relocation.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "relocation of the vehicle in agreed garage if repair cannot been done in a certain time-frame (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.vehicle-relocation.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "relocation of the vehicle in agreed garage if repair cannot been done in a certain time-frame (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.vehicle-storage-charges.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "charges for storage of damaged vehicle (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.vehicle-storage-charges.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "charges for storage of damaged vehicle (option is included in the product)"
         },
         "product.motor.coverage.vehicle-storage-charges.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "charges for storage of damaged vehicle (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.vehicle-storage-charges.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "charges for storage of damaged vehicle (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "deductible",
             "$ref": "#/definitions/money"
         },
         "product.motor.no-claims-discount-comprehensive.claim-free-years": {
@@ -2039,7 +2039,7 @@
         },
         "product.motor.other-vehicle-discount.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "option is included in the product"
         },
         "product.motor.other-vehicle-discount.other-vehicle-at-organization": {
             "type": "string",
