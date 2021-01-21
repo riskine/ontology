@@ -13,6 +13,46 @@
             "type": "string",
             "description": "brand of vehicle"
         },
+        "object.vehicle.eurotax-id": {
+            "type": "string",
+            "description": "eurotax ID of vehicle"
+        },
+        "object.vehicle.price-with-tax": {
+            "type": "string",
+            "description": "price with tax of vehicle"
+        },
+        "object.vehicle.total-weight": {
+            "type": "string",
+            "description": "total weight of vehicle"
+        },
+        "object.vehicle.body-type": {
+            "type": "string",
+            "description": "body type (i.e. limousine, cabriolet etc.) of vehicle"
+        },
+        "object.vehicle.fuel-type": {
+            "type": "string",
+            "description": "fuel type of vehicle"
+        },
+        "object.vehicle.transmission-type": {
+            "type": "string",
+            "description": "transmission type of vehicle"
+        },
+        "object.vehicle.model-begin": {
+            "type": "string",
+            "description": "model begin of vehicle"
+        },
+        "object.vehicleend.model-": {
+            "type": "string",
+            "description": "model end of vehicle"
+        },
+        "object.vehicle.previous-insurer.cancellation": {
+            "type": "string",
+            "description": "Cancelled by previous insurer?"
+        },
+        "object.vehicle.driver.claims": {
+            "type": "string",
+            "description": "number of claims in the past (i.e. 3 years)"
+        },
         "object.vehicle.catalysator": {
             "type": "boolean",
             "description": "does vehicle have a catalysator"
@@ -68,6 +108,14 @@
         "object.vehicle.driver.citizenship": {
             "type": "string",
             "description": "citizenship (ISO 3166-1 alpha-2 country code)"
+        },
+        "object.vehicle.driver.residence-permit.type": {
+            "type": "string",
+            "description": "(relevant in Switzerland)"
+        },
+        "object.vehicle.driver.driving-license.loss": {
+            "type": "string",
+            "description": "Loss of license in the past (i.e. 3 years)"
         },
         "object.vehicle.driver.driver-club-membership": {
             "description": "driver club person is member of",
