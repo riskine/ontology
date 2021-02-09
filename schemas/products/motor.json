@@ -981,10 +981,6 @@
             "type": "boolean",
             "description": "loss of document the past (in relevant time-period)"
         },
-        "person.is-policyholder": {
-            "type": "boolean",
-            "description": "vehicleholder is the same as policyholder"
-        },
         "person.last-name": {
             "type": "string",
             "description": "last name of person"
