@@ -26,6 +26,10 @@
             "description": "date of issue of the document",
             "$ref": "definitions.json#/date"
         },
+        "loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
+        },
         "id-holder": {
             "description": "holder of the document",
             "$ref": "person.json"

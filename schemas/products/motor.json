@@ -9,6 +9,10 @@
             "description": "fair value of object",
             "$ref": "#/definitions/money"
         },
+        "object.vehicle.body-type": {
+            "description": "body type (body style) of a vehicle",
+            "$ref": "#/definitions/body-type"
+        },
         "object.vehicle.brand": {
             "type": "string",
             "description": "brand of vehicle"
@@ -101,6 +105,10 @@
             "description": "does person have an (eu-)driving-license",
             "$ref": "#/definitions/license-type"
         },
+        "object.vehicle.driver.driving-license.loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
+        },
         "object.vehicle.driver.driving-license.on-probation": {
             "type": "boolean",
             "description": "driving-license on probation"
@@ -173,6 +181,10 @@
             "description": "date of issue of the document",
             "$ref": "#/definitions/date"
         },
+        "object.vehicle.driver.identification.loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
+        },
         "object.vehicle.driver.last-name": {
             "type": "string",
             "description": "last name of person"
@@ -233,6 +245,10 @@
             "description": "number of people the person is responsible for (as part of their job)",
             "$ref": "#/definitions/nonnegative-integer"
         },
+        "object.vehicle.driver.residence-permit-type": {
+            "type": "string",
+            "description": "type of residence permit of person (country-specific)"
+        },
         "object.vehicle.driver.salutation": {
             "description": "salutation of person",
             "$ref": "#/definitions/salutation"
@@ -249,10 +265,6 @@
             "type": "string",
             "description": "title of person (as part of the salutation)"
         },
-        "object.vehicle.engine": {
-            "description": "engine type of vehicle",
-            "$ref": "#/definitions/engine"
-        },
         "object.vehicle.engine-displacement": {
             "description": "engine-displacement of the vehicle (ccm)",
             "$ref": "#/definitions/nonnegative-integer"
@@ -268,6 +280,10 @@
         "object.vehicle.first-registration-by-policyholder": {
             "description": "date of first registration of vehicle by policyholder",
             "$ref": "#/definitions/date"
+        },
+        "object.vehicle.fuel-type": {
+            "description": "fuel (propulsion) type of vehicle",
+            "$ref": "#/definitions/fuel-type"
         },
         "object.vehicle.garage": {
             "type": "boolean",
@@ -328,6 +344,10 @@
         "object.vehicle.holder.driving-license.license-type": {
             "description": "does person have an (eu-)driving-license",
             "$ref": "#/definitions/license-type"
+        },
+        "object.vehicle.holder.driving-license.loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
         },
         "object.vehicle.holder.driving-license.on-probation": {
             "type": "boolean",
@@ -397,6 +417,10 @@
             "description": "date of issue of the document",
             "$ref": "#/definitions/date"
         },
+        "object.vehicle.holder.identification.loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
+        },
         "object.vehicle.holder.is-policyholder": {
             "type": "boolean",
             "description": "vehicleholder is the same as policyholder"
@@ -457,6 +481,10 @@
             "description": "number of people the person is responsible for (as part of their job)",
             "$ref": "#/definitions/nonnegative-integer"
         },
+        "object.vehicle.holder.residence-permit-type": {
+            "type": "string",
+            "description": "type of residence permit of person (country-specific)"
+        },
         "object.vehicle.holder.salutation": {
             "description": "salutation of person",
             "$ref": "#/definitions/salutation"
@@ -481,9 +509,13 @@
             "type": "string",
             "description": "manufacturer key number (4-digit numerical code)"
         },
-        "object.vehicle.id": {
-            "type": "string",
-            "description": "unique ID of a vehicle (17 digits)"
+        "object.vehicle.import-end": {
+            "description": "import end-date of a vehicle-model",
+            "$ref": "#/definitions/date"
+        },
+        "object.vehicle.import-start": {
+            "description": "import start-date of a vehicle-model",
+            "$ref": "#/definitions/date"
         },
         "object.vehicle.is-leased": {
             "type": "boolean",
@@ -500,6 +532,10 @@
         "object.vehicle.mostly-commute-use": {
             "type": "boolean",
             "description": "vehicle is mostly used for commuting to work"
+        },
+        "object.vehicle.national-type-code": {
+            "type": "string",
+            "description": "additional national type number / code for vehicle identification"
         },
         "object.vehicle.new-registration": {
             "type": "boolean",
@@ -577,6 +613,10 @@
             "description": "does person have an (eu-)driving-license",
             "$ref": "#/definitions/license-type"
         },
+        "object.vehicle.owner.driving-license.loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
+        },
         "object.vehicle.owner.driving-license.on-probation": {
             "type": "boolean",
             "description": "driving-license on probation"
@@ -649,6 +689,10 @@
             "description": "date of issue of the document",
             "$ref": "#/definitions/date"
         },
+        "object.vehicle.owner.identification.loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
+        },
         "object.vehicle.owner.last-name": {
             "type": "string",
             "description": "last name of person"
@@ -709,6 +753,10 @@
             "description": "number of people the person is responsible for (as part of their job)",
             "$ref": "#/definitions/nonnegative-integer"
         },
+        "object.vehicle.owner.residence-permit-type": {
+            "type": "string",
+            "description": "type of residence permit of person (country-specific)"
+        },
         "object.vehicle.owner.salutation": {
             "description": "salutation of person",
             "$ref": "#/definitions/salutation"
@@ -729,6 +777,10 @@
             "description": "payload of vehicle (kg)",
             "$ref": "#/definitions/nonnegative-integer"
         },
+        "object.vehicle.price-with-tax": {
+            "description": "new price when purchasing the vehicle incl. taxes",
+            "$ref": "#/definitions/money"
+        },
         "object.vehicle.registration-area": {
             "type": "string",
             "description": "registration area of vehicle (1-3 letters)"
@@ -745,6 +797,14 @@
             "description": "tare-weight of vehicle (kg)",
             "$ref": "#/definitions/nonnegative-integer"
         },
+        "object.vehicle.total-weight": {
+            "description": "maximum permitted total weight of vehicle (kg)",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "object.vehicle.transmission-type": {
+            "description": "transmission type of vehicle",
+            "$ref": "#/definitions/transmission-type"
+        },
         "object.vehicle.tsn": {
             "type": "string",
             "description": "type ID of vehicle"
@@ -756,6 +816,10 @@
         "object.vehicle.vehicle-type": {
             "description": "vehicle type",
             "$ref": "#/definitions/vehicle-type"
+        },
+        "object.vehicle.vin": {
+            "type": "string",
+            "description": "Vehicle Identification Number (int. unique, 17 digits alphanumeric, ISO-3779)"
         },
         "object.vehicle.year-of-construction": {
             "description": "year of construction of object",
@@ -837,6 +901,10 @@
             "description": "does person have an (eu-)driving-license",
             "$ref": "#/definitions/license-type"
         },
+        "person.driving-license.loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
+        },
         "person.driving-license.on-probation": {
             "type": "boolean",
             "description": "driving-license on probation"
@@ -909,6 +977,10 @@
             "description": "date of issue of the document",
             "$ref": "#/definitions/date"
         },
+        "person.identification.loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
+        },
         "person.last-name": {
             "type": "string",
             "description": "last name of person"
@@ -968,6 +1040,10 @@
         "person.profession.staff-responsibility-number": {
             "description": "number of people the person is responsible for (as part of their job)",
             "$ref": "#/definitions/nonnegative-integer"
+        },
+        "person.residence-permit-type": {
+            "type": "string",
+            "description": "type of residence permit of person (country-specific)"
         },
         "person.salutation": {
             "description": "salutation of person",
@@ -1089,6 +1165,10 @@
             "description": "date of issue of the document",
             "$ref": "#/definitions/date"
         },
+        "product.motor.contributor.identification.loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
+        },
         "product.motor.contributor.last-name": {
             "type": "string",
             "description": "last name of person"
@@ -1112,6 +1192,10 @@
         "product.motor.contributor.phone-prefix": {
             "type": "string",
             "description": "prefix of phone-number"
+        },
+        "product.motor.contributor.residence-permit-type": {
+            "type": "string",
+            "description": "type of residence permit of person (country-specific)"
         },
         "product.motor.contributor.salutation": {
             "description": "salutation of person",
@@ -1819,7 +1903,7 @@
         },
         "product.motor.coverage.discount-protection.is-included": {
             "type": "boolean",
-            "description": "discount protection for liability coverage in case of a claim made (option is included in the product)"
+            "description": "discount protection in case of a claim made (option is included in the product)"
         },
         "product.motor.coverage.fuel-breakdown.is-included": {
             "type": "boolean",
@@ -2333,6 +2417,10 @@
             "description": "does person have an (eu-)driving-license",
             "$ref": "#/definitions/license-type"
         },
+        "product.motor.policyholder.driving-license.loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
+        },
         "product.motor.policyholder.driving-license.on-probation": {
             "type": "boolean",
             "description": "driving-license on probation"
@@ -2405,6 +2493,10 @@
             "description": "date of issue of the document",
             "$ref": "#/definitions/date"
         },
+        "product.motor.policyholder.identification.loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
+        },
         "product.motor.policyholder.last-name": {
             "type": "string",
             "description": "last name of person"
@@ -2465,6 +2557,10 @@
             "description": "number of people the person is responsible for (as part of their job)",
             "$ref": "#/definitions/nonnegative-integer"
         },
+        "product.motor.policyholder.residence-permit-type": {
+            "type": "string",
+            "description": "type of residence permit of person (country-specific)"
+        },
         "product.motor.policyholder.salutation": {
             "description": "salutation of person",
             "$ref": "#/definitions/salutation"
@@ -2493,6 +2589,14 @@
             "description": "payment method for product-premium",
             "$ref": "#/definitions/payment-method"
         },
+        "product.motor.previous-claims-amount": {
+            "description": "total claims amount in relevant time-period",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.previous-claims-number": {
+            "type": "integer",
+            "description": "total number of claims in relevant time-period"
+        },
         "product.motor.previous-insurer": {
             "type": "string",
             "description": "name of previous insurance company"
@@ -2500,6 +2604,10 @@
         "product.motor.previous-insurer-id": {
             "type": "string",
             "description": "ID of previous insurance company"
+        },
+        "product.motor.previous-policy-cancellation-insurer": {
+            "type": "boolean",
+            "description": "previous policy was cancelled by insurer"
         },
         "product.motor.previous-policy-number": {
             "type": "string",
@@ -2848,16 +2956,23 @@
                 "AvD"
             ]
         },
-        "engine": {
-            "type": "integer",
+        "fuel-type": {
+            "type": "string",
             "enum": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6
+                "other",
+                "gasoline",
+                "diesel",
+                "cng",
+                "lpg",
+                "electric",
+                "hybrid",
+                "electric-gasoline",
+                "electric-diesel",
+                "ethanol-gasoline",
+                "cng-gasoline",
+                "lpg-gasoline",
+                "hydrogen",
+                "h2-e"
             ],
             "enum-description": [
                 "other",
@@ -2866,7 +2981,14 @@
                 "compressed natural gas (CNG)",
                 "liquefied petroleum gas (LPG)",
                 "electric",
-                "hybrid"
+                "hybrid",
+                "electric/gasoline",
+                "electric/diesel",
+                "ethanol/gasoline",
+                "CNG/gasoline",
+                "LPG/gasoline",
+                "hydrogen (H2)",
+                "H2 (E)"
             ]
         },
         "vehicle-type": {
@@ -2948,6 +3070,108 @@
                     "other person"
                 ]
             }
+        },
+        "body-type": {
+            "type": "string",
+            "enum": [
+                "other",
+                "coupe",
+                "sedan",
+                "station-wagon",
+                "convertible",
+                "pick-up",
+                "pick-up-double-cab",
+                "targa",
+                "pick-up-long",
+                "station-wagon-elevated",
+                "station-wagon-raised-roof",
+                "station-wagon-long",
+                "van",
+                "van-elevated",
+                "van-double-cab",
+                "van-elevated-vitrified",
+                "van-large-vol",
+                "van-large-vol-vitrified",
+                "van-raised-roof",
+                "van-raised-roof-vitrified",
+                "van-long",
+                "van-long-elevated",
+                "van-vitrified",
+                "tipper",
+                "tipper-double-cab",
+                "minivan",
+                "minivan-elevated",
+                "minivan-raised-roof",
+                "chassis",
+                "chassis-double-cab",
+                "platform",
+                "semi-trailer",
+                "semi-trailer-double-cab",
+                "flatbed",
+                "flatbed-double-cab",
+                "camper"
+            ],
+            "enum-description": [
+                "other",
+                "coupe",
+                "sedan",
+                "station wagon (kombi)",
+                "convertible",
+                "pick-up",
+                "pick-up double cabin",
+                "targa",
+                "pick-up long",
+                "station wagon elevated",
+                "station wagon raised-roof",
+                "station wagon long",
+                "van",
+                "van elevated",
+                "van double cabin",
+                "van elevated vitrified",
+                "van large volume",
+                "van large volume vitrified",
+                "van raised roof",
+                "van raised roof vitrified",
+                "van long",
+                "van long, elevated",
+                "van vitrified",
+                "tipper",
+                "tipper double cabin",
+                "minivan",
+                "minivan elevated",
+                "minivan raised roof",
+                "chassis",
+                "chassis double cabin",
+                "platform",
+                "semi-trailer",
+                "semi-trailer double cabin",
+                "flatbed",
+                "flatbed double cabin",
+                "camper"
+            ]
+        },
+        "transmission-type": {
+            "type": "string",
+            "enum": [
+                "other",
+                "manual",
+                "automatic",
+                "automatic-sequential",
+                "cvt",
+                "manual-sequential",
+                "automated-manual",
+                "direct-drive"
+            ],
+            "enum-description": [
+                "other",
+                "manual (MT)",
+                "automatic (AT)",
+                "automatic sequential",
+                "continuously variable transmission (CVT)",
+                "manual sequential",
+                "automated manual (AMT)",
+                "direct-drive/without gearbox"
+            ]
         }
     }
 }
