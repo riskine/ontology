@@ -54,6 +54,13 @@
         "$ref": "vehicle.json"
       }
     },
+    "is-holder-of": {
+      "type": "array",
+      "description": "vehicles for which person is the holder",
+      "items": {
+        "$ref": "vehicle.json"
+      }
+    },
     "uses": {
       "type": "array",
       "description": "objects used by person",

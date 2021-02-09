@@ -407,346 +407,346 @@
         },
         "product.household.coverage.best-coverage-guarantee.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability: best coverage guarantee (option is included in the product)"
         },
         "product.household.coverage.bicycle-theft.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "bicycle-coverage (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.bicycle-theft.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "bicycle-coverage (option is included in the product)"
         },
         "product.household.coverage.bicycle-theft.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "bicycle-coverage (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.bicycle-theft.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "bicycle-coverage (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.burglary.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "burglary coverage for household (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.burglary.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "burglary coverage for household (option is included in the product)"
         },
         "product.household.coverage.burglary.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "burglary coverage for household (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.burglary.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "burglary coverage for household (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.damages-by-children.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability: coverage of damages caused by minors (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.damages-by-children.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability: coverage of damages caused by minors (option is included in the product)"
         },
         "product.household.coverage.damages-by-children.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability: coverage of damages caused by minors (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.damages-by-children.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability: coverage of damages caused by minors (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.damages-to-borrowed-rented-goods.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability: coverage of damages to borrowed or rented goods (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.damages-to-borrowed-rented-goods.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability: coverage of damages to borrowed or rented goods (option is included in the product)"
         },
         "product.household.coverage.damages-to-borrowed-rented-goods.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability: coverage of damages to borrowed or rented goods (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.damages-to-borrowed-rented-goods.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability: coverage of damages to borrowed or rented goods (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.damages-to-owned-property.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability: owner-protection (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.damages-to-owned-property.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability: owner-protection (option is included in the product)"
         },
         "product.household.coverage.damages-to-owned-property.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability: owner-protection (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.damages-to-owned-property.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability: owner-protection (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.damages-to-rented-property.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability: coverage of damages to rented property (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.damages-to-rented-property.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability: coverage of damages to rented property (option is included in the product)"
         },
         "product.household.coverage.damages-to-rented-property.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability: coverage of damages to rented property (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.damages-to-rented-property.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability: coverage of damages to rented property (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
-        "product.household.coverage.electronic-devices-special.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+        "product.household.coverage.electronic-devices.deductible": {
+            "description": "extended household-coverage for electronic devices (deductible)",
             "$ref": "#/definitions/money"
         },
-        "product.household.coverage.electronic-devices-special.is-included": {
+        "product.household.coverage.electronic-devices.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "extended household-coverage for electronic devices (option is included in the product)"
         },
-        "product.household.coverage.electronic-devices-special.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+        "product.household.coverage.electronic-devices.sum-insured": {
+            "description": "extended household-coverage for electronic devices (max. amount insured)",
             "$ref": "#/definitions/money"
         },
-        "product.household.coverage.electronic-devices-special.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+        "product.household.coverage.electronic-devices.waiting-time": {
+            "description": "extended household-coverage for electronic devices (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.elemental-damages.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "coverage of damages by elementary events (household) (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.elemental-damages.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "coverage of damages by elementary events (household) (option is included in the product)"
         },
         "product.household.coverage.elemental-damages.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "coverage of damages by elementary events (household) (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.elemental-damages.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "coverage of damages by elementary events (household) (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.fire-storm-hail.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "household-coverage of damages by elementary events as fire, storm, hail (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.fire-storm-hail.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "household-coverage of damages by elementary events as fire, storm, hail (option is included in the product)"
         },
         "product.household.coverage.fire-storm-hail.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "household-coverage of damages by elementary events as fire, storm, hail (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.fire-storm-hail.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "household-coverage of damages by elementary events as fire, storm, hail (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.glass-damage-extended.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "extended coverage for glass damages (household) (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.glass-damage-extended.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "extended coverage for glass damages (household) (option is included in the product)"
         },
         "product.household.coverage.glass-damage-extended.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "extended coverage for glass damages (household) (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.glass-damage-extended.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "extended coverage for glass damages (household) (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.glass-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "glass coverage for household contents (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.glass-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "glass coverage for household contents (option is included in the product)"
         },
         "product.household.coverage.glass-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "glass coverage for household contents (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.glass-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "glass coverage for household contents (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.household.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "all household-coverages (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.household.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "all household-coverages (option is included in the product)"
         },
         "product.household.coverage.household.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "all household-coverages (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.household.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "all household-coverages (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.mobility.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "external insurance for parts of household contents which are temporarily placed in other facilities, e.g., hotel rooms (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.mobility.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "external insurance for parts of household contents which are temporarily placed in other facilities, e.g., hotel rooms (option is included in the product)"
         },
         "product.household.coverage.mobility.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "external insurance for parts of household contents which are temporarily placed in other facilities, e.g., hotel rooms (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.mobility.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "external insurance for parts of household contents which are temporarily placed in other facilities, e.g., hotel rooms (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.outdoor.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "household-coverage for outdoor-facilities (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.outdoor.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "household-coverage for outdoor-facilities (option is included in the product)"
         },
         "product.household.coverage.outdoor.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "household-coverage for outdoor-facilities (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.outdoor.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "household-coverage for outdoor-facilities (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.personal-injury.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability: coverage of personal injury (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.personal-injury.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability: coverage of personal injury (option is included in the product)"
         },
         "product.household.coverage.personal-injury.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability: coverage of personal injury (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.personal-injury.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability: coverage of personal injury (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.property-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability: coverage of property damages (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.property-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability: coverage of property damages (option is included in the product)"
         },
         "product.household.coverage.property-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability: coverage of property damages (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.property-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability: coverage of property damages (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.related-thirdparty-damage.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability: coverage of damages to immediate relatives (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.related-thirdparty-damage.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability: coverage of damages to immediate relatives (option is included in the product)"
         },
         "product.household.coverage.related-thirdparty-damage.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability: coverage of damages to immediate relatives (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.related-thirdparty-damage.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability: coverage of damages to immediate relatives (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.sports.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "liability: coverage of damages during sporting activities (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.sports.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "liability: coverage of damages during sporting activities (option is included in the product)"
         },
         "product.household.coverage.sports.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "liability: coverage of damages during sporting activities (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.sports.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "liability: coverage of damages during sporting activities (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.valuables.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "extended household-coverage for valuables (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.valuables.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "extended household-coverage for valuables (option is included in the product)"
         },
         "product.household.coverage.valuables.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "extended household-coverage for valuables (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.valuables.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "extended household-coverage for valuables (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.vandalism-household.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "household-coverage of vandalism-damages (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.vandalism-household.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "household-coverage of vandalism-damages (option is included in the product)"
         },
         "product.household.coverage.vandalism-household.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "household-coverage of vandalism-damages (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.vandalism-household.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "household-coverage of vandalism-damages (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.coverage.waterleakage-household.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "household-coverage of damages caused by waterleakage (tapwater) (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.waterleakage-household.is-included": {
             "type": "boolean",
-            "description": "coverage or tariff-option is included in the product"
+            "description": "household-coverage of damages caused by waterleakage (tapwater) (option is included in the product)"
         },
         "product.household.coverage.waterleakage-household.sum-insured": {
-            "description": "max. amount insured by the coverage(bundle)",
+            "description": "household-coverage of damages caused by waterleakage (tapwater) (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.household.coverage.waterleakage-household.waiting-time": {
-            "description": "waiting time for coverage(bundle) in days",
+            "description": "household-coverage of damages caused by waterleakage (tapwater) (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.household.deductible": {
-            "description": "deductible for given coverage(bundle) or product",
+            "description": "deductible",
             "$ref": "#/definitions/money"
         },
         "product.household.number-insured-adults": {

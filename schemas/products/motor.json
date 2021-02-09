@@ -1262,7 +1262,7 @@
             "description": "advance bonus for comprehensive coverage (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.deductible": {
-            "description": "comprehensive coverages for motor-product (deductible)",
+            "description": "comprehensive coverages for vehicles (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.extended-contract-term.is-included": {
@@ -1475,7 +1475,7 @@
         },
         "product.motor.coverage.comprehensive.is-included": {
             "type": "boolean",
-            "description": "comprehensive coverages for motor-product (option is included in the product)"
+            "description": "comprehensive coverages for vehicles (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.new-for-old-without-deduction.is-included": {
             "type": "boolean",
@@ -1882,11 +1882,11 @@
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.sum-insured": {
-            "description": "comprehensive coverages for motor-product (max. amount insured)",
+            "description": "comprehensive coverages for vehicles (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.waiting-time": {
-            "description": "comprehensive coverages for motor-product (waiting time in days)",
+            "description": "comprehensive coverages for vehicles (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.delivery-costs-spare-parts.deductible": {
@@ -1907,7 +1907,7 @@
         },
         "product.motor.coverage.discount-protection.is-included": {
             "type": "boolean",
-            "description": "discount protection for comprehensive coverage in case of a claim made (option is included in the product)"
+            "description": "discount protection in case of a claim made (option is included in the product)"
         },
         "product.motor.coverage.fuel-breakdown.is-included": {
             "type": "boolean",
