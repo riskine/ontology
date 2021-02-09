@@ -18,6 +18,10 @@
       "description": "reinstatement value of object",
       "$ref": "definitions.json#/money"
     },
+    "price-with-tax": {
+      "$ref": "definitions.json#/money",
+      "description": "new price when purchasing the vehicle incl. taxes"
+    },
     "brand": {
       "type": "string",
       "description": "brand of vehicle"
@@ -34,9 +38,13 @@
       "type": "string",
       "description": "type ID of vehicle"
     },
-    "id": {
+    "vin": {
       "type": "string",
-      "description": "unique ID of vehicle (17 digits)"
+      "description": "Vehicle Identification Number (int. unique, 17 digits alphanumeric, ISO-3779)"
+    },
+    "national-type-code": {
+      "type": "string",
+      "description": "additional national type number / code for vehicle identification"
     },
     "yearly-mileage": {
       "description": "average kilometers per year",
@@ -46,9 +54,9 @@
       "description": "current mileage of vehicle",
       "$ref": "definitions.json#/nonnegative-integer"
     },
-    "engine": {
-      "description": "engine type of vehicle",
-      "$ref": "definitions.json#/engine"
+    "fuel-type": {
+      "$ref": "definitions.json#/fuel-type",
+      "description": "fuel (propulsion) type of vehicle"
     },
     "engine-displacement": {
       "$ref": "definitions.json#/nonnegative-integer",
@@ -65,6 +73,14 @@
     "horse-power": {
       "$ref": "definitions.json#/nonnegative-integer",
       "description": "engine power of vehicle (PS)"
+    },
+    "transmission-type": {
+      "$ref": "definitions.json#/transmission-type",
+      "description": "transmission type of vehicle"
+    },
+    "body-type": {
+      "$ref": "definitions.json#/body-type",
+      "description": "body type (body style) of a vehicle"
     },
     "vehicle-type": {
       "description": "vehicle type",
@@ -106,9 +122,21 @@
       "$ref": "definitions.json#/nonnegative-integer",
       "description": "tare-weight of vehicle (kg)"
     },
+    "total-weight": {
+      "$ref": "definitions.json#/nonnegative-integer",
+      "description": "maximum permitted total weight of vehicle (kg)"
+    },
     "seats": {
       "$ref": "definitions.json#/nonnegative-integer",
       "description": "number of seats (incl. driver)"
+    },
+    "import-end": {
+      "$ref": "definitions.json#/date",
+      "description": "import end-date of a vehicle-model"
+    },
+    "import-start": {
+      "$ref": "definitions.json#/date",
+      "description": "import start-date of a vehicle-model"
     },
     "garage": {
       "type": "boolean",

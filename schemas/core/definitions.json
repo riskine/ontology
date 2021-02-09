@@ -476,16 +476,23 @@
             "AvD"
         ]
     },
-    "engine": {
-        "type": "integer",
+    "fuel-type": {
+        "type": "string",
         "enum": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
+            "other",
+            "gasoline",
+            "diesel",
+            "cng",
+            "lpg",
+            "electric",
+            "hybrid",
+            "electric-gasoline",
+            "electric-diesel",
+            "ethanol-gasoline",
+            "cng-gasoline",
+            "lpg-gasoline",
+            "hydrogen",
+            "h2-e"
         ],
         "enum-description": [
             "other",
@@ -494,7 +501,14 @@
             "compressed natural gas (CNG)",
             "liquefied petroleum gas (LPG)",
             "electric",
-            "hybrid"
+            "hybrid",
+            "electric/gasoline",
+            "electric/diesel",
+            "ethanol/gasoline",
+            "CNG/gasoline",
+            "LPG/gasoline",
+            "hydrogen (H2)",
+            "H2 (E)"
         ]
     },
     "vehicle-type": {
@@ -598,19 +612,121 @@
             "other"
         ]
     },
-        "in-place-status": {
-            "type": "integer",
-            "enum": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "enum-description": [
-                "none",
-                "none (legally not necessary)",
-                "yes (internal)",
-                "yes (external)"
-            ]
-        }
+    "in-place-status": {
+        "type": "integer",
+        "enum": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "enum-description": [
+            "none",
+            "none (legally not necessary)",
+            "yes (internal)",
+            "yes (external)"
+        ]
+    },
+    "body-type": {
+        "type": "string",
+        "enum": [
+            "other",
+            "coupe",
+            "sedan",
+            "station-wagon",
+            "convertible",
+            "pick-up",
+            "pick-up-double-cab",
+            "targa",
+            "pick-up-long",
+            "station-wagon-elevated",
+            "station-wagon-raised-roof",
+            "station-wagon-long",
+            "van",
+            "van-elevated",
+            "van-double-cab",
+            "van-elevated-vitrified",
+            "van-large-vol",
+            "van-large-vol-vitrified",
+            "van-raised-roof",
+            "van-raised-roof-vitrified",
+            "van-long",
+            "van-long-elevated",
+            "van-vitrified",
+            "tipper",
+            "tipper-double-cab",
+            "minivan",
+            "minivan-elevated",
+            "minivan-raised-roof",
+            "chassis",
+            "chassis-double-cab",
+            "platform",
+            "semi-trailer",
+            "semi-trailer-double-cab",
+            "flatbed",
+            "flatbed-double-cab",
+            "camper"
+        ],
+        "enum-description": [
+            "other",
+            "coupe",
+            "sedan",
+            "station wagon (kombi)",
+            "convertible",
+            "pick-up",
+            "pick-up double cabin",
+            "targa",
+            "pick-up long",
+            "station wagon elevated",
+            "station wagon raised-roof",
+            "station wagon long",
+            "van",
+            "van elevated",
+            "van double cabin",
+            "van elevated vitrified",
+            "van large volume",
+            "van large volume vitrified",
+            "van raised roof",
+            "van raised roof vitrified",
+            "van long",
+            "van long, elevated",
+            "van vitrified",
+            "tipper",
+            "tipper double cabin",
+            "minivan",
+            "minivan elevated",
+            "minivan raised roof",
+            "chassis",
+            "chassis double cabin",
+            "platform",
+            "semi-trailer",
+            "semi-trailer double cabin",
+            "flatbed",
+            "flatbed double cabin",
+            "camper"
+        ]
+    },
+    "transmission-type": {
+        "type": "string",
+        "enum": [
+            "other",
+            "manual",
+            "automatic",
+            "automatic-sequential",
+            "cvt",
+            "manual-sequential",
+            "automated-manual",
+            "direct-drive"
+        ],
+        "enum-description": [
+            "other",
+            "manual (MT)",
+            "automatic (AT)",
+            "automatic sequential",
+            "continuously variable transmission (CVT)",
+            "manual sequential",
+            "automated manual (AMT)",
+            "direct-drive/without gearbox"
+        ]
+    }
 }

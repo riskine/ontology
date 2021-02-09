@@ -200,6 +200,10 @@
       "type": "string",
       "description": "nationality of person (ISO 3166-1 alpha-2 country code)"
     },
+    "residence-permit-type": {
+      "type": "string",
+      "description": "type of residence permit of person (country-specific)"
+    },
     "driver-club-membership": {
       "description": "driver club person is member of",
       "$ref": "definitions.json#/driver-club"

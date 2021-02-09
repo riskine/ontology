@@ -34,6 +34,10 @@
             "type": "boolean",
             "description": "driving-license on probation"
         },
+        "loss": {
+            "type": "boolean",
+            "description": "loss of document the past (in relevant time-period)"
+        },
         "license-holder": {
             "description": "holder of driving license",
             "$ref": "person.json"
