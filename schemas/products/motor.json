@@ -1665,6 +1665,22 @@
             "description": "coverage of damages caused by gross negligence (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
+         "product.motor.coverage.comprehensive.gross-negligence.deductible": {
+            "description": "coverage of damages caused by gross negligence (deductible)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.gross-negligence.is-included": {
+            "type": "boolean",
+            "description": "coverage of damages caused by gross negligence (option is included in the product)"
+        },
+        "product.motor.coverage.comprehensive.gross-negligence.sum-insured": {
+            "description": "coverage of damages caused by gross negligence (max. amount insured)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.gross-negligence.waiting-time": {
+            "description": "coverage of damages caused by gross negligence (waiting time in days)",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
         "product.motor.coverage.comprehensive.partial.interchangeable-license-plates.deductible": {
             "description": "partial comprehensive coverage in case of interchangeable license plates (deductible)",
             "$ref": "#/definitions/money"
@@ -2146,6 +2162,22 @@
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.passenger-cover.passenger-protection.waiting-time": {
+            "description": "passenger cover: accident protection for passengers (waiting time in days)",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+         "product.motor.coverage.passenger-cover.occupants-protection.deductible": {
+            "description": "passenger cover: accident protection for passengers (deductible)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.passenger-cover.occupants-protection.is-included": {
+            "type": "boolean",
+            "description": "passenger cover: accident protection for passengers (option is included in the product)"
+        },
+        "product.motor.coverage.passenger-cover.occupants-protection.sum-insured": {
+            "description": "passenger cover: accident protection for passengers (max. amount insured)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.passenger-cover.occupants-protection.waiting-time": {
             "description": "passenger cover: accident protection for passengers (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
