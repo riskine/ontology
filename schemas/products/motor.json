@@ -1257,6 +1257,22 @@
             "type": "boolean",
             "description": "advance bonus for comprehensive coverage (option is included in the product)"
         },
+        "product.motor.coverage.comprehensive.compensation-new-value.deductible": {
+            "description": "comprehensive compensation of reinstatement value in case of total damage of a vehicle (deductible)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.compensation-new-value.is-included": {
+            "type": "boolean",
+            "description": "comprehensive compensation of reinstatement value in case of total damage of a vehicle (option is included in the product)"
+        },
+        "product.motor.coverage.comprehensive.compensation-new-value.sum-insured": {
+            "description": "comprehensive compensation of reinstatement value in case of total damage of a vehicle (max. amount insured)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.compensation-new-value.waiting-time": {
+            "description": "comprehensive compensation of reinstatement value in case of total damage of a vehicle (waiting time in days)",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
         "product.motor.coverage.comprehensive.deductible": {
             "description": "comprehensive coverages for vehicles (deductible)",
             "$ref": "#/definitions/money"
@@ -1469,6 +1485,38 @@
             "type": "boolean",
             "description": "garage binding (option is included in the product)"
         },
+        "product.motor.coverage.comprehensive.glass-damage-extended.deductible": {
+            "description": "comprehensive coverage for damage to vehicle parts made of glass or materials used as a substitute for glass (deductible)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.glass-damage-extended.is-included": {
+            "type": "boolean",
+            "description": "comprehensive coverage for damage to vehicle parts made of glass or materials used as a substitute for glass (option is included in the product)"
+        },
+        "product.motor.coverage.comprehensive.glass-damage-extended.sum-insured": {
+            "description": "comprehensive coverage for damage to vehicle parts made of glass or materials used as a substitute for glass (max. amount insured)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.glass-damage-extended.waiting-time": {
+            "description": "comprehensive coverage for damage to vehicle parts made of glass or materials used as a substitute for glass (waiting time in days)",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.motor.coverage.comprehensive.gross-negligence.deductible": {
+            "description": "comprehensive coverage of damages caused by gross negligence (deductible)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.gross-negligence.is-included": {
+            "type": "boolean",
+            "description": "comprehensive coverage of damages caused by gross negligence (option is included in the product)"
+        },
+        "product.motor.coverage.comprehensive.gross-negligence.sum-insured": {
+            "description": "comprehensive coverage of damages caused by gross negligence (max. amount insured)",
+            "$ref": "#/definitions/money"
+        },
+        "product.motor.coverage.comprehensive.gross-negligence.waiting-time": {
+            "description": "comprehensive coverage of damages caused by gross negligence (waiting time in days)",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
         "product.motor.coverage.comprehensive.is-included": {
             "type": "boolean",
             "description": "comprehensive coverages for vehicles (option is included in the product)"
@@ -1650,19 +1698,19 @@
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.gross-negligence.deductible": {
-            "description": "coverage of damages caused by gross negligence (deductible)",
+            "description": "partial-comprehensive coverage of damages caused by gross negligence (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.gross-negligence.is-included": {
             "type": "boolean",
-            "description": "coverage of damages caused by gross negligence (option is included in the product)"
+            "description": "partial-comprehensive coverage of damages caused by gross negligence (option is included in the product)"
         },
         "product.motor.coverage.comprehensive.partial.gross-negligence.sum-insured": {
-            "description": "coverage of damages caused by gross negligence (max. amount insured)",
+            "description": "partial-comprehensive coverage of damages caused by gross negligence (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.comprehensive.partial.gross-negligence.waiting-time": {
-            "description": "coverage of damages caused by gross negligence (waiting time in days)",
+            "description": "partial-comprehensive coverage of damages caused by gross negligence (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.comprehensive.partial.interchangeable-license-plates.deductible": {
@@ -2110,7 +2158,7 @@
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.passenger-cover.deductible": {
-            "description": "passenger cover (deductible)",
+            "description": "passenger cover: accident protection for driver and occupants (deductible)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.passenger-cover.driver-protection.deductible": {
@@ -2131,7 +2179,7 @@
         },
         "product.motor.coverage.passenger-cover.is-included": {
             "type": "boolean",
-            "description": "passenger cover (option is included in the product)"
+            "description": "passenger cover: accident protection for driver and occupants (option is included in the product)"
         },
         "product.motor.coverage.passenger-cover.passenger-protection.deductible": {
             "description": "passenger cover: accident protection for passengers (deductible)",
@@ -2150,11 +2198,11 @@
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.passenger-cover.sum-insured": {
-            "description": "passenger cover (max. amount insured)",
+            "description": "passenger cover: accident protection for driver and occupants (max. amount insured)",
             "$ref": "#/definitions/money"
         },
         "product.motor.coverage.passenger-cover.waiting-time": {
-            "description": "passenger cover (waiting time in days)",
+            "description": "passenger cover: accident protection for driver and occupants (waiting time in days)",
             "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.coverage.replacement-driver.is-included": {
