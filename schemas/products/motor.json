@@ -2313,19 +2313,59 @@
             "description": "deductible",
             "$ref": "#/definitions/money"
         },
-        "product.motor.no-claims-discount-comprehensive.claim-free-years": {
+        "product.motor.no-claims-discount-comprehensive-fully.claim-free-years": {
             "description": "number of claim-free years",
             "$ref": "#/definitions/nonnegative-integer"
         },
-        "product.motor.no-claims-discount-comprehensive.level": {
+        "product.motor.no-claims-discount-comprehensive-fully.level": {
             "type": "string",
             "description": "no claims discount level (1-4 digits alpha-numeric referring to the general ncd-level of the country)"
+        },
+        "product.motor.no-claims-discount-comprehensive-fully.level-other-vehicle": {
+            "type": "string",
+            "description": "no-claims-discount level of a possible other vehicle owned/insured by person (1-4 digits alpha-numeric referring to the general ncd-level of the country)"
+        },
+        "product.motor.no-claims-discount-comprehensive-fully.level-self-earned": {
+            "type": "boolean",
+            "description": "no-claims-discount-level self-earned by person"
+        },
+        "product.motor.no-claims-discount-comprehensive-fully.special-level": {
+            "type": "string",
+            "description": "insurer-specific no-claims-discount-level"
+        },
+        "product.motor.no-claims-discount-comprehensive-fully.special-level-at-organization": {
+            "type": "string",
+            "description": "name of insurer providing the special no-claims-discount level"
+        },
+        "product.motor.no-claims-discount-comprehensive-partial.claim-free-years": {
+            "description": "number of claim-free years",
+            "$ref": "#/definitions/nonnegative-integer"
         },
         "product.motor.no-claims-discount-comprehensive-partial.level": {
             "type": "string",
             "description": "no claims discount level (1-4 digits alpha-numeric referring to the general ncd-level of the country)"
         },
-        "product.motor.no-claims-discount-comprehensive-fully.level": {
+        "product.motor.no-claims-discount-comprehensive-partial.level-other-vehicle": {
+            "type": "string",
+            "description": "no-claims-discount level of a possible other vehicle owned/insured by person (1-4 digits alpha-numeric referring to the general ncd-level of the country)"
+        },
+        "product.motor.no-claims-discount-comprehensive-partial.level-self-earned": {
+            "type": "boolean",
+            "description": "no-claims-discount-level self-earned by person"
+        },
+        "product.motor.no-claims-discount-comprehensive-partial.special-level": {
+            "type": "string",
+            "description": "insurer-specific no-claims-discount-level"
+        },
+        "product.motor.no-claims-discount-comprehensive-partial.special-level-at-organization": {
+            "type": "string",
+            "description": "name of insurer providing the special no-claims-discount level"
+        },
+        "product.motor.no-claims-discount-comprehensive.claim-free-years": {
+            "description": "number of claim-free years",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "product.motor.no-claims-discount-comprehensive.level": {
             "type": "string",
             "description": "no claims discount level (1-4 digits alpha-numeric referring to the general ncd-level of the country)"
         },
