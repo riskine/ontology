@@ -82,6 +82,13 @@
         "$ref": "product.json"
       }
     },
+    "is-employed-at": {
+      "type": "array",
+      "description": "organization(s) a person is employed at",
+      "items": {
+        "$ref": "organization.json"
+      }
+    },
     "education": {
       "description": "education of person",
       "$ref": "education.json"
@@ -163,9 +170,17 @@
       "type": "string",
       "description": "prefix of phone-number"
     },
+    "fax-number": {
+      "type": "string",
+      "description": "fax number"
+    },
     "email": {
       "type": "string",
       "description": "email-address"
+    },
+    "website": {
+      "type": "string",
+      "description": "website-url"
     },
     "salutation": {
       "description": "salutation of person",
