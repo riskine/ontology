@@ -30,6 +30,10 @@
             "type": "string",
             "description": "economic activity of organization"
         },
+        "economic-activity-detail": {
+            "type": "string",
+            "description": "detailed description (additional specification) of economic activity of organization"
+        },
         "legal-form": {
             "type": "string",
             "description": "legal form of organization (ELF ISO standard 20275)"
@@ -56,6 +60,37 @@
         "revenue": {
             "description": "revenue of organization",
             "$ref": "revenue.json"
+        },
+        "tangible-asset-type": {
+            "description": "tangible assets owned or rented by organization",
+            "$ref": "#/definitions/tangible-asset-type"
+        },
+        "export-ewr": {
+            "type": "boolean",
+            "description": "organization exports goods to European countries (EWR)"
+        },
+        "export-us": {
+            "type": "boolean",
+            "description": "organization exports goods to the US"
+        },
+        "export-other-countries": {
+            "type": "boolean",
+            "description": "organization exports goods to countries outside US, EWR"
+        },
+        "import-non-eu": {
+            "type": "boolean",
+            "description": "organization imports goods from outside the European Union"
+        },
+        "operating-sites-abroad": {
+            "type": "boolean",
+            "description": "organization has operating sites abroad"
+        },
+        "sites": {
+            "type": "array",
+            "description": "site(s) of the organization",
+            "items": {
+                "$ref": "site.json"
+            }
         },
         "subsidiary-ewr": {
             "type": "boolean",
@@ -84,6 +119,20 @@
         "data-processing": {
             "description": "data processed by organization",
             "$ref": "data-processing.json"
+        },
+        "business-processes": {
+            "type": "array",
+            "description": "business-processes of organzation",
+            "items": {
+                "$ref": "business-process.json"
+            }
+        },
+        "preferences": {
+            "type": "array",
+            "description": "subjective preferences regarding risks and coverages",
+            "items": {
+                "$ref": "preference.json"
+            }
         },
         "at-stock-market": {
             "type": "boolean",

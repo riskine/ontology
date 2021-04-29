@@ -728,5 +728,42 @@
             "automated manual (AMT)",
             "direct-drive/without gearbox"
         ]
+    },
+    "tangible-asset-type": {
+        "type": "array",
+        "items": {
+            "type": "string",
+            "enum": [
+                "vehicle",
+                "machinery",
+                "computer",
+                "real-estate",
+                "goods-and-inventories",
+                "office",
+                "workshop",
+                "electronic-devices",
+                "medical-technical-equipment",
+                "office-technology",
+                "none",
+                "other"
+            ]
+        }
+    },
+    "person-category": {
+        "type": "array",
+        "items": {
+            "type": "string",
+            "enum": [
+                "director",
+                "employee",
+                "key-person",
+                "partner",
+                "spouse",
+                "child",
+                "parent",
+                "other",
+                "none"
+            ]
+        }
     }
 }

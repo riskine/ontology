@@ -6,6 +6,10 @@
       "description": "yearly probability that the risk event occurs",
       "$ref": "definitions.json#/percentage"
     },
+    "is-relevant": {
+      "type": "boolean",
+      "description": "element or option is relevant"
+    },
     "leads-to": {
       "type": "array",
       "description": "damages occurring because of risk event",

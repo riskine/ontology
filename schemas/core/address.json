@@ -21,6 +21,14 @@
         "street": {
             "type": "string",
             "description": "street (as part of an address)"
+        },
+        "long": {
+            "type": "string",
+            "description": "longitude (geospatial location; in degrees)"
+        },
+        "lat": {
+            "type": "string",
+            "description": "latitude (geospatial location; in degrees)"
         }
     }
 }

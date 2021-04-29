@@ -1,0 +1,14 @@
+{
+    "$id": "https://ontology.riskine.com/site.json",
+    "type": "object",
+    "properties": {
+        "address": {
+            "description": "address of person, organization, structure or property",
+            "$ref": "address.json"
+        },
+        "holder": {
+            "description": "organization which is the holder of the site",
+            "$ref": "organization.json"
+        }
+    }
+}

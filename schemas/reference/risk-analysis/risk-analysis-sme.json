@@ -1,0 +1,314 @@
+{
+    "type": "object",
+    "properties": {
+        "organization.address.city": {
+            "type": "string",
+            "description": "city (as part of an address)"
+        },
+        "organization.address.house-number": {
+            "type": "string",
+            "description": "house number (as part of an address)"
+        },
+        "organization.address.postcode": {
+            "type": "string",
+            "description": "postal code (as part of an address)"
+        },
+        "organization.address.street": {
+            "type": "string",
+            "description": "street (as part of an address)"
+        },
+        "organization.address.long": {
+            "type": "string",
+            "description": "longitude (geospatial location; in degrees)"
+        },
+        "organization.address.lat": {
+            "type": "string",
+            "description": "latitude (geospatial location; in degrees)"
+        },
+        "organization.address.is-risk-site": {
+            "type": "boolean",
+            "description": "address is identical with address of risk-site"
+        },
+        "organization.site.address.city": {
+            "type": "string",
+            "description": "city (as part of an address)"
+        },
+        "organization.site.address.house-number": {
+            "type": "string",
+            "description": "house number (as part of an address)"
+        },
+        "organization.site.address.postcode": {
+            "type": "string",
+            "description": "postal code (as part of an address)"
+        },
+        "organization.site.address.street": {
+            "type": "string",
+            "description": "street (as part of an address)"
+        },
+        "organization.site.address.long": {
+            "type": "string",
+            "description": "longitude (geospatial location; in degrees)"
+        },
+        "organization.site.address.lat": {
+            "type": "string",
+            "description": "latitude (geospatial location; in degrees)"
+        },
+        "organization.business-name": {
+            "type": "string",
+            "description": "name of organization"
+        },
+        "organization.economic-activity": {
+            "type": "string",
+            "description": "economic activity of organization"
+        },
+        "organization.economic-activity-detail": {
+            "type": "string",
+            "description": "detailed description of economic activity of organization"
+        },
+        "organization.industry": {
+            "type": "string",
+            "description": "industry the organization operates in"
+        },
+        "organization.legal-form": {
+            "type": "string",
+            "description": "legal form of organization (ELF ISO standard 20275)"
+        },
+        "organization.revenue.net-amount": {
+            "description": "yearly revenue net-amount",
+            "$ref": "#/definitions/money"
+        },
+        "organization.employee-number-total": {
+            "description": "total number of employees of organization",
+            "$ref": "#/definitions/nonnegative-integer"
+        },
+        "organization.tangible-asset-type": {
+            "description": "tangible assets owned or rented by organization",
+            "$ref": "#/definitions/tangible-asset-type"
+        },
+        "organization.export-ewr": {
+            "type": "boolean",
+            "description": "organization exports goods to European countries (EWR)"
+        },
+        "organization.export-us": {
+            "type": "boolean",
+            "description": "organization exports goods to the US"
+        },
+        "organization.export-other-countries": {
+            "type": "boolean",
+            "description": "organization exports goods to countries outside US, EWR"
+        },
+        "organization.import-non-eu": {
+            "type": "boolean",
+            "description": "organization imports goods from outside the European Union"
+        },
+        "organization.operating-sites-abroad": {
+            "type": "boolean",
+            "description": "organization has operating sites abroad"
+        },
+        "organization.business-process.goods-transport.in-place": {
+            "type": "boolean",
+            "description": "organization performs business-process: transport of goods (element or measure exists)"
+        },
+        "organization.business-process.machine-assembly.in-place": {
+            "type": "boolean",
+            "description": "organization performs business-process: machine assembly (element or measure exists)"
+        },
+        "organization.business-process.construction.in-place": {
+            "type": "boolean",
+            "description": "organization performs business-process: construction work (element or measure exists)"
+        },
+        "organization.data-processing.personal-data.in-place": {
+            "type": "boolean",
+            "description": "organization processes personal data (element or measure exists)"
+        },
+        "organization.data-processing.health-data.in-place": {
+            "type": "boolean",
+            "description": "organization processes health data (element or measure exists)"
+        },
+        "organization.data-processing.e-commerce.in-place": {
+            "type": "boolean",
+            "description": "organization performs e-commerce (element or measure exists)"
+        },
+        "organization.data-processing.automation-supported-business-processes.in-place": {
+            "type": "boolean",
+            "description": "organization performs automation supported business processes (element or measure exists)"
+        },
+        "organization.preference.director-pension.is-relevant": {
+            "type": "boolean",
+            "description": "preference: pension provision for directors (option is relevant)"
+        },
+        "organization.preference.employee-pension.is-relevant": {
+            "type": "boolean",
+            "description": "preference: pension for employees (option is relevant)"
+        },
+        "organization.preference.employee-pension.beneficiaries": {
+            "description": "preference: pension provision for employees (list of beneficiaries)",
+            "$ref": "#/definitions/person-category"
+        },
+        "organization.preference.employee-pension.amount-per-interval": {
+            "description": "preference: pension provision for employees (amount of annuity or allowance per payment-interval)",
+            "$ref": "#/definitions/money"
+        },
+        "organization.preference.employee-pension.payment-interval": {
+            "description": "preference: pension provision for employees (payment interval of annuity or allowance)",
+            "$ref": "#/definitions/temporal-interval"
+        },
+        "organization.preference.employee-pension.investment-type": {
+            "description": "preference: pension provision for employees (investment type for payment)",
+            "$ref": "#/definitions/investment-type"
+        },
+        "organization.preference.severence-pay-optimization.is-relevant": {
+            "type": "boolean",
+            "description": "preference: optimization of severence payments for employees (option is relevant)"
+        },
+        "organization.preference.health.is-relevant": {
+            "type": "boolean",
+            "description": "preference: health-insurance (option is relevant)"
+        },
+        "organization.preference.health.beneficiaries": {
+            "description": "preference: health-insurance (list of beneficiaries)",
+            "$ref": "#/definitions/person-category"
+        },
+        "organization.preference.accident.is-relevant": {
+            "type": "boolean",
+            "description": "preference: accident-insurance (option is relevant)"
+        },
+        "organization.preference.accident.beneficiaries": {
+            "description": "preference: accident-insurance (list of beneficiaries)",
+            "$ref": "#/definitions/person-category"
+        },
+        "risk.bad-debt-loss.is-relevant": {
+            "type": "boolean",
+            "description": "risk of bad debt loss (option is relevant)"
+        },
+        "risk.business-interruption-by-property-damage.is-relevant": {
+            "type": "boolean",
+            "description": "risk of business interruption by property-damage (option is relevant)"
+        },
+        "risk.company-closure-by-keyperson-invalidity.is-relevant": {
+            "type": "boolean",
+            "description": "risk of company closure due to keyperson-invalidity (option is relevant)"
+        },
+        "risk.cyberattack.is-relevant": {
+            "type": "boolean",
+            "description": "risk of damages by cyberattack (option is relevant)"
+        },
+        "risk.environmental-hazard.is-relevant": {
+            "type": "boolean",
+            "description": "risk of environmental hazard caused by business-processes or storage (option is relevant)"
+        },
+        "risk.lawsuit.is-relevant": {
+            "type": "boolean",
+            "description": "risk of pecuniary losses caused by lawsuits (option is relevant)"
+        },
+        "risk.revenue-loss-by-keyperson-illness.is-relevant": {
+            "type": "boolean",
+            "description": "risk of revenue loss if keyperson is not fit to work for a longer time period (option is relevant)",
+        }
+    },
+    "definitions": {
+        "string": {
+            "type": "string"
+        },
+        "integer:": {
+            "type": "integer"
+        },
+        "number": {
+            "type": "number"
+        },
+        "boolean": {
+            "type": "boolean"
+        },
+        "money": {
+            "type": "number",
+            "format": "money"
+        },
+        "nonnegative-integer": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "tangible-asset-type": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "vehicle",
+                    "machinery",
+                    "computer",
+                    "real-estate",
+                    "goods-and-inventories",
+                    "office",
+                    "workshop",
+                    "electronic-devices",
+                    "medical-technical-equipment",
+                    "office-technology",
+                    "none",
+                    "other"
+                ]
+            }
+        },
+        "person-category": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "director",
+                    "employee",
+                    "key-person",
+                    "partner",
+                    "spouse",
+                    "child",
+                    "parent",
+                    "other",
+                    "none"
+                ]
+            }
+        },
+        "investment-type": {
+            "type": "string",
+            "enum": [
+                "not-specified",
+                "yield-oriented",
+                "guaranteed-interest",
+                "salary-conversion",
+                "social-benefit",
+                "other"
+            ],
+            "enum-description": [
+                "not specified",
+                "yield oriented",
+                "with guaranteed interest",
+                "as salary conversion",
+                "as a (voluntary) social benefit",
+                "other"
+            ]
+        },
+        "temporal-interval": {
+            "type": "integer",
+            "enum": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "enum-description": [
+                "not specified",
+                "one-off",
+                "daily",
+                "weekly",
+                "monthly",
+                "quaterly",
+                "bi-annually",
+                "annually",
+                "every 2 years",
+                "every 3 years"
+            ]
+        }
+    }
+}

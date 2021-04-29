@@ -1,0 +1,21 @@
+{
+    "$id": "https://ontology.riskine.com/preference.json",
+    "type": "object",
+    "properties": {
+        "is-relevant": {
+            "type": "boolean",
+            "description": "element or option is relevant"
+        },
+        "beneficiaries": {
+            "description": "preferred beneficiaries of a coverage",
+            "$ref": "#/definitions/person-category"
+        },
+        "coverages": {
+            "type": "array",
+            "description": "desired coverage-options",
+            "items": {
+                "$ref": "coverage.json"
+            }
+        }
+    }
+}
