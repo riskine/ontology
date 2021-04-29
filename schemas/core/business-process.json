@@ -1,0 +1,10 @@
+{
+    "$id": "https://ontology.riskine.com/business-process.json",
+    "type": "object",
+    "properties": {
+        "in-place": {
+            "type": "boolean",
+            "description": "element or measure exists"
+        }
+    }
+}
