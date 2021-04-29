@@ -1,0 +1,96 @@
+{
+  "type": "object",
+  "properties": {
+    "person.advisor.first-name": {
+      "type": "string",
+      "description": "first name of person"
+    },
+    "person.advisor.last-name": {
+      "type": "string",
+      "description": "last name of person"
+    },
+    "person.advisor.title": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.advisor.gender": {
+      "description": "gender",
+      "$ref": "#/definitions/gender"
+    },
+    "person.advisor.address.postcode": {
+      "type": "string",
+      "description": "postal code (as part of an address)"
+    },
+    "person.advisor.address.city": {
+      "type": "string",
+      "description": "city (as part of an address)"
+    },
+    "person.advisor.address.street": {
+      "type": "string",
+      "description": "street (as part of an address)"
+    },
+    "person.advisor.address.house-number": {
+      "type": "string",
+      "description": "house number (as part of an address)"
+    },
+    "person.advisor.phone-number": {
+      "type": "string",
+      "description": "phone number"
+    },
+    "person.advisor.mobile-number": {
+      "type": "string",
+      "description": "mobile number"
+    },
+    "person.advisor.fax-number": {
+      "type": "string",
+      "description": "fax number"
+    },
+    "person.advisor.email": {
+      "type": "string",
+      "description": "email-address"
+    },
+    "person.advisor.website": {
+      "type": "string",
+      "description": "website-url"
+    },
+    "person.advisor.advisor-id": {
+      "type": "string",
+      "description": "country-specific ID of the advisor"
+    },
+    "organization.business-name": {
+      "type": "string",
+      "description": "name of organization"
+    },
+    "organization.company-registry-number": {
+      "type": "string",
+      "description": "company registry number"
+    },
+    "organization.employee.employee-id": {
+      "type": "string",
+      "description": "organization-specific ID of employee"
+    },
+    "organization.employee.organizational-unit": {
+      "type": "string",
+      "description": "organization-specific organizational unit a person works in"
+    },
+    "organization.employee.role": {
+      "type": "string",
+      "description": "organization-specific role an employee fullfills in the company"
+    }
+  },
+  "definitions": {
+    "gender": {
+      "type": "string",
+      "enum": [
+        "m",
+        "f",
+        "o"
+      ],
+      "enum-description": [
+        "male",
+        "female",
+        "other"
+      ]
+    }
+  }
+}

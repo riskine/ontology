@@ -18,6 +18,10 @@
             "description": "date of entry in commercial registry",
             "$ref": "definitions.json#/date"
         },
+        "company-registry-number": {
+            "type": "string",
+            "description": "company registry number"
+        },
         "industry": {
             "type": "string",
             "description": "industry the organization operates in"
@@ -41,6 +45,13 @@
         "mobile-number": {
             "type": "string",
             "description": "mobile number"
+        },
+        "employs": {
+            "type": "array",
+            "description": "employees of organization",
+            "items": {
+                "$ref": "employee.json"
+            }
         },
         "revenue": {
             "description": "revenue of organization",
