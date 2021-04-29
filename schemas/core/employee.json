@@ -1,21 +1,28 @@
 {
     "$id": "https://ontology.riskine.com/employee.json",
     "type": "object",
-        "allOf": [
-            {
-                "$ref": "person.json"
+    "allOf": [
+        {
+            "$ref": "person.json"
+        }
+    ],
+    "properties": {
+        "is-employed-at": {
+            "type": "array",
+            "description": "organization(s) a person is employed at",
+            "items": {
+                "$ref": "organization.json"
             }
-        ],
-    "properties":{
+        },
         "employee-id": {
             "type": "string",
             "description": "organization-specific ID of employee"
-          },
-          "organizational-unit": {
+        },
+        "organizational-unit": {
             "type": "string",
             "description": "organization-specific organizational unit a person works in"
-          },
-          "role": {
+        },
+        "role": {
             "type": "string",
             "description": "organization-specific role an employee fullfills in the company"
         }

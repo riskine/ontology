@@ -82,13 +82,6 @@
         "$ref": "product.json"
       }
     },
-    "is-employed-at": {
-      "type": "array",
-      "description": "organization(s) a person is employed at",
-      "items": {
-        "$ref": "organization.json"
-      }
-    },
     "education": {
       "description": "education of person",
       "$ref": "education.json"
