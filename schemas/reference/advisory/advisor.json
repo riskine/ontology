@@ -9,7 +9,11 @@
       "type": "string",
       "description": "last name of person"
     },
-    "person.advisor.title": {
+    "person.advisor.title-prefix": {
+      "type": "string",
+      "description": "title of person (as part of the salutation)"
+    },
+    "person.advisor.title-postfix": {
       "type": "string",
       "description": "title of person (as part of the salutation)"
     },
