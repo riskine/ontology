@@ -11,11 +11,11 @@
     },
     "person.advisor.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person (as part of the salutation)"
     },
     "person.advisor.title-postfix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "postfixed title of person (as part of the salutation)"
     },
     "person.advisor.gender": {
       "description": "gender",
