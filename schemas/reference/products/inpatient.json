@@ -133,9 +133,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "person.children.title": {
+    "person.children.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "person.children.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "person.children.weight": {
       "description": "weight of person in kg",
@@ -325,9 +329,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "person.partner.title": {
+    "person.partner.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "person.partner.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "person.partner.weight": {
       "description": "weight of person in kg",
@@ -401,9 +409,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "person.title": {
+    "person.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "person.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "person.weight": {
       "description": "weight of person in kg",
@@ -529,9 +541,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "product.inpatient.contributor.title": {
+    "product.inpatient.contributor.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "product.inpatient.contributor.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.inpatient.coverage-period-non-european-countries": {
       "description": "how long is medical treatment covered in non-european countries (in months)",
@@ -825,9 +841,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "product.inpatient.policyholder.title": {
+    "product.inpatient.policyholder.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "product.inpatient.policyholder.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.inpatient.premium-amount": {
       "description": "premium amount per payment interval",

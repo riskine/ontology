@@ -101,9 +101,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "person.children.title": {
+    "person.children.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "person.children.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "person.email": {
       "type": "string",
@@ -213,9 +217,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "person.partner.title": {
+    "person.partner.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "person.partner.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "person.phone-number": {
       "type": "string",
@@ -237,9 +245,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "person.title": {
+    "person.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "person.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.travel.area-of-validity": {
       "description": "area of validity for product",
@@ -361,9 +373,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "product.travel.contributor.title": {
+    "product.travel.contributor.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "product.travel.contributor.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.travel.coverage.baggage-loss.deductible": {
       "description": "deductible for given coverage(bundle) or product",

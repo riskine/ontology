@@ -179,9 +179,13 @@
       "description": "salutation of person",
       "$ref": "definitions.json#/salutation"
     },
-    "title": {
+    "title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "ssn": {
       "type": "string",
