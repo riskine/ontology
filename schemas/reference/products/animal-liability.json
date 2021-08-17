@@ -81,9 +81,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "object.animal.dog.owner.title": {
+    "object.animal.dog.owner.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "object.animal.dog.owner.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "object.animal.dog.value": {
       "description": "fair value of object",
@@ -165,9 +169,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "person.title": {
+    "person.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "person.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.animal-liability.cancellation-period": {
       "description": "cancellation-period of product in months",
@@ -285,9 +293,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "product.animal-liability.contributor.title": {
+    "product.animal-liability.contributor.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "product.animal-liability.contributor.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.animal-liability.coverage.animal-liability.personal-injury-by-dog.deductible": {
       "description": "deductible for given coverage(bundle) or product",

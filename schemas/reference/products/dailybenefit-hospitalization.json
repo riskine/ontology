@@ -77,9 +77,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "person.title": {
+    "person.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "person.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.dailybenefit-hospitalization.cancellation-period": {
       "description": "cancellation-period of product in months",
@@ -197,9 +201,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "product.dailybenefit-hospitalization.contributor.title": {
+    "product.dailybenefit-hospitalization.contributor.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "product.dailybenefit-hospitalization.contributor.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.dailybenefit-hospitalization.coverage-period-non-european-countries": {
       "description": "how long is medical treatment covered in non-european countries (in months)",
@@ -405,9 +413,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "product.dailybenefit-hospitalization.policyholder.title": {
+    "product.dailybenefit-hospitalization.policyholder.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "product.dailybenefit-hospitalization.policyholder.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.dailybenefit-hospitalization.premium-amount": {
       "description": "premium amount per payment interval",

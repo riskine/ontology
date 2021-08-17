@@ -261,9 +261,13 @@
             "type": "string",
             "description": "tax-id of person"
         },
-        "object.vehicle.driver.title": {
+        "object.vehicle.driver.title-prefix": {
             "type": "string",
-            "description": "title of person (as part of the salutation)"
+            "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+        },
+        "object.vehicle.driver.title-postfix": {
+            "type": "string",
+            "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
         },
         "object.vehicle.engine-displacement": {
             "description": "engine-displacement of the vehicle (ccm)",
@@ -497,9 +501,13 @@
             "type": "string",
             "description": "tax-id of person"
         },
-        "object.vehicle.holder.title": {
+        "object.vehicle.holder.title-prefix": {
             "type": "string",
-            "description": "title of person (as part of the salutation)"
+            "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+        },
+        "object.vehicle.holder.title-postfix": {
+            "type": "string",
+            "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
         },
         "object.vehicle.horse-power": {
             "description": "engine power of the vehicle (PS)",
@@ -769,9 +777,13 @@
             "type": "string",
             "description": "tax-id of person"
         },
-        "object.vehicle.owner.title": {
+        "object.vehicle.owner.title-prefix": {
             "type": "string",
-            "description": "title of person (as part of the salutation)"
+            "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+        },
+        "object.vehicle.owner.title-postfix": {
+            "type": "string",
+            "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
         },
         "object.vehicle.payload": {
             "description": "payload of vehicle (kg)",
@@ -1057,9 +1069,13 @@
             "type": "string",
             "description": "tax-id of person"
         },
-        "person.title": {
+        "person.title-prefix": {
             "type": "string",
-            "description": "title of person (as part of the salutation)"
+            "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+        },
+        "person.title-postfix": {
+            "type": "string",
+            "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
         },
         "product.motor.cancellation-period": {
             "description": "cancellation-period of product in months",
@@ -1209,9 +1225,13 @@
             "type": "string",
             "description": "tax-id of person"
         },
-        "product.motor.contributor.title": {
+        "product.motor.contributor.title-prefix": {
             "type": "string",
-            "description": "title of person (as part of the salutation)"
+            "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+        },
+        "product.motor.contributor.title-postfix": {
+            "type": "string",
+            "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
         },
         "product.motor.coverage.additional-accomodation-costs.deductible": {
             "description": "coverage for additional costs for accomodation and meals for the duration of the vehicle repair (deductible)",
@@ -2669,9 +2689,13 @@
             "type": "string",
             "description": "tax-id of person"
         },
-        "product.motor.policyholder.title": {
+        "product.motor.policyholder.title-prefix": {
             "type": "string",
-            "description": "title of person (as part of the salutation)"
+            "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+        },
+        "product.motor.policyholder.title-postfix": {
+            "type": "string",
+            "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
         },
         "product.motor.premium-amount": {
             "description": "premium amount per payment interval",

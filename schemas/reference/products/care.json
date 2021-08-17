@@ -77,9 +77,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "person.title": {
+    "person.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "person.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.care.area-of-validity": {
       "description": "area of validity for product",
@@ -201,9 +205,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "product.care.contributor.title": {
+    "product.care.contributor.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "product.care.contributor.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.care.coverage.additional-care-options.is-included": {
       "type": "boolean",
@@ -341,9 +349,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "product.care.policyholder.title": {
+    "product.care.policyholder.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "product.care.policyholder.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.care.premium-amount": {
       "description": "premium amount per payment interval",

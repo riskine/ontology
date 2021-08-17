@@ -101,9 +101,13 @@
             "type": "string",
             "description": "tax-id of person"
         },
-        "object.household-contents.owner.title": {
+        "object.household-contents.owner.title-prefix": {
             "type": "string",
-            "description": "title of person (as part of the salutation)"
+            "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+        },
+        "object.household-contents.owner.title-postfix": {
+            "type": "string",
+            "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
         },
         "object.household-contents.reinstatement-value": {
             "description": "reinstatement value of object",
@@ -281,9 +285,13 @@
             "type": "string",
             "description": "tax-id of person"
         },
-        "person.title": {
+        "person.title-prefix": {
             "type": "string",
-            "description": "title of person (as part of the salutation)"
+            "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+        },
+        "person.title-postfix": {
+            "type": "string",
+            "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
         },
         "product.household.cancellation-period": {
             "description": "cancellation-period of product in months",
@@ -401,9 +409,13 @@
             "type": "string",
             "description": "tax-id of person"
         },
-        "product.household.contributor.title": {
+        "product.household.contributor.title-prefix": {
             "type": "string",
-            "description": "title of person (as part of the salutation)"
+            "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+        },
+        "product.household.contributor.title-postfix": {
+            "type": "string",
+            "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
         },
         "product.household.coverage.best-coverage-guarantee.is-included": {
             "type": "boolean",

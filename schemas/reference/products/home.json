@@ -169,9 +169,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "object.structure.home.house.owner.title": {
+    "object.structure.home.house.owner.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "object.structure.home.house.owner.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "object.structure.home.house.reinstatement-value": {
       "description": "reinstatement value of object",
@@ -309,9 +313,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "person.title": {
+    "person.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "person.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.home.cancellation-period": {
       "description": "cancellation-period of product in months",
@@ -429,9 +437,13 @@
       "type": "string",
       "description": "tax-id of person"
     },
-    "product.home.contributor.title": {
+    "product.home.contributor.title-prefix": {
       "type": "string",
-      "description": "title of person (as part of the salutation)"
+      "description": "prefixed title of person e.g. Dr. (as part of the salutation)"
+    },
+    "product.home.contributor.title-postfix": {
+      "type": "string",
+      "description": "postfixed title of person e.g. BSc. (as part of the salutation)"
     },
     "product.home.coverage.home-equipment.airconditioning.deductible": {
       "description": "deductible for given coverage(bundle) or product",
